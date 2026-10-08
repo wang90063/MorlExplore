@@ -1,0 +1,23 @@
+{"step": 500, "ep_len": 500, "w0": 0.298, "ret": [-184.2, -189.9], "wall": 0.1, "lq_la_alpha": null}
+{"step": 1000, "ep_len": 500, "w0": 0.0, "ret": [-89.0, -168.8], "wall": 0.2, "lq_la_alpha": null}
+{"step": 1500, "ep_len": 500, "w0": 0.621, "ret": [-112.1, -209.3], "wall": 0.3, "lq_la_alpha": null}
+{"step": 2000, "ep_len": 500, "w0": 0.327, "ret": [-135.8, -154.1], "wall": 0.4, "lq_la_alpha": null}
+{"step": 2500, "ep_len": 500, "w0": 0.395, "ret": [-239.4, -254.5], "wall": 0.6, "lq_la_alpha": null}
+{"step": 3000, "ep_len": 500, "w0": 0.32, "ret": [-139.5, -122.9], "wall": 0.7, "lq_la_alpha": null}
+{"step": 3500, "ep_len": 500, "w0": 0.098, "ret": [-159.7, -175.6], "wall": 0.8, "lq_la_alpha": null}
+{"step": 4000, "ep_len": 500, "w0": 0.024, "ret": [-174.8, -175.5], "wall": 0.9, "lq_la_alpha": null}
+{"step": 4500, "ep_len": 500, "w0": 0.398, "ret": [-156.0, -191.2], "wall": 1.0, "lq_la_alpha": null}
+{"step": 5000, "ep_len": 500, "w0": 0.407, "ret": [-84.8, -189.7], "wall": 1.1, "lq_la_alpha": null}
+{"step": 5500, "ep_len": 500, "w0": 0.319, "ret": [-139.0, -199.7], "wall": 1.2, "lq_la_alpha": null}
+{"step": 6000, "ep_len": 500, "w0": 0.242, "ret": [-214.7, -279.6], "wall": 1.3, "lq_la_alpha": null}
+{"step": 6500, "ep_len": 500, "w0": 0.482, "ret": [-133.8, -145.0], "wall": 1.4, "lq_la_alpha": null}
+{"step": 7000, "ep_len": 500, "w0": 0.691, "ret": [-236.8, -164.1], "wall": 1.5, "lq_la_alpha": null}
+{"step": 7500, "ep_len": 500, "w0": 0.081, "ret": [-297.2, -269.0], "wall": 1.7, "lq_la_alpha": null}
+{"step": 8000, "ep_len": 500, "w0": 0.159, "ret": [-145.6, -170.1], "wall": 1.8, "lq_la_alpha": null}
+{"step": 8500, "ep_len": 500, "w0": 0.806, "ret": [-180.3, -147.4], "wall": 1.9, "lq_la_alpha": null}
+{"step": 9000, "ep_len": 500, "w0": 0.756, "ret": [-146.0, -192.3], "wall": 2.0, "lq_la_alpha": null}
+{"step": 9500, "ep_len": 500, "w0": 0.392, "ret": [-157.1, -120.1], "wall": 2.1, "lq_la_alpha": null}
+{"step": 10000, "ep_len": 500, "w0": 0.013, "ret": [-189.1, -228.6], "wall": 2.3, "lq_la_alpha": [64.0582, -5.0587, 1.0]}
+{"step": 10500, "ep_len": 500, "w0": 0.73, "ret": [-230.2, -222.9], "wall": 6.2, "lq_la_alpha": [1.9143, -17.9492, 0.8605]}
+{"step": 11000, "ep_len": 500, "w0": 0.455, "ret": [-195.7, -178.7], "wall": 10.2, "lq_la_alpha": [2.2464, -25.7151, 0.7411]}
+{"eval_step": 11000, "eval_sec": 27.4, "mean_obj": [459.7, 460.4]}

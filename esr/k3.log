@@ -1,0 +1,31 @@
+normalised regret vs exact ESR optimum on unseen utility parameters (100000 updates)
+== thr
+   thr0.32  aug 0.034   markov 0.857   linear 0.406
+   thr0.38  aug 0.067   markov 0.718   linear 0.433
+   thr0.44  aug 0.055   markov 0.626   linear 0.362
+   thr0.50  aug 0.030   markov 0.797   linear 0.357
+   thr0.56  aug 0.027   markov 0.564   linear 0.411
+   thr0.62  aug 0.032   markov 0.686   linear 0.395
+   thr0.68  aug 0.019   markov 0.768   linear 0.319
+   thr0.74  aug 0.018   markov 0.744   linear 0.232
+   thr0.80  aug 0.021   markov 0.821   linear 0.188
+   thr0.86  aug 0.020   markov 0.878   linear 0.161
+   thr0.92  aug 0.044   markov 0.885   linear 0.137
+   thr0.98  aug 0.031   markov 0.917   linear 0.000
+   thr overall aug    median 0.031  mean 0.043  p90 0.091
+   thr overall markov median 0.773  mean 0.783  p90 1.055
+== min
+   min0.22  aug 0.032   markov 0.655   linear 0.280
+   min0.27  aug 0.020   markov 0.632   linear 0.308
+   min0.32  aug 0.020   markov 0.912   linear 0.428
+   min0.37  aug 0.020   markov 0.995   linear 0.456
+   min0.42  aug 0.020   markov 1.008   linear 0.468
+   min0.47  aug 0.027   markov 0.882   linear 0.499
+   min0.53  aug 0.027   markov 0.909   linear 0.483
+   min0.58  aug 0.028   markov 0.882   linear 0.553
+   min0.63  aug 0.026   markov 0.978   linear 0.517
+   min0.68  aug 0.024   markov 0.967   linear 0.561
+   min0.73  aug 0.030   markov 0.709   linear 0.556
+   min0.78  aug 0.043   markov 0.719   linear 0.478
+   min overall aug    median 0.025  mean 0.030  p90 0.056
+   min overall markov median 0.862  mean 0.898  p90 1.255

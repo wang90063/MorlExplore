@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# checkpoints (deleted when a run finishes; large)
+*.pt
+*.pt.tmp
+# raw wandb download, re-create with audit/fetch.py (audit/data/audit.json is kept)
+audit/data/runs.json
+audit/data/fronts/
+# symlinks to third_party/COLA/*pref_table.npy that run_cola.py makes in each run dir (absolute paths)
+runs/**/*pref_table.npy

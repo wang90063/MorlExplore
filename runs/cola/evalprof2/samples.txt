@@ -1,0 +1,15 @@
+0.244 mujoco_env.py:29:step <- mujoco_env.py:83:do_simulation <- ant.py:27:step <- registration.py:21:step <- agent.py:1162:get_objs <- agent.py:834:train_episode
+0.114 linear.py:125:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl <- container.py:244:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl
+0.097 run_cola.py:40:_fast_elu <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl <- container.py:244:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl
+0.052 graph.py:829:_engine_run_backward <- __init__.py:354:backward <- _tensor.py:647:backward <- utils.py:19:update_params <- agent.py:942:learn <- agent.py:822:train_episode
+0.040 linear.py:125:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl <- container.py:245:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl
+0.029 graph.py:829:_engine_run_backward <- __init__.py:354:backward <- _tensor.py:647:backward <- agent.py:928:learn <- agent.py:822:train_episode <- agent.py:554:run
+0.025 graph.py:829:_engine_run_backward <- __init__.py:354:backward <- _tensor.py:647:backward <- model.py:254:_pack_grad <- model.py:173:get_gardients_vector <- agent.py:1018:calc_critic_loss
+0.025 graph.py:829:_engine_run_backward <- __init__.py:354:backward <- _tensor.py:647:backward <- agent.py:912:learn <- agent.py:822:train_episode <- agent.py:554:run
+0.017 run_cola.py:40:_fast_elu <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl <- container.py:245:forward <- module.py:1784:_call_impl <- module.py:1773:_wrapped_call_impl
+0.016 parameter.py:71:__deepcopy__ <- copy.py:178:deepcopy <- copy.py:231:_deepcopy_dict <- copy.py:178:deepcopy <- copy.py:231:_deepcopy_dict <- copy.py:178:deepcopy
+0.014 graph.py:829:_engine_run_backward <- __init__.py:354:backward <- _tensor.py:647:backward <- model.py:254:_pack_grad <- model.py:173:get_gardients_vector <- agent.py:1023:calc_critic_loss
+0.013 adam.py:533:_single_tensor_adam <- adam.py:949:adam <- optimizer.py:149:maybe_fallback <- adam.py:247:step <- optimizer.py:81:_use_grad <- optimizer.py:516:wrapper
+0.011 agent.py:1128:exploit <- agent.py:1161:get_objs <- agent.py:834:train_episode <- agent.py:554:run <- main.py:153:run <- run_cola.py:92:<module>
+0.011 mujoco_env.py:29:step <- mujoco_env.py:83:do_simulation <- ant.py:27:step <- registration.py:21:step <- agent.py:575:evluate <- agent.py:755:train_episode
+0.011 model.py:358:AvgL1Norm <- model.py:373:get_latent_features <- agent.py:1135:exploit <- agent.py:1161:get_objs <- agent.py:834:train_episode <- agent.py:554:run

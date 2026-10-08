@@ -1,0 +1,5850 @@
+{
+ "report": {
+  "deep-sea-treasure-concave-v0": {
+   "base": "hv_a0.1",
+   "base_rank": [
+    "Pareto Q-Learning",
+    "MultiPolicy MO Q-Learning (OLS)",
+    "MultiPolicy MO Q-Learning (GPI-LS)",
+    "MultiPolicy MO Q-Learning",
+    "MORL-D(EUPG)-PSA",
+    "MORL-D(EUPG)"
+   ],
+   "n": {
+    "MORL-D(EUPG)": 10,
+    "MORL-D(EUPG)-PSA": 10,
+    "MultiPolicy MO Q-Learning (GPI-LS)": 10,
+    "Pareto Q-Learning": 10,
+    "MultiPolicy MO Q-Learning": 10,
+    "MultiPolicy MO Q-Learning (OLS)": 10
+   },
+   "steps": {
+    "MORL-D(EUPG)": [
+     "None"
+    ],
+    "MORL-D(EUPG)-PSA": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (GPI-LS)": [
+     "None"
+    ],
+    "Pareto Q-Learning": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (OLS)": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_a0.01/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.9999999999999999,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.6,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.6,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": false
+    },
+    "eum_norm/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.6,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.6,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MORL-D(EUPG)",
+      "MORL-D(EUPG)-PSA"
+     ],
+     "tau": 0.8666666666666666,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)-PSA",
+      "MORL-D(EUPG)"
+     ],
+     "tau": 0.7333333333333333,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MORL-D(EUPG)",
+      "MORL-D(EUPG)-PSA"
+     ],
+     "tau": 0.6,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 3391.5664648821657,
+     "Pareto Q-Learning": 3688.377074638722,
+     "MultiPolicy MO Q-Learning": 3391.5664648821657,
+     "MultiPolicy MO Q-Learning (OLS)": 3391.5665317546955
+    },
+    "hv_a0.01": {
+     "MORL-D(EUPG)": 1029.1942795068267,
+     "MORL-D(EUPG)-PSA": 1367.5125696562177,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 2346.16277710146,
+     "Pareto Q-Learning": 2642.973386858016,
+     "MultiPolicy MO Q-Learning": 2346.16277710146,
+     "MultiPolicy MO Q-Learning (OLS)": 2346.1628285387897
+    },
+    "hv_a0.1": {
+     "MORL-D(EUPG)": 1570.7883706834941,
+     "MORL-D(EUPG)-PSA": 1946.3546339506113,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 3095.4686094688086,
+     "Pareto Q-Learning": 3392.2792192253646,
+     "MultiPolicy MO Q-Learning": 3095.4686094688086,
+     "MultiPolicy MO Q-Learning (OLS)": 3095.468666193225
+    },
+    "hv_a0.5": {
+     "MORL-D(EUPG)": 4751.248409011312,
+     "MORL-D(EUPG)-PSA": 5292.361219468325,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 7199.0919419774345,
+     "Pareto Q-Learning": 7495.902551733991,
+     "MultiPolicy MO Q-Learning": 7199.0919419774345,
+     "MultiPolicy MO Q-Learning (OLS)": 7199.092022200016
+    },
+    "hv_a1.0": {
+     "MORL-D(EUPG)": 10502.429757401616,
+     "MORL-D(EUPG)-PSA": 11250.475751846,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 14104.22740809375,
+     "Pareto Q-Learning": 14401.038017850306,
+     "MultiPolicy MO Q-Learning": 14104.22740809375,
+     "MultiPolicy MO Q-Learning (OLS)": 14104.227517689036
+    },
+    "hv_a2.0": {
+     "MORL-D(EUPG)": 27923.480122450663,
+     "MORL-D(EUPG)-PSA": 29085.392484869786,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 33833.186008594814,
+     "Pareto Q-Learning": 34129.99661835137,
+     "MultiPolicy MO Q-Learning": 33833.186008594814,
+     "MultiPolicy MO Q-Learning (OLS)": 33833.18617693552
+    },
+    "hv_a10.0": {
+     "MORL-D(EUPG)": 451388.891119728,
+     "MORL-D(EUPG)-PSA": 455861.7344259451,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 475761.86288948834,
+     "Pareto Q-Learning": 476058.6734992449,
+     "MultiPolicy MO Q-Learning": 475761.86288948834,
+     "MultiPolicy MO Q-Learning (OLS)": 475761.86352779233
+    },
+    "eum_raw": {
+     "MORL-D(EUPG)": 16.367868793777056,
+     "MORL-D(EUPG)-PSA": 22.697113855778838,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 44.230803211807235,
+     "Pareto Q-Learning": 44.230803211807235,
+     "MultiPolicy MO Q-Learning": 44.230803211807235,
+     "MultiPolicy MO Q-Learning (OLS)": 44.23080402529662
+    },
+    "eum_norm": {
+     "MORL-D(EUPG)": 0.6081708141144597,
+     "MORL-D(EUPG)-PSA": 0.6672882060485164,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.8520351472657307,
+     "Pareto Q-Learning": 0.8520351472657307,
+     "MultiPolicy MO Q-Learning": 0.8520351472657307,
+     "MultiPolicy MO Q-Learning (OLS)": 0.8520351550903147
+    },
+    "neg_igd+": {
+     "MORL-D(EUPG)": -0.042643886095220886,
+     "MORL-D(EUPG)-PSA": -0.044787429964570497,
+     "MultiPolicy MO Q-Learning (GPI-LS)": -0.02592138337832279,
+     "Pareto Q-Learning": -4.907082587562185e-10,
+     "MultiPolicy MO Q-Learning": -0.02592138337832279,
+     "MultiPolicy MO Q-Learning (OLS)": -0.02592138270401669
+    }
+   }
+  },
+  "deep-sea-treasure-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "Pareto Q-Learning",
+    "MultiPolicy MO Q-Learning (GPI-LS)",
+    "MultiPolicy MO Q-Learning",
+    "MultiPolicy MO Q-Learning (OLS)"
+   ],
+   "n": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": 10,
+    "Pareto Q-Learning": 10,
+    "MultiPolicy MO Q-Learning (OLS)": 10,
+    "MultiPolicy MO Q-Learning": 10
+   },
+   "steps": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": [
+     "None"
+    ],
+    "Pareto Q-Learning": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (OLS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 853.7136899791678,
+     "Pareto Q-Learning": 854.8503797003825,
+     "MultiPolicy MO Q-Learning (OLS)": 803.9224679305863,
+     "MultiPolicy MO Q-Learning": 853.484525722135
+    },
+    "hv_a0.01": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 203.43233767216216,
+     "Pareto Q-Learning": 204.56902739337684,
+     "MultiPolicy MO Q-Learning (OLS)": 202.84233044613407,
+     "MultiPolicy MO Q-Learning": 203.20317341512938
+    },
+    "hv_a0.1": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 262.7869351471019,
+     "Pareto Q-Learning": 263.92362486831655,
+     "MultiPolicy MO Q-Learning (OLS)": 259.96150268868666,
+     "MultiPolicy MO Q-Learning": 262.55777089006915
+    },
+    "hv_a0.5": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 587.8463420662031,
+     "Pareto Q-Learning": 588.9830317874178,
+     "MultiPolicy MO Q-Learning (OLS)": 575.0856863527338,
+     "MultiPolicy MO Q-Learning": 587.6171778091704
+    },
+    "hv_a1.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 1134.8213056319983,
+     "Pareto Q-Learning": 1135.9579953532127,
+     "MultiPolicy MO Q-Learning (OLS)": 1109.6416208497114,
+     "MultiPolicy MO Q-Learning": 1134.5921413749656
+    },
+    "hv_a2.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 2697.6069158199853,
+     "Pareto Q-Learning": 2698.743605541199,
+     "MultiPolicy MO Q-Learning (OLS)": 2647.5891729000627,
+     "MultiPolicy MO Q-Learning": 2697.3777515629527
+    },
+    "hv_a10.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 37704.004584030874,
+     "Pareto Q-Learning": 37705.141273752095,
+     "MultiPolicy MO Q-Learning (OLS)": 37455.282376009876,
+     "MultiPolicy MO Q-Learning": 37703.77541977385
+    },
+    "eum_raw": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 5.574865362116737,
+     "Pareto Q-Learning": 5.574876410010032,
+     "MultiPolicy MO Q-Learning (OLS)": 5.329944392945986,
+     "MultiPolicy MO Q-Learning": 5.574687715546956
+    },
+    "eum_norm": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.7829538894863803,
+     "Pareto Q-Learning": 0.782955299265269,
+     "MultiPolicy MO Q-Learning (OLS)": 0.771423850014082,
+     "MultiPolicy MO Q-Learning": 0.7829450674405746
+    },
+    "neg_igd+": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": -0.00013481088046969576,
+     "Pareto Q-Learning": -4.248072088935365e-10,
+     "MultiPolicy MO Q-Learning (OLS)": -0.020650969034411444,
+     "MultiPolicy MO Q-Learning": -0.0001092271640432811
+    }
+   }
+  },
+  "four-room-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "MultiPolicy MO Q-Learning (GPI-LS)",
+    "MultiPolicy MO Q-Learning (OLS)",
+    "MultiPolicy MO Q-Learning"
+   ],
+   "n": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": 10,
+    "MultiPolicy MO Q-Learning (OLS)": 10,
+    "MultiPolicy MO Q-Learning": 10
+   },
+   "steps": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (OLS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -1.0,
+     "top_same": false
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -1.0,
+     "top_same": false
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -1.0,
+     "top_same": false
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": -0.33333333333333337,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 22.796125652164697,
+     "MultiPolicy MO Q-Learning (OLS)": 22.267249321810283,
+     "MultiPolicy MO Q-Learning": 22.246374018069936
+    },
+    "hv_a0.01": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 6.3345154002957145,
+     "MultiPolicy MO Q-Learning (OLS)": 5.090358303707532,
+     "MultiPolicy MO Q-Learning": 5.62779068110825
+    },
+    "hv_a0.1": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 9.176543882565678,
+     "MultiPolicy MO Q-Learning (OLS)": 7.914456757992919,
+     "MultiPolicy MO Q-Learning": 8.47402950733891
+    },
+    "hv_a0.5": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 31.752861013281034,
+     "MultiPolicy MO Q-Learning (OLS)": 30.742273765222837,
+     "MultiPolicy MO Q-Learning": 31.25210954877832
+    },
+    "hv_a1.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 91.09481729847246,
+     "MultiPolicy MO Q-Learning (OLS)": 91.15898755116311,
+     "MultiPolicy MO Q-Learning": 91.26653795147908
+    },
+    "hv_a2.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 366.5411407058831,
+     "MultiPolicy MO Q-Learning (OLS)": 371.2894348104236,
+     "MultiPolicy MO Q-Learning": 369.45870052425585
+    },
+    "hv_a10.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 22820.438151591366,
+     "MultiPolicy MO Q-Learning (OLS)": 22984.320661327612,
+     "MultiPolicy MO Q-Learning": 22912.56538138935
+    },
+    "eum_raw": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 1.7966738406069673,
+     "MultiPolicy MO Q-Learning (OLS)": 1.8500675722560203,
+     "MultiPolicy MO Q-Learning": 1.7830029318395897
+    },
+    "eum_norm": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.6823488942859459,
+     "MultiPolicy MO Q-Learning (OLS)": 0.6734551206229537,
+     "MultiPolicy MO Q-Learning": 0.6776447942192475
+    },
+    "neg_igd+": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": -0.4546825082721179,
+     "MultiPolicy MO Q-Learning (OLS)": -0.5971101882694869,
+     "MultiPolicy MO Q-Learning": -0.4796924411995221
+    }
+   }
+  },
+  "fruit-tree-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "Pareto Q-Learning",
+    "MultiPolicy MO Q-Learning",
+    "MultiPolicy MO Q-Learning (OLS)",
+    "MultiPolicy MO Q-Learning (GPI-LS)"
+   ],
+   "n": {
+    "MultiPolicy MO Q-Learning (OLS)": 10,
+    "MultiPolicy MO Q-Learning (GPI-LS)": 10,
+    "MultiPolicy MO Q-Learning": 10,
+    "Pareto Q-Learning": 10
+   },
+   "steps": {
+    "MultiPolicy MO Q-Learning (OLS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (GPI-LS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning": [
+     "None"
+    ],
+    "Pareto Q-Learning": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "Pareto Q-Learning",
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "MultiPolicy MO Q-Learning (OLS)": 35512.45227959116,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 34739.129065653164,
+     "MultiPolicy MO Q-Learning": 38532.51525527323,
+     "Pareto Q-Learning": 46034.80169795988
+    },
+    "hv_a0.01": {
+     "MultiPolicy MO Q-Learning (OLS)": 6070.464895713306,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 5530.245166721697,
+     "MultiPolicy MO Q-Learning": 7127.617019602249,
+     "Pareto Q-Learning": 9060.272684403306
+    },
+    "hv_a0.1": {
+     "MultiPolicy MO Q-Learning (OLS)": 23936.37492408071,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 23371.0902308763,
+     "MultiPolicy MO Q-Learning": 26455.256728209984,
+     "Pareto Q-Learning": 32014.633894095507
+    },
+    "hv_a0.5": {
+     "MultiPolicy MO Q-Learning (OLS)": 772397.7153558352,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 789850.0118204904,
+     "MultiPolicy MO Q-Learning": 795963.7817262651,
+     "Pareto Q-Learning": 876466.9600896336
+    },
+    "hv_a1.0": {
+     "MultiPolicy MO Q-Learning (OLS)": 8681075.237708554,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 8867309.662479693,
+     "MultiPolicy MO Q-Learning": 8780382.81044126,
+     "Pareto Q-Learning": 9300595.643510386
+    },
+    "hv_a2.0": {
+     "MultiPolicy MO Q-Learning (OLS)": 161240668.19324034,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 163471298.62866122,
+     "MultiPolicy MO Q-Learning": 161475179.07543963,
+     "Pareto Q-Learning": 166485641.65914622
+    },
+    "hv_a10.0": {
+     "MultiPolicy MO Q-Learning (OLS)": 584295990783.7765,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 585345699793.2606,
+     "MultiPolicy MO Q-Learning": 582796934555.5681,
+     "Pareto Q-Learning": 586041130955.4978
+    },
+    "eum_raw": {
+     "MultiPolicy MO Q-Learning (OLS)": 4.765488380605316,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 4.77918672006906,
+     "MultiPolicy MO Q-Learning": 4.772050534152024,
+     "Pareto Q-Learning": 4.802061044206702
+    },
+    "eum_norm": {
+     "MultiPolicy MO Q-Learning (OLS)": 0.5580989639424832,
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.5599587323624868,
+     "MultiPolicy MO Q-Learning": 0.5591089948747274,
+     "Pareto Q-Learning": 0.5625712032355706
+    },
+    "neg_igd+": {
+     "MultiPolicy MO Q-Learning (OLS)": -0.05078331798700638,
+     "MultiPolicy MO Q-Learning (GPI-LS)": -0.057782459723068925,
+     "MultiPolicy MO Q-Learning": -0.05904409263515635,
+     "Pareto Q-Learning": -5.167060371190006e-10
+    }
+   }
+  },
+  "minecart-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-PD",
+    "GPI-LS",
+    "PCN",
+    "Envelope"
+   ],
+   "n": {
+    "PCN": 3,
+    "Envelope": 21,
+    "GPI-LS": 20,
+    "GPI-PD": 10
+   },
+   "steps": {
+    "PCN": [
+     "1000000",
+     "None"
+    ],
+    "Envelope": [
+     "None"
+    ],
+    "GPI-LS": [
+     "None"
+    ],
+    "GPI-PD": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "PCN": 533.6821129334116,
+     "Envelope": 449.63343821610647,
+     "GPI-LS": 617.0703063285716,
+     "GPI-PD": 694.5038654779239
+    },
+    "hv_a0.01": {
+     "PCN": 3.2440981567587386,
+     "Envelope": 1.8912626468540932,
+     "GPI-LS": 4.124074813761962,
+     "GPI-PD": 4.006868761276508
+    },
+    "hv_a0.1": {
+     "PCN": 5.195552039216615,
+     "Envelope": 3.398996602898008,
+     "GPI-LS": 6.546317981664399,
+     "GPI-PD": 6.868266557133332
+    },
+    "hv_a0.5": {
+     "PCN": 20.917964867880215,
+     "Envelope": 16.50651644069695,
+     "GPI-LS": 25.237487044018835,
+     "GPI-PD": 28.43570757907264
+    },
+    "hv_a1.0": {
+     "PCN": 62.41471462593583,
+     "Envelope": 53.25882346496165,
+     "GPI-LS": 72.45723175883981,
+     "GPI-PD": 81.37330819186666
+    },
+    "hv_a2.0": {
+     "PCN": 254.42398948820087,
+     "Envelope": 230.85979120894476,
+     "GPI-LS": 282.61932875014173,
+     "GPI-PD": 310.0461701407545
+    },
+    "hv_a10.0": {
+     "PCN": 15712.054510297763,
+     "Envelope": 15337.091615838643,
+     "GPI-LS": 16207.400372936294,
+     "GPI-PD": 16722.515885746303
+    },
+    "eum_raw": {
+     "PCN": 0.08987877144454894,
+     "Envelope": -0.0227590598195838,
+     "GPI-LS": 0.19859484941015274,
+     "GPI-PD": 0.26255505853526384
+    },
+    "eum_norm": {
+     "PCN": 0.6889560244994172,
+     "Envelope": 0.5715373027270829,
+     "GPI-LS": 0.7341021323673101,
+     "GPI-PD": 0.810121502739791
+    },
+    "neg_igd+": {
+     "PCN": -0.20534929741310348,
+     "Envelope": -0.33788266913182446,
+     "GPI-LS": -0.12515961474621395,
+     "GPI-PD": -0.04658543277071754
+    }
+   }
+  },
+  "mo-halfcheetah-v4": {
+   "base": "hv_a0.1",
+   "base_rank": [
+    "MORL-D(MOSAC)-SB+PSA",
+    "MORL-D(MOSAC)-SB",
+    "MORL-D(MOSAC)",
+    "MORL-D(MOSAC)-PSA",
+    "GPI-LS Continuous Action",
+    "GPI-PD Continuous Action",
+    "CAPQL",
+    "PGMORL"
+   ],
+   "n": {
+    "GPI-LS Continuous Action": 31,
+    "CAPQL": 20,
+    "MORL-D(MOSAC)": 10,
+    "MORL-D(MOSAC)-PSA": 10,
+    "MORL-D(MOSAC)-SB": 10,
+    "MORL-D(MOSAC)-SB+PSA": 10,
+    "GPI-PD Continuous Action": 10,
+    "PGMORL": 10
+   },
+   "steps": {
+    "GPI-LS Continuous Action": [
+     "None"
+    ],
+    "CAPQL": [
+     "None"
+    ],
+    "MORL-D(MOSAC)": [
+     "None"
+    ],
+    "MORL-D(MOSAC)-PSA": [
+     "None"
+    ],
+    "MORL-D(MOSAC)-SB": [
+     "None"
+    ],
+    "MORL-D(MOSAC)-SB+PSA": [
+     "None"
+    ],
+    "GPI-PD Continuous Action": [
+     "None"
+    ],
+    "PGMORL": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_a0.01/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9999999999999998,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.9285714285714285,
+     "top_same": false
+    },
+    "eum_raw/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "eum_norm/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)-PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-SB",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.7857142857142856,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "MORL-D(MOSAC)-SB",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "MORL-D(MOSAC)-SB+PSA",
+      "MORL-D(MOSAC)",
+      "MORL-D(MOSAC)-PSA",
+      "MORL-D(MOSAC)-SB",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.8571428571428571,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "GPI-LS Continuous Action": 54967.471277357545,
+     "CAPQL": 46367.74968880681,
+     "GPI-PD Continuous Action": 46808.83953090182,
+     "PGMORL": 20522.4471800029
+    },
+    "hv_a0.01": {
+     "GPI-LS Continuous Action": 145174.9648294627,
+     "CAPQL": 104974.4748172734,
+     "MORL-D(MOSAC)": 163549.70298485644,
+     "MORL-D(MOSAC)-PSA": 160339.91894978398,
+     "MORL-D(MOSAC)-SB": 165078.5993508296,
+     "MORL-D(MOSAC)-SB+PSA": 167241.39291729673,
+     "GPI-PD Continuous Action": 112145.26041251393,
+     "PGMORL": 28718.47348778579
+    },
+    "hv_a0.1": {
+     "GPI-LS Continuous Action": 181308.87792358952,
+     "CAPQL": 136740.69437050045,
+     "MORL-D(MOSAC)": 202823.44209492143,
+     "MORL-D(MOSAC)-PSA": 199157.2591649938,
+     "MORL-D(MOSAC)-SB": 204770.32322727927,
+     "MORL-D(MOSAC)-SB+PSA": 206414.7328455174,
+     "GPI-PD Continuous Action": 145183.14217840234,
+     "PGMORL": 54141.108967077555
+    },
+    "hv_a0.5": {
+     "GPI-LS Continuous Action": 387130.3242906531,
+     "CAPQL": 323150.1694446761,
+     "MORL-D(MOSAC)": 422599.67075504345,
+     "MORL-D(MOSAC)-PSA": 416905.0482924259,
+     "MORL-D(MOSAC)-SB": 426404.2619602221,
+     "MORL-D(MOSAC)-SB+PSA": 425744.74291966466,
+     "GPI-PD Continuous Action": 337244.4493088506,
+     "PGMORL": 212356.87704598525
+    },
+    "hv_a1.0": {
+     "GPI-LS Continuous Action": 748242.972437875,
+     "CAPQL": 659997.8534757879,
+     "MORL-D(MOSAC)": 801155.7967685885,
+     "MORL-D(MOSAC)-PSA": 792925.6248901086,
+     "MORL-D(MOSAC)-SB": 807282.5255647929,
+     "MORL-D(MOSAC)-SB+PSA": 803743.0957007413,
+     "GPI-PD Continuous Action": 681156.9234103034,
+     "PGMORL": 513962.4273330124
+    },
+    "hv_a2.0": {
+     "GPI-LS Continuous Action": 1816587.7360269602,
+     "CAPQL": 1679812.6888326532,
+     "MORL-D(MOSAC)": 1904387.5160903204,
+     "MORL-D(MOSAC)-PSA": 1891086.245380116,
+     "MORL-D(MOSAC)-SB": 1915158.520068576,
+     "MORL-D(MOSAC)-SB+PSA": 1905859.268557536,
+     "GPI-PD Continuous Action": 1715101.3389078504,
+     "PGMORL": 1463292.9952017083
+    },
+    "hv_a10.0": {
+     "GPI-LS Continuous Action": 26977080.274882436,
+     "CAPQL": 26452065.80183037,
+     "MORL-D(MOSAC)": 27343975.700806968,
+     "MORL-D(MOSAC)-PSA": 27290105.63944296,
+     "MORL-D(MOSAC)-SB": 27391900.906241637,
+     "MORL-D(MOSAC)-SB+PSA": 27336523.08155469,
+     "GPI-PD Continuous Action": 26600391.093031023,
+     "PGMORL": 25671671.968294065
+    },
+    "eum_raw": {
+     "GPI-LS Continuous Action": 341.25002271962614,
+     "CAPQL": 225.48328987366327,
+     "MORL-D(MOSAC)": 374.0827023475291,
+     "MORL-D(MOSAC)-PSA": 363.1657266572941,
+     "MORL-D(MOSAC)-SB": 383.45809682153083,
+     "MORL-D(MOSAC)-SB+PSA": 371.0970904588126,
+     "GPI-PD Continuous Action": 250.59553577266016,
+     "PGMORL": 52.064840664269425
+    },
+    "eum_norm": {
+     "GPI-LS Continuous Action": 0.784665771094659,
+     "CAPQL": 0.6828466107545406,
+     "MORL-D(MOSAC)": 0.8276248747948884,
+     "MORL-D(MOSAC)-PSA": 0.8174862147442827,
+     "MORL-D(MOSAC)-SB": 0.8349688109437761,
+     "MORL-D(MOSAC)-SB+PSA": 0.8246075215036935,
+     "GPI-PD Continuous Action": 0.7040253886046292,
+     "PGMORL": 0.5454645813067942
+    },
+    "neg_igd+": {
+     "GPI-LS Continuous Action": -0.1126168795138768,
+     "CAPQL": -0.1361367737492225,
+     "MORL-D(MOSAC)": -0.05637243466366534,
+     "MORL-D(MOSAC)-PSA": -0.05496640801073151,
+     "MORL-D(MOSAC)-SB": -0.06112807424073129,
+     "MORL-D(MOSAC)-SB+PSA": -0.04166279724390817,
+     "GPI-PD Continuous Action": -0.12576602573235723,
+     "PGMORL": -0.25840659854846765
+    }
+   }
+  },
+  "mo-highway-fast-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-LS",
+    "GPI-PD",
+    "Envelope"
+   ],
+   "n": {
+    "Envelope": 10,
+    "GPI-PD": 10,
+    "GPI-LS": 10
+   },
+   "steps": {
+    "Envelope": [
+     "None"
+    ],
+    "GPI-PD": [
+     "None"
+    ],
+    "GPI-LS": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "Envelope": 10880.530676968194,
+     "GPI-PD": 25599.350482428097,
+     "GPI-LS": 25892.58274826881
+    },
+    "hv_a0.01": {
+     "Envelope": 221.842874314665,
+     "GPI-PD": 583.5868318511738,
+     "GPI-LS": 602.5086086372297
+    },
+    "hv_a0.1": {
+     "Envelope": 337.9892096163199,
+     "GPI-PD": 772.7219083893722,
+     "GPI-LS": 793.1031617613928
+    },
+    "hv_a0.5": {
+     "Envelope": 1248.258085732246,
+     "GPI-PD": 2079.607680399477,
+     "GPI-LS": 2106.0261699946927
+    },
+    "hv_a1.0": {
+     "Envelope": 3586.0627603477274,
+     "GPI-PD": 5079.000417123974,
+     "GPI-LS": 5111.933835306901
+    },
+    "hv_a2.0": {
+     "Envelope": 14150.258435808395,
+     "GPI-PD": 17519.095357606988,
+     "GPI-LS": 17561.61991066105
+    },
+    "hv_a10.0": {
+     "Envelope": 834601.82221719,
+     "GPI-PD": 879508.5640177745,
+     "GPI-LS": 879462.7589791924
+    },
+    "eum_raw": {
+     "Envelope": 11.058656718434456,
+     "GPI-PD": 15.673075125802203,
+     "GPI-LS": 15.62783231335267
+    },
+    "eum_norm": {
+     "Envelope": 0.7399150964997439,
+     "GPI-PD": 0.9211958617794478,
+     "GPI-LS": 0.9262656480654445
+    },
+    "neg_igd+": {
+     "Envelope": -0.4611935798918051,
+     "GPI-PD": -0.0798372116797668,
+     "GPI-LS": -0.044515096145233315
+    }
+   }
+  },
+  "mo-hopper-2d-v4": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-PD Continuous Action",
+    "GPI-LS Continuous Action",
+    "CAPQL",
+    "PGMORL"
+   ],
+   "n": {
+    "CAPQL": 10,
+    "GPI-LS Continuous Action": 20,
+    "GPI-PD Continuous Action": 10,
+    "PGMORL": 10
+   },
+   "steps": {
+    "CAPQL": [
+     "None"
+    ],
+    "GPI-LS Continuous Action": [
+     "None"
+    ],
+    "GPI-PD Continuous Action": [
+     "None"
+    ],
+    "PGMORL": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-PD Continuous Action",
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL",
+      "PGMORL"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "CAPQL": 78863.41191420141,
+     "GPI-LS Continuous Action": 105748.27261314522,
+     "GPI-PD Continuous Action": 107150.6624580115,
+     "PGMORL": 53127.86966867256
+    },
+    "hv_a0.01": {
+     "CAPQL": 33358.14288441042,
+     "GPI-LS Continuous Action": 52929.73488565073,
+     "GPI-PD Continuous Action": 54277.225060908226,
+     "PGMORL": 18471.267774516138
+    },
+    "hv_a0.1": {
+     "CAPQL": 42511.205177923126,
+     "GPI-LS Continuous Action": 64299.387194651565,
+     "GPI-PD Continuous Action": 65734.29125774118,
+     "PGMORL": 25476.584668500614
+    },
+    "hv_a0.5": {
+     "CAPQL": 96002.78492070377,
+     "GPI-LS Continuous Action": 127642.47811737943,
+     "GPI-PD Continuous Action": 129465.88834861186,
+     "PGMORL": 69422.62930226688
+    },
+    "hv_a1.0": {
+     "CAPQL": 192280.9651972708,
+     "GPI-LS Continuous Action": 236235.0473688805,
+     "GPI-PD Continuous Action": 238544.09031029145,
+     "PGMORL": 153768.890692566
+    },
+    "hv_a2.0": {
+     "CAPQL": 482883.01107737573,
+     "GPI-LS Continuous Action": 551465.8711988535,
+     "GPI-PD Continuous Action": 554746.1795606214,
+     "PGMORL": 420507.098800135
+    },
+    "hv_a10.0": {
+     "CAPQL": 7513892.273812814,
+     "GPI-LS Continuous Action": 7779505.357533236,
+     "GPI-PD Continuous Action": 7790555.78925786,
+     "PGMORL": 7260605.659355286
+    },
+    "eum_raw": {
+     "CAPQL": 174.80635746987076,
+     "GPI-LS Continuous Action": 212.9136061343544,
+     "GPI-PD Continuous Action": 215.75318486900446,
+     "PGMORL": 122.7595379070076
+    },
+    "eum_norm": {
+     "CAPQL": 0.6901469157016555,
+     "GPI-LS Continuous Action": 0.8472069042903285,
+     "GPI-PD Continuous Action": 0.859765258582567,
+     "PGMORL": 0.49553843441363477
+    },
+    "neg_igd+": {
+     "CAPQL": -0.30846986310267566,
+     "GPI-LS Continuous Action": -0.10914480022527104,
+     "GPI-PD Continuous Action": -0.08980579347839315,
+     "PGMORL": -0.5671561462783362
+    }
+   }
+  },
+  "mo-hopper-v4": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-LS Continuous Action",
+    "GPI-PD Continuous Action",
+    "CAPQL"
+   ],
+   "n": {
+    "CAPQL": 10,
+    "GPI-LS Continuous Action": 20,
+    "GPI-PD Continuous Action": 10
+   },
+   "steps": {
+    "CAPQL": [
+     "None"
+    ],
+    "GPI-LS Continuous Action": [
+     "None"
+    ],
+    "GPI-PD Continuous Action": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action",
+      "CAPQL"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "CAPQL": 14123850.880234694,
+     "GPI-LS Continuous Action": 15436675.229696805,
+     "GPI-PD Continuous Action": 14184482.396928389
+    },
+    "hv_a0.01": {
+     "CAPQL": 4214668.80529258,
+     "GPI-LS Continuous Action": 4898462.685203321,
+     "GPI-PD Continuous Action": 4152887.313668023
+    },
+    "hv_a0.1": {
+     "CAPQL": 5948434.123047229,
+     "GPI-LS Continuous Action": 6787932.2336502895,
+     "GPI-PD Continuous Action": 5922704.477336027
+    },
+    "hv_a0.5": {
+     "CAPQL": 19136463.189528327,
+     "GPI-LS Continuous Action": 20842212.616080873,
+     "GPI-PD Continuous Action": 19395318.612125594
+    },
+    "hv_a1.0": {
+     "CAPQL": 52364953.25843636,
+     "GPI-LS Continuous Action": 55553540.45641873,
+     "GPI-PD Continuous Action": 53265048.12311362
+    },
+    "hv_a2.0": {
+     "CAPQL": 201222560.23842666,
+     "GPI-LS Continuous Action": 208710235.06757855,
+     "GPI-PD Continuous Action": 204356827.67624524
+    },
+    "hv_a10.0": {
+     "CAPQL": 11728700957.979206,
+     "GPI-LS Continuous Action": 11834585114.096592,
+     "GPI-PD Continuous Action": 11795389903.073261
+    },
+    "eum_raw": {
+     "CAPQL": 134.9238737696664,
+     "GPI-LS Continuous Action": 151.28306152533784,
+     "GPI-PD Continuous Action": 141.32557295836833
+    },
+    "eum_norm": {
+     "CAPQL": 0.7178023183021353,
+     "GPI-LS Continuous Action": 0.7626539287511308,
+     "GPI-PD Continuous Action": 0.7130885990535833
+    },
+    "neg_igd+": {
+     "CAPQL": -0.19508259135415218,
+     "GPI-LS Continuous Action": -0.135199758526014,
+     "GPI-PD Continuous Action": -0.2058252711874346
+    }
+   }
+  },
+  "mo-lunar-lander-continuous-v2": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-LS Continuous Action",
+    "CAPQL",
+    "GPI-PD Continuous Action"
+   ],
+   "n": {
+    "GPI-PD Continuous Action": 8,
+    "GPI-LS Continuous Action": 9,
+    "CAPQL": 10
+   },
+   "steps": {
+    "GPI-PD Continuous Action": [
+     "None"
+    ],
+    "GPI-LS Continuous Action": [
+     "None"
+    ],
+    "CAPQL": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "CAPQL",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS Continuous Action",
+      "CAPQL",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "CAPQL",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "neg_igd+/median": {
+     "order": [
+      "CAPQL",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "CAPQL",
+      "GPI-LS Continuous Action",
+      "GPI-PD Continuous Action"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": false
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "GPI-PD Continuous Action": 388777143.81605065,
+     "GPI-LS Continuous Action": 444493641.31665444,
+     "CAPQL": 432238993.5409896
+    },
+    "hv_a0.01": {
+     "GPI-PD Continuous Action": 28114931.50107812,
+     "GPI-LS Continuous Action": 35956961.539863154,
+     "CAPQL": 33748039.450884394
+    },
+    "hv_a0.1": {
+     "GPI-PD Continuous Action": 46117782.989672214,
+     "GPI-LS Continuous Action": 57499148.018570274,
+     "CAPQL": 54437567.05972614
+    },
+    "hv_a0.5": {
+     "GPI-PD Continuous Action": 226364109.4783424,
+     "GPI-LS Continuous Action": 264212115.07821643,
+     "CAPQL": 254874414.04418287
+    },
+    "hv_a1.0": {
+     "GPI-PD Continuous Action": 854803029.331127,
+     "GPI-LS Continuous Action": 957985324.9196455,
+     "CAPQL": 933322744.5008188
+    },
+    "hv_a2.0": {
+     "GPI-PD Continuous Action": 4991742071.378656,
+     "GPI-LS Continuous Action": 5381724769.234255,
+     "CAPQL": 5290151196.954973
+    },
+    "hv_a10.0": {
+     "GPI-PD Continuous Action": 1057897540487.2775,
+     "GPI-LS Continuous Action": 1079747099802.7899,
+     "CAPQL": 1074660786598.1013
+    },
+    "eum_raw": {
+     "GPI-PD Continuous Action": 3.0533986619550673,
+     "GPI-LS Continuous Action": 9.947546648924753,
+     "CAPQL": 6.459867547037534
+    },
+    "eum_norm": {
+     "GPI-PD Continuous Action": 0.7512432750195032,
+     "GPI-LS Continuous Action": 0.811178591302503,
+     "CAPQL": 0.8079580052451562
+    },
+    "neg_igd+": {
+     "GPI-PD Continuous Action": -0.1718896888646191,
+     "GPI-LS Continuous Action": -0.08535823652966953,
+     "CAPQL": -0.06199336019567153
+    }
+   }
+  },
+  "mo-lunar-lander-v2": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-PD",
+    "GPI-LS",
+    "PCN",
+    "Envelope"
+   ],
+   "n": {
+    "PCN": 10,
+    "Envelope": 10,
+    "GPI-PD": 10,
+    "GPI-LS": 10
+   },
+   "steps": {
+    "PCN": [
+     "None"
+    ],
+    "Envelope": [
+     "None"
+    ],
+    "GPI-PD": [
+     "None"
+    ],
+    "GPI-LS": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "PCN",
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 0.0,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "PCN",
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 0.3333333333333334,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "PCN",
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope"
+     ],
+     "tau": 0.0,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "PCN",
+      "Envelope"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "PCN": 788333604.4827297,
+     "Envelope": 593096697.1891445,
+     "GPI-PD": 1056028637.7975073,
+     "GPI-LS": 1054637649.7357517
+    },
+    "hv_a0.01": {
+     "PCN": 85839594.74267748,
+     "Envelope": 52731370.84889442,
+     "GPI-PD": 151018040.65257603,
+     "GPI-LS": 152094385.8737076
+    },
+    "hv_a0.1": {
+     "PCN": 139999188.93025613,
+     "Envelope": 92420279.15995646,
+     "GPI-PD": 229208362.33531436,
+     "GPI-LS": 230087612.37041426
+    },
+    "hv_a0.5": {
+     "PCN": 678304157.5078379,
+     "Envelope": 528085991.0941372,
+     "GPI-PD": 943215991.3315895,
+     "GPI-LS": 941667790.7749493
+    },
+    "hv_a1.0": {
+     "PCN": 2551669888.7621818,
+     "Envelope": 2162973998.514059,
+     "GPI-PD": 3243896022.4614706,
+     "GPI-LS": 3234308345.338098
+    },
+    "hv_a2.0": {
+     "PCN": 14918631387.22818,
+     "Envelope": 13543778542.352772,
+     "GPI-PD": 17474429863.131416,
+     "GPI-LS": 17422847336.393444
+    },
+    "hv_a10.0": {
+     "PCN": 3199884758429.3096,
+     "Envelope": 3132113538367.521,
+     "GPI-PD": 3341776153987.5376,
+     "GPI-LS": 3337928965138.9595
+    },
+    "eum_raw": {
+     "PCN": 14.568257910641895,
+     "Envelope": -14.631346488722707,
+     "GPI-PD": 14.244731933764905,
+     "GPI-LS": 14.506305944007163
+    },
+    "eum_norm": {
+     "PCN": 0.7992183932739761,
+     "Envelope": 0.6788342791988937,
+     "GPI-PD": 0.8716691242374829,
+     "GPI-LS": 0.8767711882956624
+    },
+    "neg_igd+": {
+     "PCN": -0.13779269819046366,
+     "Envelope": -0.4200411903894817,
+     "GPI-PD": -0.06021679637593663,
+     "GPI-LS": -0.05492742244075709
+    }
+   }
+  },
+  "mo-mountaincar-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "Envelope",
+    "GPI-PD",
+    "GPI-LS"
+   ],
+   "n": {
+    "Envelope": 10,
+    "GPI-PD": 10,
+    "GPI-LS": 10
+   },
+   "steps": {
+    "Envelope": [
+     "None"
+    ],
+    "GPI-PD": [
+     "None"
+    ],
+    "GPI-LS": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "Envelope",
+      "GPI-PD",
+      "GPI-LS"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "Envelope": 4535918.701887131,
+     "GPI-PD": 4535918.701887131,
+     "GPI-LS": 4535918.701887131
+    },
+    "hv_a0.01": {
+     "Envelope": 76.50660256665192,
+     "GPI-PD": 76.50660256665192,
+     "GPI-LS": 76.50660256665192
+    },
+    "hv_a0.1": {
+     "Envelope": 907.4893550200586,
+     "GPI-PD": 907.4893550200586,
+     "GPI-LS": 907.4893550200586
+    },
+    "hv_a0.5": {
+     "Envelope": 8437.401028079537,
+     "GPI-PD": 8437.401028079537,
+     "GPI-LS": 8437.401028079537
+    },
+    "hv_a1.0": {
+     "Envelope": 29999.648099838356,
+     "GPI-PD": 29999.648099838356,
+     "GPI-LS": 29999.648099838356
+    },
+    "hv_a2.0": {
+     "Envelope": 134998.4164492726,
+     "GPI-PD": 134998.4164492726,
+     "GPI-LS": 134998.4164492726
+    },
+    "hv_a10.0": {
+     "Envelope": 9074893.550201101,
+     "GPI-PD": 9074893.550201101,
+     "GPI-LS": 9074893.550201101
+    },
+    "eum_raw": {
+     "Envelope": -29.28950538538117,
+     "GPI-PD": -29.28950538538117,
+     "GPI-LS": -29.28950538538117
+    },
+    "eum_norm": {
+     "Envelope": 0.661791940029384,
+     "GPI-PD": 0.661791940029384,
+     "GPI-LS": 0.661791940029384
+    },
+    "neg_igd+": {
+     "Envelope": 0.0,
+     "GPI-PD": 0.0,
+     "GPI-LS": 0.0
+    }
+   }
+  },
+  "mo-reacher-v4": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-PD",
+    "GPI-LS",
+    "Envelope",
+    "PCN"
+   ],
+   "n": {
+    "PCN": 10,
+    "Envelope": 10,
+    "GPI-PD": 10,
+    "GPI-LS": 10
+   },
+   "steps": {
+    "PCN": [
+     "None"
+    ],
+    "Envelope": [
+     "None"
+    ],
+    "GPI-PD": [
+     "None"
+    ],
+    "GPI-LS": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS",
+      "GPI-PD",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 0.6666666666666669,
+     "top_same": false
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-PD",
+      "GPI-LS",
+      "Envelope",
+      "PCN"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "PCN": 22582991.999607883,
+     "Envelope": 26613264.472633474,
+     "GPI-PD": 36181410.07129156,
+     "GPI-LS": 36116387.11958558
+    },
+    "hv_a0.01": {
+     "PCN": 850245.4506846191,
+     "Envelope": 1035800.140687234,
+     "GPI-PD": 1639117.2282443033,
+     "GPI-LS": 1615486.1342549496
+    },
+    "hv_a0.1": {
+     "PCN": 1442723.3294661613,
+     "Envelope": 1756102.0909993094,
+     "GPI-PD": 2721595.170107629,
+     "GPI-LS": 2691771.643612803
+    },
+    "hv_a0.5": {
+     "PCN": 8187789.794509163,
+     "Envelope": 9816797.604057852,
+     "GPI-PD": 14006097.296062464,
+     "GPI-LS": 13950857.085295398
+    },
+    "hv_a1.0": {
+     "PCN": 34787165.75080718,
+     "Envelope": 40682506.94086888,
+     "GPI-PD": 54165657.37452282,
+     "GPI-LS": 54103131.29205179
+    },
+    "hv_a2.0": {
+     "PCN": 230113645.92053118,
+     "Envelope": 259074041.83927375,
+     "GPI-PD": 318659953.4639678,
+     "GPI-LS": 318790189.10306084
+    },
+    "hv_a10.0": {
+     "PCN": 58917135779.48584,
+     "Envelope": 61218506691.523766,
+     "GPI-PD": 65359977908.08315,
+     "GPI-LS": 65401774288.49758
+    },
+    "eum_raw": {
+     "PCN": 16.39488158501997,
+     "Envelope": 18.066598186749815,
+     "GPI-PD": 20.78479917836982,
+     "GPI-LS": 20.8055505428108
+    },
+    "eum_norm": {
+     "PCN": 0.6063053734288737,
+     "Envelope": 0.6418689879991823,
+     "GPI-PD": 0.7018145716409054,
+     "GPI-LS": 0.7023287812142124
+    },
+    "neg_igd+": {
+     "PCN": -0.1868297296886892,
+     "Envelope": -0.14201143170337208,
+     "GPI-PD": -0.029674473857591567,
+     "GPI-LS": -0.03292831995615122
+    }
+   }
+  },
+  "mo-supermario-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "GPI-LS",
+    "Envelope"
+   ],
+   "n": {
+    "Envelope": 79,
+    "GPI-LS": 3
+   },
+   "steps": {
+    "Envelope": [
+     "1000000"
+    ],
+    "GPI-LS": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "Envelope",
+      "GPI-LS"
+     ],
+     "tau": -1.0,
+     "top_same": false
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "Envelope",
+      "GPI-LS"
+     ],
+     "tau": -1.0,
+     "top_same": false
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "GPI-LS",
+      "Envelope"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "Envelope": 141711174.40923885,
+     "GPI-LS": 143901072.83960092
+    },
+    "hv_a0.01": {
+     "Envelope": 57.262877703553734,
+     "GPI-LS": 47.149350331046804
+    },
+    "hv_a0.1": {
+     "Envelope": 123.23213635301305,
+     "GPI-LS": 121.86715930368696
+    },
+    "hv_a0.5": {
+     "Envelope": 1049.663899799526,
+     "GPI-LS": 1177.0861960558557
+    },
+    "hv_a1.0": {
+     "Envelope": 5245.189537633494,
+     "GPI-LS": 5850.090458700627
+    },
+    "hv_a2.0": {
+     "Envelope": 39018.46927136346,
+     "GPI-LS": 42337.52719340094
+    },
+    "hv_a10.0": {
+     "Envelope": 11309956.677238405,
+     "GPI-LS": 11588442.893013658
+    },
+    "eum_raw": {
+     "Envelope": 8.851211200269121,
+     "GPI-LS": 9.084515892039017
+    },
+    "eum_norm": {
+     "Envelope": 0.531484658806595,
+     "GPI-LS": 0.5716623732713471
+    },
+    "neg_igd+": {
+     "Envelope": -0.4836024255304983,
+     "GPI-LS": -0.4141319736734424
+    }
+   }
+  },
+  "resource-gathering-v0": {
+   "base": "hv_orig",
+   "base_rank": [
+    "MultiPolicy MO Q-Learning (OLS)",
+    "MultiPolicy MO Q-Learning",
+    "MultiPolicy MO Q-Learning (GPI-LS)"
+   ],
+   "n": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": 10,
+    "MultiPolicy MO Q-Learning": 10,
+    "MultiPolicy MO Q-Learning (OLS)": 10
+   },
+   "steps": {
+    "MultiPolicy MO Q-Learning (GPI-LS)": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning": [
+     "None"
+    ],
+    "MultiPolicy MO Q-Learning (OLS)": [
+     "None"
+    ]
+   },
+   "rows": {
+    "hv_orig/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_orig/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.01/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.01/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.1/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.1/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a0.5/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a0.5/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a1.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a1.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a2.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a2.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "hv_a10.0/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning (GPI-LS)",
+      "MultiPolicy MO Q-Learning"
+     ],
+     "tau": 0.33333333333333337,
+     "top_same": true
+    },
+    "hv_a10.0/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_raw/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "eum_norm/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/mean": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/median": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    },
+    "neg_igd+/iqm": {
+     "order": [
+      "MultiPolicy MO Q-Learning (OLS)",
+      "MultiPolicy MO Q-Learning",
+      "MultiPolicy MO Q-Learning (GPI-LS)"
+     ],
+     "tau": 1.0,
+     "top_same": true
+    }
+   },
+   "means": {
+    "hv_orig": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 3.633423626422882,
+     "MultiPolicy MO Q-Learning": 4.043432575826831,
+     "MultiPolicy MO Q-Learning (OLS)": 4.41384189507289
+    },
+    "hv_a0.01": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.003066302216165576,
+     "MultiPolicy MO Q-Learning": 0.0037573093680155966,
+     "MultiPolicy MO Q-Learning (OLS)": 0.05346743373718902
+    },
+    "hv_a0.1": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.03611774539474431,
+     "MultiPolicy MO Q-Learning": 0.043738576982888314,
+     "MultiPolicy MO Q-Learning (OLS)": 0.10216729433518482
+    },
+    "hv_a0.5": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.3287535587106535,
+     "MultiPolicy MO Q-Learning": 0.38265238486567965,
+     "MultiPolicy MO Q-Learning (OLS)": 0.48902923265863213
+    },
+    "hv_a1.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 1.1516635023833686,
+     "MultiPolicy MO Q-Learning": 1.2989478252291862,
+     "MultiPolicy MO Q-Learning (OLS)": 1.4863795949099443
+    },
+    "hv_a2.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 5.10491458207986,
+     "MultiPolicy MO Q-Learning": 5.557429909914558,
+     "MultiPolicy MO Q-Learning (OLS)": 5.977370719494209
+    },
+    "hv_a10.0": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 335.5789649944948,
+     "MultiPolicy MO Q-Learning": 344.1594089193907,
+     "MultiPolicy MO Q-Learning (OLS)": 349.8185834620792
+    },
+    "eum_raw": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.3024209883651924,
+     "MultiPolicy MO Q-Learning": 0.35755982364708183,
+     "MultiPolicy MO Q-Learning (OLS)": 0.40908081065864427
+    },
+    "eum_norm": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": 0.6647606397632387,
+     "MultiPolicy MO Q-Learning": 0.7206527067093959,
+     "MultiPolicy MO Q-Learning (OLS)": 0.7791857209923604
+    },
+    "neg_igd+": {
+     "MultiPolicy MO Q-Learning (GPI-LS)": -0.5646529898712723,
+     "MultiPolicy MO Q-Learning": -0.45763966794146754,
+     "MultiPolicy MO Q-Learning (OLS)": -0.37244332161427013
+    }
+   }
+  }
+ },
+ "flips": [
+  {
+   "env": "deep-sea-treasure-concave-v0",
+   "a": "Pareto Q-Learning",
+   "b": "MultiPolicy MO Q-Learning",
+   "a_wins": [
+    "hv_orig",
+    "hv_a0.01",
+    "hv_a0.1",
+    "hv_a0.5",
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "neg_igd+"
+   ],
+   "b_wins": [
+    "eum_raw",
+    "eum_norm"
+   ]
+  },
+  {
+   "env": "deep-sea-treasure-concave-v0",
+   "a": "Pareto Q-Learning",
+   "b": "MultiPolicy MO Q-Learning (OLS)",
+   "a_wins": [
+    "hv_orig",
+    "hv_a0.01",
+    "hv_a0.1",
+    "hv_a0.5",
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "neg_igd+"
+   ],
+   "b_wins": [
+    "eum_raw",
+    "eum_norm"
+   ]
+  },
+  {
+   "env": "fruit-tree-v0",
+   "a": "MultiPolicy MO Q-Learning (OLS)",
+   "b": "MultiPolicy MO Q-Learning (GPI-LS)",
+   "a_wins": [
+    "hv_orig",
+    "hv_a0.01",
+    "hv_a0.1",
+    "neg_igd+"
+   ],
+   "b_wins": [
+    "hv_a0.5",
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "eum_raw",
+    "eum_norm"
+   ]
+  },
+  {
+   "env": "fruit-tree-v0",
+   "a": "MultiPolicy MO Q-Learning (OLS)",
+   "b": "MultiPolicy MO Q-Learning",
+   "a_wins": [
+    "hv_a10.0",
+    "neg_igd+"
+   ],
+   "b_wins": [
+    "hv_orig",
+    "hv_a0.01",
+    "hv_a0.1",
+    "hv_a0.5",
+    "hv_a1.0",
+    "eum_norm"
+   ]
+  },
+  {
+   "env": "fruit-tree-v0",
+   "a": "MultiPolicy MO Q-Learning (GPI-LS)",
+   "b": "MultiPolicy MO Q-Learning",
+   "a_wins": [
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "eum_raw",
+    "eum_norm"
+   ],
+   "b_wins": [
+    "hv_orig",
+    "hv_a0.01",
+    "hv_a0.1"
+   ]
+  },
+  {
+   "env": "mo-halfcheetah-v4",
+   "a": "MORL-D(MOSAC)-PSA",
+   "b": "MORL-D(MOSAC)-SB",
+   "a_wins": [
+    "neg_igd+"
+   ],
+   "b_wins": [
+    "hv_a0.5",
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "eum_raw",
+    "eum_norm"
+   ]
+  },
+  {
+   "env": "mo-lunar-lander-continuous-v2",
+   "a": "GPI-LS Continuous Action",
+   "b": "CAPQL",
+   "a_wins": [
+    "hv_a0.5",
+    "hv_a1.0",
+    "hv_a2.0",
+    "hv_a10.0",
+    "eum_raw"
+   ],
+   "b_wins": [
+    "neg_igd+"
+   ]
+  }
+ ]
+}

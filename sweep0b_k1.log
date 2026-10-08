@@ -1,0 +1,66 @@
+{"step": 10000, "regret": 0.03831683168316833, "miss": 0.1188118811881188}
+{"step": 10000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 10000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 10000, "regret": 0.001683168316831674, "miss": 0.0}
+{"step": 10000, "regret": 0.02722772277227723, "miss": 0.019801980198019802}
+{"step": 10000, "regret": 0.00881188118811881, "miss": 0.0}
+{"step": 20000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 20000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 20000, "regret": 0.023564356435643568, "miss": 0.07920792079207921}
+{"step": 30000, "regret": 0.0004950495049504836, "miss": 0.0}
+{"step": 30000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 30000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 20000, "regret": 0.001386138613861376, "miss": 0.0}
+{"step": 20000, "regret": 0.0008910891089108804, "miss": 0.0}
+{"step": 20000, "regret": 0.0011881188118811777, "miss": 0.0}
+{"step": 40000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 40000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 40000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 30000, "regret": 0.0019801980198019702, "miss": 0.0}
+{"step": 30000, "regret": 0.0002970297029702844, "miss": 0.0}
+{"step": 30000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "mlp_K1_w256_s2", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "mlp_K1_w256_s0", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "mlp_K1_w256_s1", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}
+{"step": 40000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 40000, "regret": 0.00019801980198018638, "miss": 0.0}
+{"step": 40000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 50000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "multi_K1_w256_s2", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "multi_K1_w256_s1", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}
+{"step": 60000, "regret": -1.1816730212594488e-17, "miss": 0.0}
+/Users/wangzhi/Desktop/code/morl-kink/exp0b.py:261: RuntimeWarning: Mean of empty slice.
+  miss_near=float((goal[d < 0.05] < 0).mean()),
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"tag": "multi_K1_w256_s0", "regret": -1.2352756180582098e-17, "miss": 0.0, "miss_near": NaN, "miss_far": 0.0}

@@ -1,0 +1,66 @@
+endpoints (c, seed, [speed, -energy]):
+   c=0.05  s=0  [ 6414. -4300.]
+   c=0.05  s=1  [ 6623. -4000.]
+   c=0.2   s=0  [ 8308. -3930.]
+   c=0.2   s=1  [ 7664. -4262.]
+   c=0.5   s=0  [ 6986. -3139.]
+   c=0.5   s=1  [ 7898. -2880.]
+   c=1.0   s=0  [ 6796. -2170.]
+   c=1.0   s=1  [1432. -737.]
+   c=2.0   s=0  [3949. -913.]
+   c=2.0   s=1  [ 4512. -1024.]
+
+barrier (normalised units; chord - interpolated, max over lambda):
+   same_c               raw      n= 5  median 0.725  [0.178, 0.986]
+   same_c               aligned  n= 5  median 0.644  [0.181, 0.970]
+   diff_c_shared_init   raw      n=20  median 0.500  [0.192, 0.931]
+   diff_c_shared_init   aligned  n=20  median 0.485  [0.183, 0.794]
+   diff_c_diff_init     raw      n=20  median 0.528  [0.149, 0.944]
+   diff_c_diff_init     aligned  n=20  median 0.522  [0.140, 1.012]
+
+per pair (aligned):
+   c 0.05 vs 0.05 same_c               raw 0.903  aligned 0.927
+   c 0.05 vs 0.2  diff_c_shared_init   raw 0.931  aligned 0.574
+   c 0.05 vs 0.2  diff_c_diff_init     raw 0.890  aligned 0.754
+   c 0.05 vs 0.5  diff_c_shared_init   raw 0.765  aligned 0.557
+   c 0.05 vs 0.5  diff_c_diff_init     raw 0.834  aligned 0.725
+   c 0.05 vs 1.0  diff_c_shared_init   raw 0.672  aligned 0.624
+   c 0.05 vs 1.0  diff_c_diff_init     raw 0.408  aligned 0.442
+   c 0.05 vs 2.0  diff_c_shared_init   raw 0.516  aligned 0.424
+   c 0.05 vs 2.0  diff_c_diff_init     raw 0.475  aligned 0.529
+   c 0.05 vs 0.2  diff_c_diff_init     raw 0.944  aligned 1.012
+   c 0.05 vs 0.2  diff_c_shared_init   raw 0.649  aligned 0.732
+   c 0.05 vs 0.5  diff_c_diff_init     raw 0.771  aligned 0.646
+   c 0.05 vs 0.5  diff_c_shared_init   raw 0.534  aligned 0.586
+   c 0.05 vs 1.0  diff_c_diff_init     raw 0.644  aligned 0.530
+   c 0.05 vs 1.0  diff_c_shared_init   raw 0.402  aligned 0.329
+   c 0.05 vs 2.0  diff_c_diff_init     raw 0.436  aligned 0.359
+   c 0.05 vs 2.0  diff_c_shared_init   raw 0.484  aligned 0.414
+   c 0.2  vs 0.2  same_c               raw 0.986  aligned 0.970
+   c 0.2  vs 0.5  diff_c_shared_init   raw 0.775  aligned 0.794
+   c 0.2  vs 0.5  diff_c_diff_init     raw 0.885  aligned 0.632
+   c 0.2  vs 1.0  diff_c_shared_init   raw 0.746  aligned 0.724
+   c 0.2  vs 1.0  diff_c_diff_init     raw 0.518  aligned 0.516
+   c 0.2  vs 2.0  diff_c_shared_init   raw 0.578  aligned 0.509
+   c 0.2  vs 2.0  diff_c_diff_init     raw 0.537  aligned 0.496
+   c 0.2  vs 0.5  diff_c_diff_init     raw 0.785  aligned 0.556
+   c 0.2  vs 0.5  diff_c_shared_init   raw 0.616  aligned 0.595
+   c 0.2  vs 1.0  diff_c_diff_init     raw 0.677  aligned 0.646
+   c 0.2  vs 1.0  diff_c_shared_init   raw 0.464  aligned 0.472
+   c 0.2  vs 2.0  diff_c_diff_init     raw 0.462  aligned 0.494
+   c 0.2  vs 2.0  diff_c_shared_init   raw 0.438  aligned 0.499
+   c 0.5  vs 0.5  same_c               raw 0.725  aligned 0.644
+   c 0.5  vs 1.0  diff_c_shared_init   raw 0.458  aligned 0.389
+   c 0.5  vs 1.0  diff_c_diff_init     raw 0.424  aligned 0.304
+   c 0.5  vs 2.0  diff_c_shared_init   raw 0.325  aligned 0.293
+   c 0.5  vs 2.0  diff_c_diff_init     raw 0.453  aligned 0.319
+   c 0.5  vs 1.0  diff_c_diff_init     raw 0.622  aligned 0.586
+   c 0.5  vs 1.0  diff_c_shared_init   raw 0.360  aligned 0.452
+   c 0.5  vs 2.0  diff_c_diff_init     raw 0.435  aligned 0.435
+   c 0.5  vs 2.0  diff_c_shared_init   raw 0.405  aligned 0.418
+   c 1.0  vs 1.0  same_c               raw 0.326  aligned 0.308
+   c 1.0  vs 2.0  diff_c_shared_init   raw 0.290  aligned 0.252
+   c 1.0  vs 2.0  diff_c_diff_init     raw 0.344  aligned 0.319
+   c 1.0  vs 2.0  diff_c_diff_init     raw 0.149  aligned 0.140
+   c 1.0  vs 2.0  diff_c_shared_init   raw 0.192  aligned 0.183
+   c 2.0  vs 2.0  same_c               raw 0.178  aligned 0.181

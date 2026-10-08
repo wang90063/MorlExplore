@@ -1,0 +1,3 @@
+{"dynamic_loss": 1.5965102910995483, "Q_loss": 29.83484649658203, "policy_loss": 0.9467947483062744, "time_steps": 10500, "wall": 15.63}
+{"Ep_hypervolume": 0.0, "Ep_sparsity": 2390.505638488828, "Ep_UT": -8.403692258698662, "time_steps": 16500, "wall": 128.14}
+{"Population_num": 0, "Ep_num": 2, "hypervolume": 127179.3901, "sparsity": 40.40166041113882, "UT": 350.066264295926, "time_steps": 16500, "wall": 251.72}

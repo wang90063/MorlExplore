@@ -1,0 +1,220 @@
+/Users/wangzhi/Desktop/code/morl-kink/audit/analyze.py:65: RuntimeWarning: divide by zero encountered in matmul
+  return float((W @ F.T).max(1).mean())
+/Users/wangzhi/Desktop/code/morl-kink/audit/analyze.py:65: RuntimeWarning: overflow encountered in matmul
+  return float((W @ F.T).max(1).mean())
+/Users/wangzhi/Desktop/code/morl-kink/audit/analyze.py:65: RuntimeWarning: invalid value encountered in matmul
+  return float((W @ F.T).max(1).mean())
+sanity: recomputed vs logged HV, median rel err 1.95e-16, 95th pct 3.20e-03, n=644
+
+== deep-sea-treasure-concave-v0  (base hv_a0.1, seeds {'MORL-D(EUPG)': 10, 'MORL-D(EUPG)-PSA': 10, 'MultiPolicy MO Q-Learning (GPI-LS)': 10, 'Pareto Q-Learning': 10, 'MultiPolicy MO Q-Learning': 10, 'MultiPolicy MO Q-Learning (OLS)': 10})
+   base ranking: Pareto Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.01/median        tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.01/iqm           tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.1/median         tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.1/iqm            tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.5/median         tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a0.5/iqm            tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a1.0/median         tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a1.0/iqm            tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a2.0/median         tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a2.0/iqm            tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a10.0/median        tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   hv_a10.0/iqm           tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_raw/mean           tau=+0.73 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_raw/median         tau=+0.60 top_same=False  MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_raw/iqm            tau=+0.60 top_same=False  MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_norm/mean          tau=+0.73 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_norm/median        tau=+0.60 top_same=False  MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   eum_norm/iqm           tau=+0.60 top_same=False  MultiPolicy MO Q-Learning (GPI-LS) > Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   neg_igd+/mean          tau=+0.87 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MORL-D(EUPG) > MORL-D(EUPG)-PSA
+   neg_igd+/median        tau=+0.73 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG)-PSA > MORL-D(EUPG)
+   neg_igd+/iqm           tau=+0.60 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MORL-D(EUPG) > MORL-D(EUPG)-PSA
+== deep-sea-treasure-v0  (base hv_orig, seeds {'MultiPolicy MO Q-Learning (GPI-LS)': 10, 'Pareto Q-Learning': 10, 'MultiPolicy MO Q-Learning (OLS)': 10, 'MultiPolicy MO Q-Learning': 10})
+   base ranking: Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_orig/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.01/iqm           tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.1/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.5/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a1.0/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a2.0/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a10.0/iqm           tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   eum_raw/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   eum_norm/iqm           tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   neg_igd+/mean          tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   neg_igd+/iqm           tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+== four-room-v0  (base hv_orig, seeds {'MultiPolicy MO Q-Learning (GPI-LS)': 10, 'MultiPolicy MO Q-Learning (OLS)': 10, 'MultiPolicy MO Q-Learning': 10})
+   base ranking: MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning
+   hv_orig/median         tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_orig/iqm            tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a0.01/mean          tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.01/median        tau=-0.33 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.01/iqm           tau=-0.33 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.1/mean           tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.1/median         tau=-0.33 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.1/iqm            tau=-0.33 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.5/mean           tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.5/median         tau=-1.00 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a0.5/iqm            tau=-1.00 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a1.0/mean           tau=-1.00 top_same=False  MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a1.0/median         tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a1.0/iqm            tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a2.0/mean           tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a2.0/median         tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a2.0/iqm            tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a10.0/mean          tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a10.0/median        tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a10.0/iqm           tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   eum_raw/mean           tau=+0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   eum_raw/median         tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   eum_raw/iqm            tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   eum_norm/mean          tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_norm/median        tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   eum_norm/iqm           tau=-0.33 top_same=False  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   neg_igd+/mean          tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   neg_igd+/median        tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   neg_igd+/iqm           tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+== fruit-tree-v0  (base hv_orig, seeds {'MultiPolicy MO Q-Learning (OLS)': 10, 'MultiPolicy MO Q-Learning (GPI-LS)': 10, 'MultiPolicy MO Q-Learning': 10, 'Pareto Q-Learning': 10})
+   base ranking: Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a0.5/mean           tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.5/median         tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a0.5/iqm            tau=+0.67 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS)
+   hv_a1.0/mean           tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a1.0/median         tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a1.0/iqm            tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a2.0/mean           tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a2.0/median         tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a2.0/iqm            tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a10.0/mean          tau=+0.00 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning
+   hv_a10.0/median        tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   hv_a10.0/iqm           tau=+0.00 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning
+   eum_raw/mean           tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_raw/median         tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_raw/iqm            tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_norm/mean          tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_norm/median        tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   eum_norm/iqm           tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (OLS)
+   neg_igd+/mean          tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   neg_igd+/median        tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   neg_igd+/iqm           tau=+0.33 top_same=True  Pareto Q-Learning > MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+== minecart-v0  (base hv_orig, seeds {'PCN': 3, 'Envelope': 21, 'GPI-LS': 20, 'GPI-PD': 10})
+   base ranking: GPI-PD > GPI-LS > PCN > Envelope
+   budgets differ: {'PCN': ['1000000', 'None'], 'Envelope': ['None'], 'GPI-LS': ['None'], 'GPI-PD': ['None']}
+   hv_orig/median         tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   hv_a0.01/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.01/median        tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.01/iqm           tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.1/median         tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.1/iqm            tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.5/median         tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   hv_a1.0/median         tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   hv_a2.0/median         tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   hv_a10.0/median        tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   eum_raw/median         tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+   eum_norm/median        tau=+0.33 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   neg_igd+/median        tau=+0.67 top_same=True  GPI-PD > GPI-LS > Envelope > PCN
+== mo-halfcheetah-v4  (base hv_a0.1, seeds {'GPI-LS Continuous Action': 31, 'CAPQL': 20, 'MORL-D(MOSAC)': 10, 'MORL-D(MOSAC)-PSA': 10, 'MORL-D(MOSAC)-SB': 10, 'MORL-D(MOSAC)-SB+PSA': 10, 'GPI-PD Continuous Action': 10, 'PGMORL': 10})
+   base ranking: MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a0.01/median        tau=+0.93 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-SB > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a0.1/median         tau=+0.93 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-SB > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a0.5/mean           tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a0.5/median         tau=+0.93 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-SB > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a1.0/mean           tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a1.0/iqm            tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a2.0/mean           tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a2.0/median         tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a2.0/iqm            tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a10.0/mean          tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a10.0/median        tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   hv_a10.0/iqm           tau=+0.93 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_raw/mean           tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_raw/median         tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_raw/iqm            tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_norm/mean          tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_norm/median        tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_norm/iqm           tau=+0.86 top_same=False  MORL-D(MOSAC)-SB > MORL-D(MOSAC) > MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   neg_igd+/mean          tau=+0.79 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC)-PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-SB > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   neg_igd+/median        tau=+0.86 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > MORL-D(MOSAC)-SB > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   neg_igd+/iqm           tau=+0.86 top_same=True  MORL-D(MOSAC)-SB+PSA > MORL-D(MOSAC) > MORL-D(MOSAC)-PSA > MORL-D(MOSAC)-SB > GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+== mo-highway-fast-v0  (base hv_orig, seeds {'Envelope': 10, 'GPI-PD': 10, 'GPI-LS': 10})
+   base ranking: GPI-LS > GPI-PD > Envelope
+   hv_a1.0/median         tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   hv_a2.0/median         tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   hv_a10.0/mean          tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   hv_a10.0/median        tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   hv_a10.0/iqm           tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   eum_raw/mean           tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   eum_raw/median         tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+   eum_raw/iqm            tau=+0.33 top_same=False  GPI-PD > GPI-LS > Envelope
+== mo-hopper-2d-v4  (base hv_orig, seeds {'CAPQL': 10, 'GPI-LS Continuous Action': 20, 'GPI-PD Continuous Action': 10, 'PGMORL': 10})
+   base ranking: GPI-PD Continuous Action > GPI-LS Continuous Action > CAPQL > PGMORL
+   eum_raw/median         tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_raw/iqm            tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_norm/median        tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   eum_norm/iqm           tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   neg_igd+/median        tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+   neg_igd+/iqm           tau=+0.67 top_same=False  GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL > PGMORL
+== mo-hopper-v4  (base hv_orig, seeds {'CAPQL': 10, 'GPI-LS Continuous Action': 20, 'GPI-PD Continuous Action': 10})
+   base ranking: GPI-LS Continuous Action > GPI-PD Continuous Action > CAPQL
+   hv_a0.01/mean          tau=+0.33 top_same=True  GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+   hv_a0.1/mean           tau=+0.33 top_same=True  GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+   eum_norm/mean          tau=+0.33 top_same=True  GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+   eum_norm/iqm           tau=+0.33 top_same=True  GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+   neg_igd+/mean          tau=+0.33 top_same=True  GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+== mo-lunar-lander-continuous-v2  (base hv_orig, seeds {'GPI-PD Continuous Action': 8, 'GPI-LS Continuous Action': 9, 'CAPQL': 10})
+   base ranking: GPI-LS Continuous Action > CAPQL > GPI-PD Continuous Action
+   eum_norm/median        tau=+0.33 top_same=False  CAPQL > GPI-LS Continuous Action > GPI-PD Continuous Action
+   neg_igd+/mean          tau=+0.33 top_same=False  CAPQL > GPI-LS Continuous Action > GPI-PD Continuous Action
+   neg_igd+/median        tau=+0.33 top_same=False  CAPQL > GPI-LS Continuous Action > GPI-PD Continuous Action
+   neg_igd+/iqm           tau=+0.33 top_same=False  CAPQL > GPI-LS Continuous Action > GPI-PD Continuous Action
+== mo-lunar-lander-v2  (base hv_orig, seeds {'PCN': 10, 'Envelope': 10, 'GPI-PD': 10, 'GPI-LS': 10})
+   base ranking: GPI-PD > GPI-LS > PCN > Envelope
+   hv_a0.01/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   hv_a0.1/mean           tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   eum_raw/mean           tau=+0.00 top_same=False  PCN > GPI-LS > GPI-PD > Envelope
+   eum_raw/median         tau=+0.33 top_same=False  PCN > GPI-PD > GPI-LS > Envelope
+   eum_raw/iqm            tau=+0.00 top_same=False  PCN > GPI-LS > GPI-PD > Envelope
+   eum_norm/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   eum_norm/median        tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   eum_norm/iqm           tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   neg_igd+/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   neg_igd+/median        tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+   neg_igd+/iqm           tau=+0.67 top_same=False  GPI-LS > GPI-PD > PCN > Envelope
+== mo-mountaincar-v0  (base hv_orig, seeds {'Envelope': 10, 'GPI-PD': 10, 'GPI-LS': 10})
+   base ranking: Envelope > GPI-PD > GPI-LS
+== mo-reacher-v4  (base hv_orig, seeds {'PCN': 10, 'Envelope': 10, 'GPI-PD': 10, 'GPI-LS': 10})
+   base ranking: GPI-PD > GPI-LS > Envelope > PCN
+   hv_a1.0/median         tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a2.0/mean           tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a2.0/median         tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a2.0/iqm            tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a10.0/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a10.0/median        tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   hv_a10.0/iqm           tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_raw/mean           tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_raw/median         tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_raw/iqm            tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_norm/mean          tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_norm/median        tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+   eum_norm/iqm           tau=+0.67 top_same=False  GPI-LS > GPI-PD > Envelope > PCN
+== mo-supermario-v0  (base hv_orig, seeds {'Envelope': 79, 'GPI-LS': 3})
+   base ranking: GPI-LS > Envelope
+   budgets differ: {'Envelope': ['1000000'], 'GPI-LS': ['None']}
+   hv_a0.01/mean          tau=-1.00 top_same=False  Envelope > GPI-LS
+   hv_a0.1/mean           tau=-1.00 top_same=False  Envelope > GPI-LS
+== resource-gathering-v0  (base hv_orig, seeds {'MultiPolicy MO Q-Learning (GPI-LS)': 10, 'MultiPolicy MO Q-Learning': 10, 'MultiPolicy MO Q-Learning (OLS)': 10})
+   base ranking: MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning > MultiPolicy MO Q-Learning (GPI-LS)
+   hv_a0.01/median        tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   hv_a0.1/median         tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   hv_a0.5/median         tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   hv_a1.0/median         tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   hv_a2.0/median         tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+   hv_a10.0/median        tau=+0.33 top_same=True  MultiPolicy MO Q-Learning (OLS) > MultiPolicy MO Q-Learning (GPI-LS) > MultiPolicy MO Q-Learning
+
+confident pairwise flips (P>0.95 under one metric, <0.05 under another): 7
+   deep-sea-treasure-concave-v0: Pareto Q-Learning vs MultiPolicy MO Q-Learning  | a wins ['hv_orig', 'hv_a0.01', 'hv_a0.1', 'hv_a0.5', 'hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'neg_igd+']  | b wins ['eum_raw', 'eum_norm']
+   deep-sea-treasure-concave-v0: Pareto Q-Learning vs MultiPolicy MO Q-Learning (OLS)  | a wins ['hv_orig', 'hv_a0.01', 'hv_a0.1', 'hv_a0.5', 'hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'neg_igd+']  | b wins ['eum_raw', 'eum_norm']
+   fruit-tree-v0: MultiPolicy MO Q-Learning (OLS) vs MultiPolicy MO Q-Learning (GPI-LS)  | a wins ['hv_orig', 'hv_a0.01', 'hv_a0.1', 'neg_igd+']  | b wins ['hv_a0.5', 'hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'eum_raw', 'eum_norm']
+   fruit-tree-v0: MultiPolicy MO Q-Learning (OLS) vs MultiPolicy MO Q-Learning  | a wins ['hv_a10.0', 'neg_igd+']  | b wins ['hv_orig', 'hv_a0.01', 'hv_a0.1', 'hv_a0.5', 'hv_a1.0', 'eum_norm']
+   fruit-tree-v0: MultiPolicy MO Q-Learning (GPI-LS) vs MultiPolicy MO Q-Learning  | a wins ['hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'eum_raw', 'eum_norm']  | b wins ['hv_orig', 'hv_a0.01', 'hv_a0.1']
+   mo-halfcheetah-v4: MORL-D(MOSAC)-PSA vs MORL-D(MOSAC)-SB  | a wins ['neg_igd+']  | b wins ['hv_a0.5', 'hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'eum_raw', 'eum_norm']
+   mo-lunar-lander-continuous-v2: GPI-LS Continuous Action vs CAPQL  | a wins ['hv_a0.5', 'hv_a1.0', 'hv_a2.0', 'hv_a10.0', 'eum_raw']  | b wins ['neg_igd+']

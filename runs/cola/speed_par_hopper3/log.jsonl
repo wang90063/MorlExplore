@@ -1,0 +1,5 @@
+{"dynamic_loss": 0.43484169244766235, "Q_loss": 9.197782516479492, "policy_loss": -0.7826330661773682, "time_steps": 10037, "wall": 2.82}
+{"dynamic_loss": 0.04671504348516464, "Q_loss": 36.61365509033203, "policy_loss": -68.31645202636719, "time_steps": 20052, "wall": 233.38}
+{"Ep_hypervolume": 423804.5407, "Ep_sparsity": 94831.567468203, "Ep_UT": 660.9688021578826, "time_steps": 22128, "wall": 283.65}
+{"Real_Ep_hypervolume": 423804.5407, "Real_Ep_sparsity": 94831.567468203, "Real_Ep_UT": 660.9688021578826, "time_steps": 22128, "wall": 283.66}
+{"Population_num": 98, "Ep_num": 2, "hypervolume": 650667.5247, "sparsity": 131.2831191736321, "UT": 766.6110644421142, "time_steps": 22128, "wall": 334.36}

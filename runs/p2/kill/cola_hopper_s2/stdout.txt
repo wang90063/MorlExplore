@@ -1,0 +1,1716 @@
+/Users/wangzhi/Desktop/code/morl-kink/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+-------------------------- True True True
+cpu
+11
+2
+episode: 1     episode steps: 185   episode weight: [0.94387305 0.05612697]  rl reward: [378.81330794  52.01677486]  cost avg time 0.00014176239838471283
+episode: 2     episode steps: 24    episode weight: [0.5580415  0.44195846]  rl reward: [52.17333335 27.51860227]  cost avg time 0.00021653374036153158
+episode: 3     episode steps: 170   episode weight: [0.5599658  0.44003418]  rl reward: [-76.90223326  22.24336348]  cost avg time 0.00013117509729721968
+episode: 4     episode steps: 135   episode weight: [0.24838422 0.7516158 ]  rl reward: [198.18689964 132.36570287]  cost avg time 0.0001605404747856988
+episode: 5     episode steps: 141   episode weight: [0.5289748  0.47102523]  rl reward: [ 221.18947203 -155.32702449]  cost avg time 0.0001447319138980081
+episode: 6     episode steps: 52    episode weight: [0.5399868  0.46001318]  rl reward: [16.20071476  6.12461142]  cost avg time 0.00015504085100614108
+episode: 7     episode steps: 107   episode weight: [0.20763445 0.79236555]  rl reward: [ -83.59475966 -118.94791124]  cost avg time 0.00015936610854674723
+episode: 8     episode steps: 73    episode weight: [0.19018832 0.8098117 ]  rl reward: [214.69961416 -36.67259658]  cost avg time 0.00017987538690436377
+episode: 9     episode steps: 60    episode weight: [0.63341314 0.36658683]  rl reward: [75.83990026 57.30799551]  cost avg time 0.00013852914174397786
+episode: 10    episode steps: 105   episode weight: [0.91400903 0.08599102]  rl reward: [ 27.07944504 120.69153604]  cost avg time 0.00014583723885672434
+episode: 11    episode steps: 69    episode weight: [0.88556916 0.1144308 ]  rl reward: [189.88434768 -12.72121581]  cost avg time 0.0001739660898844401
+episode: 12    episode steps: 100   episode weight: [0.81601006 0.18398993]  rl reward: [43.64935262 15.76236034]  cost avg time 0.0001349806785583496
+episode: 13    episode steps: 96    episode weight: [0.1756583 0.8243417]  rl reward: [245.2563757   28.63175356]  cost avg time 0.00015827268362045288
+episode: 14    episode steps: 69    episode weight: [0.678801   0.32119903]  rl reward: [-79.41786279 -64.18966289]  cost avg time 0.00017308843308600825
+episode: 15    episode steps: 85    episode weight: [0.3864123 0.6135877]  rl reward: [-106.21436336  -80.27770684]  cost avg time 0.0001524813034955193
+episode: 16    episode steps: 123   episode weight: [0.6986797  0.30132037]  rl reward: [ -66.27997195 -154.57800282]  cost avg time 0.0001398373425491457
+episode: 17    episode steps: 90    episode weight: [0.57002234 0.4299777 ]  rl reward: [-87.0181786    4.07611062]  cost avg time 0.00014664332071940105
+episode: 18    episode steps: 38    episode weight: [0.56632674 0.43367323]  rl reward: [81.33480058 25.15916657]  cost avg time 0.00014439382051166736
+episode: 19    episode steps: 107   episode weight: [0.57776165 0.42223835]  rl reward: [-148.17681368  -46.37679305]  cost avg time 0.00016015043882566078
+episode: 20    episode steps: 91    episode weight: [0.18805218 0.8119478 ]  rl reward: [-27.7680194   13.87673262]  cost avg time 0.000135846190400176
+episode: 21    episode steps: 80    episode weight: [0.6585947 0.3414053]  rl reward: [192.1673567    7.51119418]  cost avg time 0.00015939772129058838
+episode: 22    episode steps: 100   episode weight: [0.72252107 0.27747893]  rl reward: [ -80.473581   -101.39687327]  cost avg time 0.00013506889343261718
+episode: 23    episode steps: 105   episode weight: [0.5701717  0.42982832]  rl reward: [-115.21907263  -68.90587384]  cost avg time 0.00011957032339913505
+episode: 24    episode steps: 97    episode weight: [0.35996452 0.6400355 ]  rl reward: [ 310.75915528 -190.66390252]  cost avg time 0.00012524594965669298
+episode: 25    episode steps: 57    episode weight: [0.35962364 0.6403763 ]  rl reward: [150.09285723   6.91011645]  cost avg time 0.0001811395611679345
+episode: 26    episode steps: 80    episode weight: [0.86892146 0.13107859]  rl reward: [-85.6343526  -79.41176424]  cost avg time 0.00014925003051757812
+episode: 27    episode steps: 27    episode weight: [0.30097318 0.6990269 ]  rl reward: [-34.74592127  50.07309659]  cost avg time 0.0001559963932743779
+episode: 28    episode steps: 150   episode weight: [0.93724614 0.06275383]  rl reward: [349.24736532  40.43669888]  cost avg time 0.00014418601989746094
+episode: 29    episode steps: 105   episode weight: [0.7863832  0.21361679]  rl reward: [ -81.97011214 -112.26895245]  cost avg time 0.00012962023417154947
+episode: 30    episode steps: 104   episode weight: [0.5059233  0.49407673]  rl reward: [-20.74818702 -52.07239906]  cost avg time 0.00015210646849412186
+episode: 31    episode steps: 71    episode weight: [0.5707669  0.42923304]  rl reward: [112.67850951 104.09138541]  cost avg time 0.00017547943222690637
+episode: 32    episode steps: 52    episode weight: [0.81885237 0.1811476 ]  rl reward: [-56.74608767  34.42986149]  cost avg time 0.00016953853460458608
+episode: 33    episode steps: 100   episode weight: [0.35861802 0.641382  ]  rl reward: [138.92818212  67.97993621]  cost avg time 0.00014767169952392578
+episode: 34    episode steps: 99    episode weight: [0.8864564  0.11354361]  rl reward: [-168.95447885  -64.27606785]  cost avg time 0.0001728920021442452
+episode: 35    episode steps: 81    episode weight: [0.6901704  0.30982965]  rl reward: [ 212.55444983 -120.4855654 ]  cost avg time 0.00014899983818148388
+episode: 36    episode steps: 79    episode weight: [0.6090333  0.39096677]  rl reward: [238.77916672 -90.98994156]  cost avg time 0.00015534328508980667
+episode: 37    episode steps: 84    episode weight: [0.40168706 0.598313  ]  rl reward: [ 94.4516133  153.13111483]  cost avg time 0.00015993913014729819
+episode: 38    episode steps: 82    episode weight: [0.53036463 0.4696354 ]  rl reward: [-60.37742895   1.67314051]  cost avg time 0.00017126595101705412
+episode: 39    episode steps: 64    episode weight: [0.96681184 0.0331882 ]  rl reward: [-28.1587819   48.78360793]  cost avg time 0.00013048574328422546
+episode: 40    episode steps: 148   episode weight: [0.7474781  0.25252193]  rl reward: [308.28106164 225.4328406 ]  cost avg time 0.0001354797466381176
+episode: 41    episode steps: 62    episode weight: [0.95799166 0.04200828]  rl reward: [-67.56319824 -28.05660976]  cost avg time 0.000166819941612982
+episode: 42    episode steps: 31    episode weight: [0.63083357 0.36916646]  rl reward: [-29.74899357  45.21759216]  cost avg time 0.00022977398287865424
+episode: 43    episode steps: 52    episode weight: [0.5450492  0.45495075]  rl reward: [124.46700301  13.33970165]  cost avg time 0.00020558100480299728
+episode: 44    episode steps: 158   episode weight: [0.38905802 0.610942  ]  rl reward: [374.70498891  10.33154025]  cost avg time 0.0001545495624783673
+episode: 45    episode steps: 54    episode weight: [0.89612454 0.10387544]  rl reward: [148.94753734  30.06046211]  cost avg time 0.00020268228318956163
+episode: 46    episode steps: 32    episode weight: [0.8822787  0.11772138]  rl reward: [54.91570049 29.40006111]  cost avg time 0.00031056255102157593
+episode: 47    episode steps: 70    episode weight: [0.5289729  0.47102705]  rl reward: [111.86395378  70.46248308]  cost avg time 0.00017584392002650668
+episode: 48    episode steps: 76    episode weight: [0.33994207 0.6600579 ]  rl reward: [-77.13979835 -90.29167223]  cost avg time 0.00022130263479132401
+episode: 49    episode steps: 90    episode weight: [0.49324328 0.5067567 ]  rl reward: [ -86.60143379 -123.64288956]  cost avg time 0.00017698870764838324
+episode: 50    episode steps: 90    episode weight: [0.16203058 0.8379694 ]  rl reward: [ 96.36520128 108.90247018]  cost avg time 0.00028618971506754555
+episode: 51    episode steps: 74    episode weight: [0.8531143  0.14688568]  rl reward: [-52.94641081  23.99347452]  cost avg time 0.00017975472115181588
+episode: 52    episode steps: 70    episode weight: [0.53713274 0.4628673 ]  rl reward: [ -81.96079481 -124.48220182]  cost avg time 0.0001735823495047433
+episode: 53    episode steps: 119   episode weight: [0.59510195 0.40489808]  rl reward: [292.2946069 -44.1553159]  cost avg time 0.0001574023431088744
+episode: 54    episode steps: 207   episode weight: [0.19383709 0.80616295]  rl reward: [288.88582879 105.35085576]  cost avg time 0.0001456772071727808
+episode: 55    episode steps: 122   episode weight: [0.6310033 0.3689967]  rl reward: [ -72.79411209 -376.49456048]  cost avg time 0.000164016348416688
+episode: 56    episode steps: 97    episode weight: [0.22397885 0.7760212 ]  rl reward: [286.36151914 -84.19688996]  cost avg time 0.0001556602949948655
+episode: 57    episode steps: 93    episode weight: [0.4372577  0.56274235]  rl reward: [-100.01014211 -142.22276561]  cost avg time 0.00015125736113517514
+episode: 58    episode steps: 87    episode weight: [0.42409253 0.57590747]  rl reward: [-94.00225673 -95.23985741]  cost avg time 0.00013243192913888515
+episode: 59    episode steps: 176   episode weight: [0.7791858 0.2208142]  rl reward: [ 60.34429945 -30.92056887]  cost avg time 0.00013840875842354515
+episode: 60    episode steps: 78    episode weight: [0.54719526 0.45280474]  rl reward: [-57.66495313 -36.79325127]  cost avg time 0.0001268631372696314
+episode: 61    episode steps: 60    episode weight: [0.43922982 0.56077015]  rl reward: [-41.12874371 -39.27380733]  cost avg time 0.00014998118082682293
+episode: 62    episode steps: 113   episode weight: [0.5684306  0.43156943]  rl reward: [  3.05657576 -75.15729108]  cost avg time 0.00015799345168392216
+episode: 63    episode steps: 131   episode weight: [0.28749597 0.712504  ]  rl reward: [326.30678012  13.54566389]  cost avg time 0.0001478104190972015
+episode: 64    episode steps: 79    episode weight: [0.01602546 0.9839746 ]  rl reward: [248.33801134 -87.19431431]  cost avg time 0.00025142899042443386
+episode: 65    episode steps: 90    episode weight: [0.6118083  0.38819176]  rl reward: [-22.99234841  -1.97419407]  cost avg time 0.0002466996510823568
+episode: 66    episode steps: 103   episode weight: [0.25139058 0.7486094 ]  rl reward: [-98.42680718 -30.53752697]  cost avg time 0.00023928197842199825
+episode: 67    episode steps: 99    episode weight: [0.42939523 0.5706048 ]  rl reward: [-121.9032971  -170.07313362]  cost avg time 0.00016370927444612137
+episode: 68    episode steps: 68    episode weight: [0.46175608 0.53824395]  rl reward: [-87.56796167 -80.23270508]  cost avg time 0.00018875388538136203
+episode: 69    episode steps: 71    episode weight: [0.460898 0.539102]  rl reward: [-88.10889847 -66.81295963]  cost avg time 0.00017333702302314865
+episode: 70    episode steps: 91    episode weight: [0.17391624 0.8260838 ]  rl reward: [265.80894364 -85.73094229]  cost avg time 0.0001793746109847184
+episode: 71    episode steps: 113   episode weight: [0.7993651  0.20063493]  rl reward: [ -57.10913277 -115.01441337]  cost avg time 0.00015006234160566751
+episode: 72    episode steps: 85    episode weight: [0.8000986  0.19990139]  rl reward: [92.23896587 99.02397399]  cost avg time 0.00015867177177877987
+episode: 73    episode steps: 56    episode weight: [0.5318096  0.46819037]  rl reward: [69.08879193 59.37739302]  cost avg time 0.00021532177925109863
+episode: 74    episode steps: 216   episode weight: [0.96235836 0.03764163]  rl reward: [586.00622292 262.76677488]  cost avg time 0.00015569947384021902
+episode: 75    episode steps: 106   episode weight: [0.24574357 0.7542564 ]  rl reward: [-74.12125188 -84.49829139]  cost avg time 0.00016846071999028045
+episode: 76    episode steps: 94    episode weight: [0.74110055 0.25889942]  rl reward: [218.39673185 -33.62677832]  cost avg time 0.0001308943362946206
+episode: 77    episode steps: 88    episode weight: [0.3771555 0.6228445]  rl reward: [-129.79363027 -132.57694694]  cost avg time 0.0001468062400817871
+episode: 78    episode steps: 31    episode weight: [0.442992 0.557008]  rl reward: [-24.98965636  62.94613221]  cost avg time 0.00019704141924458166
+episode: 79    episode steps: 77    episode weight: [0.09917017 0.9008298 ]  rl reward: [218.78086216 -56.52189767]  cost avg time 0.00016090467378690644
+episode: 80    episode steps: 87    episode weight: [0.7714511  0.22854887]  rl reward: [ 65.53427677 113.88182657]  cost avg time 0.0001363562441420281
+episode: 81    episode steps: 64    episode weight: [0.66959286 0.3304071 ]  rl reward: [1.79942766e+02 1.77542823e-01]  cost avg time 0.00013434141874313354
+episode: 82    episode steps: 31    episode weight: [0.6808737  0.31912634]  rl reward: [65.54225233 25.1659742 ]  cost avg time 0.000247909176734186
+episode: 83    episode steps: 87    episode weight: [0.39215302 0.607847  ]  rl reward: [-116.75907759 -140.77371505]  cost avg time 0.00014897872661722117
+episode: 84    episode steps: 45    episode weight: [0.68392456 0.31607547]  rl reward: [-46.54832637  58.10532587]  cost avg time 0.00015953381856282552
+episode: 85    episode steps: 77    episode weight: [0.48896074 0.5110392 ]  rl reward: [-105.91764453  -84.15390045]  cost avg time 0.00014516904756620331
+episode: 86    episode steps: 67    episode weight: [0.49123445 0.5087655 ]  rl reward: [-80.42665554 -44.18986725]  cost avg time 0.00013938590661803288
+episode: 87    episode steps: 65    episode weight: [0.20512228 0.7948777 ]  rl reward: [-39.7697228   87.34962441]  cost avg time 0.0001374501448411208
+episode: 88    episode steps: 72    episode weight: [0.38873062 0.61126935]  rl reward: [-29.25750269  47.04956677]  cost avg time 0.00014789899190266928
+episode: 89    episode steps: 63    episode weight: [0.500156   0.49984407]  rl reward: [-43.77185229  15.34033236]  cost avg time 0.00017304647536504837
+episode: 90    episode steps: 114   episode weight: [0.34448078 0.65551925]  rl reward: [-35.61404393  -5.92907349]  cost avg time 0.0001651571508039508
+episode: 91    episode steps: 63    episode weight: [0.4080422 0.5919578]  rl reward: [-24.89958648 -19.79261861]  cost avg time 0.0001823826441689143
+episode: 92    episode steps: 39    episode weight: [0.46592432 0.5340756 ]  rl reward: [92.64569092 36.22468173]  cost avg time 0.0002041780031644381
+episode: 93    episode steps: 90    episode weight: [0.3281177  0.67188233]  rl reward: [-44.03245781 -40.91900931]  cost avg time 0.00017111036512586805
+episode: 94    episode steps: 75    episode weight: [0.38314575 0.6168542 ]  rl reward: [235.07924912 -89.06858346]  cost avg time 0.00015424092610677082
+episode: 95    episode steps: 96    episode weight: [0.25106737 0.7489326 ]  rl reward: [196.07867257 175.84452574]  cost avg time 0.0001418242851893107
+episode: 96    episode steps: 65    episode weight: [0.9020342  0.09796573]  rl reward: [-72.33316558 -41.74161017]  cost avg time 0.00019382696885329026
+episode: 97    episode steps: 112   episode weight: [0.70032716 0.29967284]  rl reward: [ 327.86914785 -215.01202355]  cost avg time 0.00016213314873831614
+episode: 98    episode steps: 85    episode weight: [0.34088653 0.65911347]  rl reward: [ -7.28537412 -54.13081714]  cost avg time 0.00017428117639878217
+episode: 99    episode steps: 65    episode weight: [0.61884546 0.38115457]  rl reward: [196.58673756  -8.44585767]  cost avg time 0.00017473514263446514
+episode: 100   episode steps: 99    episode weight: [0.5662301  0.43376988]  rl reward: [-34.16345357 -48.43863252]  cost avg time 0.00021802054511176216
+episode: 101   episode steps: 37    episode weight: [0.4975825  0.50241756]  rl reward: [42.06704556 45.88541922]  cost avg time 0.0002173797504321949
+episode: 102   episode steps: 51    episode weight: [0.97913265 0.02086734]  rl reward: [-55.03691488  97.38317324]  cost avg time 0.00017943101770737593
+episode: 103   episode steps: 67    episode weight: [0.4258367 0.5741633]  rl reward: [202.47091919 -21.60053899]  cost avg time 0.0001639252278342176
+episode: 104   episode steps: 78    episode weight: [0.56401485 0.4359851 ]  rl reward: [-27.40165316  51.28485973]  cost avg time 0.00017983179826002853
+episode: 105   episode steps: 120   episode weight: [0.47629952 0.5237005 ]  rl reward: [-100.5482229  -191.16816331]  cost avg time 0.00019725759824117025
+episode: 106   episode steps: 120   episode weight: [0.5355968 0.4644032]  rl reward: [197.3708887   59.69647813]  cost avg time 0.0001620928446451823
+episode: 107   episode steps: 66    episode weight: [0.27486998 0.7251301 ]  rl reward: [-84.74524039 -52.93755725]  cost avg time 0.00019913731199322325
+episode: 108   episode steps: 85    episode weight: [0.19379646 0.80620354]  rl reward: [-66.1410272    8.25581574]  cost avg time 0.00019462248858283547
+episode: 109   episode steps: 59    episode weight: [0.6942154  0.30578452]  rl reward: [156.43095239  58.76192543]  cost avg time 0.00022604909993834414
+episode: 110   episode steps: 59    episode weight: [0.41413963 0.5858604 ]  rl reward: [-68.80917622 -15.4501249 ]  cost avg time 0.00020106768203993975
+episode: 111   episode steps: 89    episode weight: [0.8019224  0.19807757]  rl reward: [139.44578701 167.26121868]  cost avg time 0.00016585360752062852
+episode: 112   episode steps: 60    episode weight: [0.4762942  0.52370584]  rl reward: [167.23544902  28.94075623]  cost avg time 0.00019251505533854167
+episode: 113   episode steps: 75    episode weight: [0.28692162 0.7130784 ]  rl reward: [71.71747457 93.3064855 ]  cost avg time 0.00017542521158854166
+episode: 114   episode steps: 57    episode weight: [0.6632728  0.33672723]  rl reward: [-62.66717205  14.8367487 ]  cost avg time 0.00016638270595617462
+episode: 115   episode steps: 32    episode weight: [0.5502823  0.44971767]  rl reward: [-17.4157057   41.46011664]  cost avg time 0.0002218186855316162
+episode: 116   episode steps: 65    episode weight: [0.48083022 0.51916975]  rl reward: [-60.15646943 -63.94642664]  cost avg time 0.00021060063288762018
+/Users/wangzhi/Desktop/code/morl-kink/third_party/COLA/agent.py:999: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  sampled_preference = torch.tensor(sampled_preference_without_repeat, device=self.device).repeat(states.shape[0],
+/Users/wangzhi/Desktop/code/morl-kink/third_party/COLA/agent.py:1065: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  p_batch = torch.tensor(i, device = self.device).repeat(self.batch_size, 1)
+episode: 117   episode steps: 27    episode weight: [0.59129834 0.40870166]  rl reward: [27.20980049 29.85340698]  cost avg time 0.028732520562631113
+episode: 118   episode steps: 47    episode weight: [0.54237777 0.45762226]  rl reward: [-42.9015186  83.1849297]  cost avg time 0.029652428119740587
+episode: 119   episode steps: 75    episode weight: [0.4287164  0.57128364]  rl reward: [159.00014427  13.18099598]  cost avg time 0.029901641209920247
+episode: 120   episode steps: 84    episode weight: [0.8725959  0.12740406]  rl reward: [ 218.29320933 -125.51153949]  cost avg time 0.030788858731587727
+episode: 121   episode steps: 27    episode weight: [0.47162133 0.52837867]  rl reward: [28.25671231 28.23229874]  cost avg time 0.03105681030838578
+episode: 122   episode steps: 81    episode weight: [0.90158904 0.09841092]  rl reward: [ -39.10771355 -197.24118421]  cost avg time 0.030666480829686295
+episode: 123   episode steps: 40    episode weight: [0.39425138 0.60574865]  rl reward: [-40.13434766  63.62352791]  cost avg time 0.030634200572967528
+episode: 124   episode steps: 65    episode weight: [0.5123986  0.48760146]  rl reward: [-78.6515692   -0.82744553]  cost avg time 0.030677435948298526
+episode: 125   episode steps: 42    episode weight: [0.5174325  0.48256752]  rl reward: [107.85514827  28.21302998]  cost avg time 0.02999599774678548
+episode: 126   episode steps: 71    episode weight: [0.02798991 0.9720101 ]  rl reward: [216.10059508 -93.21596488]  cost avg time 0.0326495069853017
+episode: 127   episode steps: 42    episode weight: [0.46301967 0.5369803 ]  rl reward: [-20.99893251  73.4013721 ]  cost avg time 0.03452942484901065
+episode: 128   episode steps: 52    episode weight: [0.16715372 0.83284634]  rl reward: [-56.3424956   38.95265671]  cost avg time 0.03329257323191716
+episode: 129   episode steps: 33    episode weight: [0.8451672  0.15483283]  rl reward: [71.29548091 40.15773314]  cost avg time 0.035574934699318626
+episode: 130   episode steps: 42    episode weight: [0.490036 0.509964]  rl reward: [106.51965971  23.17443126]  cost avg time 0.0319715454464867
+episode: 131   episode steps: 89    episode weight: [0.33855814 0.66144186]  rl reward: [ 49.1787137 142.1186753]  cost avg time 0.03237609113200327
+episode: 132   episode steps: 38    episode weight: [0.14590806 0.85409194]  rl reward: [11.31429003 59.11635114]  cost avg time 0.03194342161479749
+episode: 133   episode steps: 75    episode weight: [0.47940356 0.5205965 ]  rl reward: [165.27996262  55.62650678]  cost avg time 0.03200615564982096
+episode: 134   episode steps: 150   episode weight: [0.87505513 0.12494489]  rl reward: [251.90473975  15.63807219]  cost avg time 0.03251492659250895
+episode: 135   episode steps: 87    episode weight: [0.63194656 0.36805338]  rl reward: [ -21.29522216 -159.8286147 ]  cost avg time 0.030948655358676254
+episode: 136   episode steps: 56    episode weight: [0.5022062 0.4977938]  rl reward: [145.46892983 -10.32531551]  cost avg time 0.03262414251055036
+episode: 137   episode steps: 102   episode weight: [0.14762513 0.85237485]  rl reward: [302.07512738  10.0635426 ]  cost avg time 0.034557950262929876
+episode: 138   episode steps: 74    episode weight: [0.18592593 0.8140741 ]  rl reward: [ 153.48334116 -103.94297084]  cost avg time 0.03342247653651882
+episode: 139   episode steps: 70    episode weight: [0.08171287 0.9182871 ]  rl reward: [ -80.85966768 -101.31151182]  cost avg time 0.03212895733969552
+episode: 140   episode steps: 70    episode weight: [0.18157303 0.81842697]  rl reward: [-84.88045646 -49.46294092]  cost avg time 0.03046999658857073
+episode: 141   episode steps: 77    episode weight: [0.5226599 0.4773401]  rl reward: [ 228.27754641 -109.55264257]  cost avg time 0.030187712087259663
+episode: 142   episode steps: 62    episode weight: [0.8841171 0.1158828]  rl reward: [-15.45818852  18.49989423]  cost avg time 0.031155528560761484
+episode: 143   episode steps: 97    episode weight: [0.5740294 0.4259706]  rl reward: [235.27292581 -66.91969624]  cost avg time 0.03024607343772023
+episode: 144   episode steps: 41    episode weight: [0.37583834 0.6241617 ]  rl reward: [107.64856452  21.90208392]  cost avg time 0.030504023156514983
+episode: 145   episode steps: 79    episode weight: [0.43144932 0.56855065]  rl reward: [-102.43037296 -102.92276667]  cost avg time 0.030068204372744017
+episode: 146   episode steps: 47    episode weight: [0.97756964 0.02243038]  rl reward: [121.43706492 -11.77090481]  cost avg time 0.030915321187770115
+episode: 147   episode steps: 71    episode weight: [0.40336367 0.5966363 ]  rl reward: [193.43139746 -78.25282353]  cost avg time 0.03138212418892014
+episode: 148   episode steps: 22    episode weight: [0.499395 0.500605]  rl reward: [57.85264419 22.02088787]  cost avg time 0.03188032453710383
+episode: 149   episode steps: 96    episode weight: [0.6607439 0.3392561]  rl reward: [ 275.81952825 -193.84273659]  cost avg time 0.03189888596534729
+episode: 150   episode steps: 126   episode weight: [0.58948946 0.41051057]  rl reward: [ 77.12404177 247.06484737]  cost avg time 0.03710806369781494
+episode: 151   episode steps: 90    episode weight: [0.43185788 0.5681422 ]  rl reward: [ 306.09812209 -143.59867915]  cost avg time 0.03053566879696316
+episode: 152   episode steps: 139   episode weight: [0.46578646 0.53421354]  rl reward: [ 395.03857525 -217.37830792]  cost avg time 0.030560368256603212
+episode: 153   episode steps: 201   episode weight: [0.31833178 0.6816682 ]  rl reward: [562.99921842  50.97862215]  cost avg time 0.03140325925836516
+episode: 154   episode steps: 102   episode weight: [0.40809348 0.59190655]  rl reward: [ 370.04835801 -207.44600553]  cost avg time 0.03009975657743566
+episode: 155   episode steps: 156   episode weight: [0.5487505  0.45124948]  rl reward: [ 523.86093706 -167.02183458]  cost avg time 0.030510743459065754
+episode: 156   episode steps: 152   episode weight: [0.1753876  0.82461244]  rl reward: [ 421.39293953 -173.76990431]  cost avg time 0.029454250084726435
+episode: 157   episode steps: 85    episode weight: [0.8762194  0.12378059]  rl reward: [ 229.92290102 -122.55741306]  cost avg time 0.035146659963271196
+episode: 158   episode steps: 101   episode weight: [0.02497806 0.97502196]  rl reward: [298.34275769 -85.05585576]  cost avg time 0.029438771823845286
+episode: 159   episode steps: 101   episode weight: [0.55392087 0.4460792 ]  rl reward: [ 302.09578899 -203.08826036]  cost avg time 0.029052878370379457
+episode: 160   episode steps: 191   episode weight: [0.8477321  0.15226793]  rl reward: [95.19970949 73.36783546]  cost avg time 0.028531275494560523
+episode: 161   episode steps: 115   episode weight: [0.691311   0.30868903]  rl reward: [4.17252247e+02 2.80638698e-02]  cost avg time 0.029614365619161854
+episode: 162   episode steps: 122   episode weight: [0.5188335  0.48116645]  rl reward: [433.295457  -83.1036072]  cost avg time 0.02838890669775791
+episode: 163   episode steps: 178   episode weight: [0.477229   0.52277094]  rl reward: [404.94960893 236.01595319]  cost avg time 0.028247882810871254
+episode: 164   episode steps: 115   episode weight: [0.7005171  0.29948285]  rl reward: [ 298.4442863  -168.33317501]  cost avg time 0.028591408936873727
+episode: 165   episode steps: 126   episode weight: [0.39540786 0.60459214]  rl reward: [353.23086366 -23.58992933]  cost avg time 0.02848215897878011
+episode: 166   episode steps: 500   episode weight: [0.5181436  0.48185644]  rl reward: [551.13625268 625.43307549]  cost avg time 0.02887212371826172
+episode: 167   episode steps: 127   episode weight: [0.5047674  0.49523258]  rl reward: [ 396.51858576 -187.04203954]  cost avg time 0.029655518494253085
+episode: 168   episode steps: 102   episode weight: [0.7457854  0.25421456]  rl reward: [274.54173268  83.7959714 ]  cost avg time 0.02823158806445552
+episode: 169   episode steps: 123   episode weight: [0.9757477  0.02425231]  rl reward: [383.17871045  77.82447381]  cost avg time 0.028293439043246632
+episode: 170   episode steps: 274   episode weight: [0.48561418 0.5143858 ]  rl reward: [255.37845576 205.491883  ]  cost avg time 0.02889389800329278
+episode: 171   episode steps: 500   episode weight: [0.23508492 0.7649151 ]  rl reward: [822.50787715 507.40173438]  cost avg time 0.028585397720336914
+episode: 172   episode steps: 59    episode weight: [0.7878404  0.21215959]  rl reward: [139.69124285  90.7224908 ]  cost avg time 0.029834019935737224
+episode: 173   episode steps: 86    episode weight: [0.47233933 0.5276607 ]  rl reward: [123.1507186  161.99585412]  cost avg time 0.032462602437928666
+episode: 174   episode steps: 495   episode weight: [0.1904563 0.8095437]  rl reward: [730.22332532 737.1863909 ]  cost avg time 0.03118673526879513
+episode: 175   episode steps: 196   episode weight: [0.52053136 0.47946864]  rl reward: [167.49341896 491.81819108]  cost avg time 0.031221673196675827
+episode: 176   episode steps: 147   episode weight: [0.15514003 0.84485996]  rl reward: [230.22769641 226.80422878]  cost avg time 0.02839580522913511
+episode: 177   episode steps: 326   episode weight: [0.14190325 0.8580967 ]  rl reward: [577.35590301 320.48476444]  cost avg time 0.02923973060093043
+episode: 178   episode steps: 142   episode weight: [0.4122748  0.58772516]  rl reward: [402.7190082  -54.22645414]  cost avg time 0.028981380059685504
+episode: 179   episode steps: 43    episode weight: [0.01258119 0.9874188 ]  rl reward: [ 42.12028485 115.86980675]  cost avg time 0.02837253171344136
+episode: 180   episode steps: 77    episode weight: [0.55997413 0.44002593]  rl reward: [ 95.54990268 211.18096592]  cost avg time 0.03095438882902071
+episode: 181   episode steps: 160   episode weight: [0.92802745 0.07197256]  rl reward: [192.95231663 277.84757036]  cost avg time 0.029097029566764833
+episode: 182   episode steps: 209   episode weight: [0.65120083 0.34879914]  rl reward: [686.9334501  160.75060312]  cost avg time 0.028749201286352423
+episode: 183   episode steps: 88    episode weight: [0.6905333 0.3094667]  rl reward: [119.36876336 275.81117947]  cost avg time 0.029966202649203213
+episode: 184   episode steps: 99    episode weight: [0.6332915  0.36670852]  rl reward: [137.55503252 243.90632673]  cost avg time 0.0311266075481068
+episode: 185   episode steps: 83    episode weight: [0.5192605 0.4807394]  rl reward: [103.62021483 255.6359327 ]  cost avg time 0.029372264103717113
+episode: 186   episode steps: 192   episode weight: [0.465988   0.53401196]  rl reward: [199.69470065 207.5831761 ]  cost avg time 0.0301328810552756
+episode: 187   episode steps: 214   episode weight: [0.08944675 0.9105532 ]  rl reward: [233.88283876 309.34947557]  cost avg time 0.029218570094242273
+episode: 188   episode steps: 188   episode weight: [0.71190643 0.2880936 ]  rl reward: [511.83946284  57.55127273]  cost avg time 0.02962471956902362
+episode: 189   episode steps: 165   episode weight: [0.4686277 0.5313723]  rl reward: [464.92762265  36.66867893]  cost avg time 0.029013818683046283
+episode: 190   episode steps: 101   episode weight: [0.40503693 0.5949631 ]  rl reward: [106.51890543 326.6290239 ]  cost avg time 0.029260880876295636
+episode: 191   episode steps: 136   episode weight: [0.4590303 0.5409697]  rl reward: [ 97.24885278 142.61769263]  cost avg time 0.028727345606859994
+episode: 192   episode steps: 221   episode weight: [0.5670335 0.4329665]  rl reward: [599.59808037 146.03173003]  cost avg time 0.02866343135747435
+episode: 193   episode steps: 152   episode weight: [0.4285537  0.57144636]  rl reward: [ 92.81089048 151.50063219]  cost avg time 0.028993572059430574
+episode: 194   episode steps: 120   episode weight: [0.18173128 0.8182688 ]  rl reward: [ 99.39924349 363.18196692]  cost avg time 0.02876282533009847
+episode: 195   episode steps: 148   episode weight: [0.8445317  0.15546827]  rl reward: [233.41976824 267.82163492]  cost avg time 0.027772574811368377
+episode: 196   episode steps: 224   episode weight: [9.9975932e-01 2.4065017e-04]  rl reward: [846.43968017 230.13934819]  cost avg time 0.028466531208583286
+episode: 197   episode steps: 486   episode weight: [0.72722894 0.27277103]  rl reward: [811.42652118 933.83405142]  cost avg time 0.029615802529417437
+episode: 198   episode steps: 134   episode weight: [0.4750189 0.5249811]  rl reward: [218.68431112 498.95995011]  cost avg time 0.02849861045381916
+episode: 199   episode steps: 104   episode weight: [0.46067432 0.5393257 ]  rl reward: [ 83.38569571 225.47736717]  cost avg time 0.029122989911299486
+episode: 200   episode steps: 114   episode weight: [0.2536256 0.7463744]  rl reward: [106.26229879 107.14752103]  cost avg time 0.028790710265176336
+episode: 201   episode steps: 106   episode weight: [0.45951936 0.5404806 ]  rl reward: [126.10211792 330.07188566]  cost avg time 0.02675107515083169
+episode: 202   episode steps: 130   episode weight: [0.30357963 0.6964204 ]  rl reward: [165.02097811 244.2912172 ]  cost avg time 0.02640196360074557
+episode: 203   episode steps: 235   episode weight: [0.6744756 0.3255244]  rl reward: [760.63246724 275.52749797]  cost avg time 0.026363388020941552
+episode: 204   episode steps: 115   episode weight: [0.35514325 0.64485675]  rl reward: [ 73.04293704 147.00238767]  cost avg time 0.026057776160862134
+episode: 205   episode steps: 122   episode weight: [0.44879347 0.5512065 ]  rl reward: [ 58.27380667 146.98393998]  cost avg time 0.026403802340147924
+episode: 206   episode steps: 99    episode weight: [0.2084438 0.7915562]  rl reward: [ 46.62052006 149.24321751]  cost avg time 0.026426606708102755
+episode: 207   episode steps: 126   episode weight: [0.43097836 0.56902164]  rl reward: [112.13021217 189.11524977]  cost avg time 0.026530657495771135
+episode: 208   episode steps: 500   episode weight: [0.23998056 0.7600194 ]  rl reward: [591.37641511 595.03347374]  cost avg time 0.028869072437286376
+episode: 209   episode steps: 129   episode weight: [0.51942474 0.48057526]  rl reward: [150.68849832 480.3838456 ]  cost avg time 0.028201805528744246
+episode: 210   episode steps: 299   episode weight: [0.14957067 0.85042936]  rl reward: [283.83146859 395.04695406]  cost avg time 0.02930032130467852
+episode: 211   episode steps: 500   episode weight: [0.55314606 0.44685394]  rl reward: [658.03470604 467.56109023]  cost avg time 0.030685019969940185
+episode: 212   episode steps: 103   episode weight: [0.721137   0.27886304]  rl reward: [250.16742795  52.53996921]  cost avg time 0.03155854373302275
+episode: 213   episode steps: 391   episode weight: [0.26120073 0.7387992 ]  rl reward: [389.37093148 423.6903725 ]  cost avg time 0.030810711633823717
+episode: 214   episode steps: 327   episode weight: [0.49678996 0.50321   ]  rl reward: [1073.81602474  471.70266539]  cost avg time 0.03039637909752149
+episode: 215   episode steps: 193   episode weight: [0.43311572 0.5668842 ]  rl reward: [386.69369433 -10.68620177]  cost avg time 0.02843620740070244
+episode: 216   episode steps: 199   episode weight: [0.6720279  0.32797214]  rl reward: [758.75863545 420.97814185]  cost avg time 0.02890105103727561
+episode: 217   episode steps: 187   episode weight: [0.5479393 0.4520607]  rl reward: [162.98344366 447.66353648]  cost avg time 0.03186287726947968
+episode: 218   episode steps: 371   episode weight: [0.69989693 0.300103  ]  rl reward: [ 659.68603638 1440.85029177]  cost avg time 0.03250294361474379
+episode: 219   episode steps: 500   episode weight: [0.32609567 0.67390436]  rl reward: [700.6968231 458.331581 ]  cost avg time 0.03140132761001587
+episode: 220   episode steps: 304   episode weight: [0.45083788 0.5491621 ]  rl reward: [407.43942141 397.27337247]  cost avg time 0.029918269107216282
+episode: 221   episode steps: 189   episode weight: [0.4919148  0.50808513]  rl reward: [254.74314712 562.34580983]  cost avg time 0.029439078436957464
+episode: 222   episode steps: 102   episode weight: [0.6169057 0.3830943]  rl reward: [288.92516713 142.32551826]  cost avg time 0.032765255254857684
+episode: 223   episode steps: 140   episode weight: [0.43422893 0.56577104]  rl reward: [138.22215751 424.62693067]  cost avg time 0.029325214454105922
+episode: 224   episode steps: 500   episode weight: [0.15121621 0.84878385]  rl reward: [718.72816721 552.62782242]  cost avg time 0.02974925422668457
+episode: 225   episode steps: 500   episode weight: [0.01196558 0.98803437]  rl reward: [735.06596804 709.12814259]  cost avg time 0.02712940835952759
+episode: 226   episode steps: 116   episode weight: [0.7062884  0.29371154]  rl reward: [244.1986346 748.7405942]  cost avg time 0.028445208894795383
+episode: 227   episode steps: 147   episode weight: [0.6975542 0.3024459]  rl reward: [239.99558965 559.23316977]  cost avg time 0.026464291981288364
+episode: 228   episode steps: 100   episode weight: [0.36075997 0.6392401 ]  rl reward: [163.0971169  592.78990773]  cost avg time 0.027177820205688475
+episode: 229   episode steps: 245   episode weight: [0.91146266 0.08853735]  rl reward: [ 562.59574595 1159.07029967]  cost avg time 0.027440853508151307
+episode: 230   episode steps: 114   episode weight: [0.48869523 0.5113048 ]  rl reward: [189.98301527 600.83084774]  cost avg time 0.027368208818268357
+episode: 231   episode steps: 113   episode weight: [0.4912749  0.50872517]  rl reward: [169.02759309 581.11627655]  cost avg time 0.028878608636096516
+episode: 232   episode steps: 375   episode weight: [0.49201056 0.5079894 ]  rl reward: [ 627.15605754 1039.50841391]  cost avg time 0.02852238400777181
+episode: 233   episode steps: 134   episode weight: [0.58120954 0.41879055]  rl reward: [170.36928888 263.93129545]  cost avg time 0.028872918726792977
+episode: 234   episode steps: 173   episode weight: [0.15308774 0.84691226]  rl reward: [171.00161869 228.15393177]  cost avg time 0.03256054420691694
+episode: 235   episode steps: 229   episode weight: [0.59707993 0.4029201 ]  rl reward: [1011.51254914  727.97423291]  cost avg time 0.029253292291966066
+episode: 236   episode steps: 203   episode weight: [0.15870266 0.8412973 ]  rl reward: [423.82335973 860.0734643 ]  cost avg time 0.0327012914742155
+episode: 237   episode steps: 119   episode weight: [0.7033327  0.29666725]  rl reward: [320.08647034 690.70141136]  cost avg time 0.03126960642197553
+episode: 238   episode steps: 64    episode weight: [0.18198878 0.8180112 ]  rl reward: [ 73.80239955 150.88287586]  cost avg time 0.028665080666542053
+episode: 239   episode steps: 63    episode weight: [0.44250765 0.5574924 ]  rl reward: [ 72.20343793 153.69549833]  cost avg time 0.028603837603614443
+episode: 240   episode steps: 184   episode weight: [0.7624853  0.23751467]  rl reward: [586.03423844 585.59699759]  cost avg time 0.029105998899625694
+episode: 241   episode steps: 254   episode weight: [0.15305376 0.84694624]  rl reward: [251.66091439 610.60102578]  cost avg time 0.028953622645280494
+episode: 242   episode steps: 128   episode weight: [0.30850065 0.6914993 ]  rl reward: [119.23785958 139.23872476]  cost avg time 0.028792405501008034
+episode: 243   episode steps: 58    episode weight: [0.3877712  0.61222875]  rl reward: [ 73.41982243 105.82827286]  cost avg time 0.028737569677418674
+episode: 244   episode steps: 198   episode weight: [0.25351262 0.7464874 ]  rl reward: [250.52704198 367.48188858]  cost avg time 0.02850961685180664
+episode: 245   episode steps: 152   episode weight: [0.6340963  0.36590365]  rl reward: [327.97287677 711.67095957]  cost avg time 0.029056407903370104
+episode: 246   episode steps: 165   episode weight: [0.02792176 0.9720782 ]  rl reward: [171.91906079 218.65608299]  cost avg time 0.03296136422590776
+episode: 247   episode steps: 110   episode weight: [0.35695937 0.6430406 ]  rl reward: [156.14316453 342.36285086]  cost avg time 0.02877675619992343
+episode: 248   episode steps: 88    episode weight: [0.14450455 0.8554955 ]  rl reward: [ 57.07272906 334.98526954]  cost avg time 0.02888769182291898
+episode: 249   episode steps: 110   episode weight: [0.68280256 0.31719744]  rl reward: [201.3605147  635.56268555]  cost avg time 0.029062472690235486
+episode: 250   episode steps: 143   episode weight: [0.5244167  0.47558334]  rl reward: [344.72419841 732.56129509]  cost avg time 0.02935906890388969
+episode: 251   episode steps: 140   episode weight: [0.79289365 0.2071064 ]  rl reward: [342.19621696 746.74183623]  cost avg time 0.029682370594569615
+episode: 252   episode steps: 139   episode weight: [0.6385211  0.36147887]  rl reward: [231.07207472 578.25886872]  cost avg time 0.029035367554040264
+episode: 253   episode steps: 100   episode weight: [0.5108188  0.48918128]  rl reward: [103.92077708 296.5527677 ]  cost avg time 0.02908517122268677
+episode: 254   episode steps: 287   episode weight: [0.3799658  0.62003416]  rl reward: [395.20221477 597.74061007]  cost avg time 0.027952985896466085
+episode: 255   episode steps: 138   episode weight: [0.31203234 0.68796766]  rl reward: [447.28837267 137.56648427]  cost avg time 0.02720528409100961
+episode: 256   episode steps: 148   episode weight: [0.589732   0.41026795]  rl reward: [288.32186913 673.2170099 ]  cost avg time 0.030163811670767295
+episode: 257   episode steps: 85    episode weight: [0.09656968 0.90343034]  rl reward: [ 56.34063445 220.04980986]  cost avg time 0.028054223341100356
+episode: 258   episode steps: 119   episode weight: [0.5167633  0.48323664]  rl reward: [ 95.27620321 277.99924154]  cost avg time 0.028391194944622136
+episode: 259   episode steps: 125   episode weight: [0.4540914 0.5459086]  rl reward: [163.31761909 297.24848512]  cost avg time 0.02841617774963379
+episode: 260   episode steps: 137   episode weight: [0.38489312 0.6151069 ]  rl reward: [230.99328816 465.57945295]  cost avg time 0.028478817348062558
+episode: 261   episode steps: 135   episode weight: [0.61188084 0.38811922]  rl reward: [206.16218134 494.83412196]  cost avg time 0.027966644145824292
+episode: 262   episode steps: 143   episode weight: [0.5204996  0.47950044]  rl reward: [199.01120841 613.34370231]  cost avg time 0.028691530227661133
+episode: 263   episode steps: 123   episode weight: [0.39128104 0.60871905]  rl reward: [332.88495914 134.19132286]  cost avg time 0.034073244265424525
+episode: 264   episode steps: 113   episode weight: [0.18227689 0.81772316]  rl reward: [112.08212216 181.49555037]  cost avg time 0.028320196455558843
+episode: 265   episode steps: 140   episode weight: [0.52741116 0.47258887]  rl reward: [185.90041551 349.07508282]  cost avg time 0.029261200768607002
+episode: 266   episode steps: 125   episode weight: [0.82489824 0.17510173]  rl reward: [486.18611246  30.48876404]  cost avg time 0.03192841529846192
+episode: 267   episode steps: 111   episode weight: [0.32856625 0.6714338 ]  rl reward: [334.14677253 184.61183972]  cost avg time 0.029801980869190114
+episode: 268   episode steps: 173   episode weight: [0.5921703  0.40782973]  rl reward: [224.44614857 454.62233636]  cost avg time 0.028296977798373712
+episode: 269   episode steps: 128   episode weight: [0.52434754 0.47565246]  rl reward: [242.80684795 513.01155621]  cost avg time 0.02849189005792141
+episode: 270   episode steps: 133   episode weight: [0.5205372  0.47946277]  rl reward: [254.42714217 567.63051681]  cost avg time 0.02993419475125191
+episode: 271   episode steps: 269   episode weight: [0.05762032 0.9423797 ]  rl reward: [375.32800692 680.9781598 ]  cost avg time 0.030269215984415388
+episode: 272   episode steps: 236   episode weight: [0.32424816 0.67575186]  rl reward: [401.04159035 819.71357524]  cost avg time 0.030477224770238846
+episode: 273   episode steps: 131   episode weight: [0.10645011 0.8935499 ]  rl reward: [355.74703948 107.0328766 ]  cost avg time 0.030088999799189678
+episode: 274   episode steps: 113   episode weight: [0.80241674 0.1975833 ]  rl reward: [378.68875171  11.3594364 ]  cost avg time 0.03209610744915177
+episode: 275   episode steps: 276   episode weight: [0.7239247  0.27607524]  rl reward: [900.47476419 885.90889941]  cost avg time 0.03030743892642035
+episode: 276   episode steps: 138   episode weight: [9.994018e-01 5.981551e-04]  rl reward: [545.22973156 -39.4521491 ]  cost avg time 0.029089862021847046
+episode: 277   episode steps: 319   episode weight: [0.40924412 0.5907559 ]  rl reward: [ 679.83453817 1071.02844631]  cost avg time 0.030828802563179998
+episode: 278   episode steps: 126   episode weight: [0.04341839 0.9565816 ]  rl reward: [167.2800086  423.35578755]  cost avg time 0.02925991444360642
+episode: 279   episode steps: 153   episode weight: [0.6283197  0.37168032]  rl reward: [286.14032528 556.98399777]  cost avg time 0.028736195533104192
+episode: 280   episode steps: 72    episode weight: [0.09890596 0.901094  ]  rl reward: [223.13512211  74.74116285]  cost avg time 0.030483543872833252
+episode: 281   episode steps: 148   episode weight: [0.6629696  0.33703038]  rl reward: [288.3870121  720.57035072]  cost avg time 0.030959121278814367
+episode: 282   episode steps: 148   episode weight: [0.611761 0.388239]  rl reward: [289.94488712 617.62533753]  cost avg time 0.032497061265481485
+episode: 283   episode steps: 211   episode weight: [0.3140811 0.6859189]  rl reward: [381.3961078  811.62113294]  cost avg time 0.031075668560950113
+episode: 284   episode steps: 129   episode weight: [0.5037849  0.49621508]  rl reward: [248.95668252 458.45317161]  cost avg time 0.028778859811235766
+episode: 285   episode steps: 158   episode weight: [0.47817117 0.52182883]  rl reward: [336.50445797 675.76524875]  cost avg time 0.028751892379567594
+episode: 286   episode steps: 147   episode weight: [0.42210057 0.5778994 ]  rl reward: [350.15038469 836.32643429]  cost avg time 0.02864302583292228
+episode: 287   episode steps: 132   episode weight: [0.17431232 0.82568765]  rl reward: [418.55826104 279.76775384]  cost avg time 0.028635644551479454
+episode: 288   episode steps: 71    episode weight: [0.8999546  0.10004534]  rl reward: [196.51732714  80.75310352]  cost avg time 0.030290815192209164
+episode: 289   episode steps: 273   episode weight: [0.34129122 0.6587088 ]  rl reward: [ 543.06838363 1182.60774469]  cost avg time 0.031075102942330495
+episode: 290   episode steps: 150   episode weight: [0.22356923 0.7764307 ]  rl reward: [367.53953601 571.36701539]  cost avg time 0.030484528541564943
+episode: 291   episode steps: 153   episode weight: [0.4050854 0.5949146]  rl reward: [343.0997148 825.807241 ]  cost avg time 0.02863894101061852
+episode: 292   episode steps: 164   episode weight: [0.8741569 0.1258431]  rl reward: [539.13870792 667.34931015]  cost avg time 0.02877587806887743
+episode: 293   episode steps: 155   episode weight: [0.592287 0.407713]  rl reward: [444.53876837 636.49056769]  cost avg time 0.029170407018353862
+episode: 294   episode steps: 144   episode weight: [0.21643959 0.78356045]  rl reward: [296.48102379 756.81938368]  cost avg time 0.028721056050724454
+episode: 295   episode steps: 283   episode weight: [0.37639266 0.62360734]  rl reward: [ 801.72602642 1283.12296016]  cost avg time 0.02892212058967078
+episode: 296   episode steps: 159   episode weight: [0.46548095 0.5345191 ]  rl reward: [346.5596775  654.59130366]  cost avg time 0.02866791179345089
+episode: 297   episode steps: 211   episode weight: [0.26537275 0.7346273 ]  rl reward: [674.68871334 674.53609106]  cost avg time 0.029009170441830892
+episode: 298   episode steps: 213   episode weight: [0.7373392  0.26266077]  rl reward: [738.27158388 636.0482228 ]  cost avg time 0.029010319373977016
+episode: 299   episode steps: 277   episode weight: [0.0247441  0.97525585]  rl reward: [356.88556846  77.46075416]  cost avg time 0.02873597850868418
+episode: 300   episode steps: 203   episode weight: [0.47080144 0.5291985 ]  rl reward: [ 738.42648606 1087.68805934]  cost avg time 0.029193954514752467
+episode: 301   episode steps: 129   episode weight: [0.51374686 0.48625317]  rl reward: [533.81517513  33.93480522]  cost avg time 0.0291512178820233
+episode: 302   episode steps: 134   episode weight: [0.08456786 0.9154321 ]  rl reward: [543.53938513  85.46550581]  cost avg time 0.02888997099292812
+episode: 303   episode steps: 137   episode weight: [0.61398095 0.3860191 ]  rl reward: [587.0969913    9.39554571]  cost avg time 0.028292307888504363
+episode: 304   episode steps: 100   episode weight: [0.7545987  0.24540134]  rl reward: [464.1110784  -85.21962267]  cost avg time 0.032290258407592774
+episode: 305   episode steps: 159   episode weight: [0.42191824 0.5780817 ]  rl reward: [731.80103213 299.40989672]  cost avg time 0.02946589877770382
+episode: 306   episode steps: 74    episode weight: [0.47066435 0.5293357 ]  rl reward: [249.00959252  11.99194202]  cost avg time 0.02849078500593031
+episode: 307   episode steps: 98    episode weight: [0.3615111  0.63848895]  rl reward: [398.39597501  25.92660004]  cost avg time 0.02842113193200559
+episode: 308   episode steps: 136   episode weight: [0.25182706 0.74817294]  rl reward: [532.78416177  73.81521209]  cost avg time 0.028721441240871653
+episode: 309   episode steps: 100   episode weight: [0.5147936  0.48520643]  rl reward: [409.00857408  81.50457839]  cost avg time 0.028804731369018555
+episode: 310   episode steps: 153   episode weight: [0.30298808 0.69701195]  rl reward: [425.7881633  562.43265863]  cost avg time 0.029166280833724276
+episode: 311   episode steps: 93    episode weight: [0.27466217 0.7253378 ]  rl reward: [305.51626448 241.85434631]  cost avg time 0.02880959100620721
+episode: 312   episode steps: 100   episode weight: [0.56222194 0.43777812]  rl reward: [350.4395903  277.67893397]  cost avg time 0.028818519115448
+episode: 313   episode steps: 104   episode weight: [0.72429925 0.27570072]  rl reward: [485.5989998  -46.48504901]  cost avg time 0.029223345793210544
+episode: 314   episode steps: 160   episode weight: [0.64709437 0.35290572]  rl reward: [549.73676768 390.29679479]  cost avg time 0.029822918772697448
+episode: 315   episode steps: 99    episode weight: [0.45895293 0.54104704]  rl reward: [343.58676203 258.50289146]  cost avg time 0.03571657700972124
+episode: 316   episode steps: 95    episode weight: [0.5394259  0.46057412]  rl reward: [306.34873649 266.43913343]  cost avg time 0.02951925177323191
+episode: 317   episode steps: 106   episode weight: [0.8041944  0.19580562]  rl reward: [330.23119487 192.60936158]  cost avg time 0.03002850964384259
+episode: 318   episode steps: 292   episode weight: [0.07768135 0.9223187 ]  rl reward: [1073.93302484  831.39976308]  cost avg time 0.029795423762439047
+episode: 319   episode steps: 121   episode weight: [0.6926454  0.30735463]  rl reward: [399.72436313  14.90122625]  cost avg time 0.028213138422690145
+episode: 320   episode steps: 128   episode weight: [0.8418089 0.1581911]  rl reward: [472.5093072  -43.00481723]  cost avg time 0.028852852061390877
+episode: 321   episode steps: 243   episode weight: [0.50004697 0.49995306]  rl reward: [897.39336499 372.0539335 ]  cost avg time 0.027990575680516876
+episode: 322   episode steps: 141   episode weight: [0.40178084 0.5982192 ]  rl reward: [578.57514847  32.78888286]  cost avg time 0.027234172144680158
+episode: 323   episode steps: 128   episode weight: [0.03494575 0.9650542 ]  rl reward: [416.67325631  90.19892819]  cost avg time 0.027758585289120674
+episode: 324   episode steps: 99    episode weight: [0.43093067 0.5690694 ]  rl reward: [ 331.07175017 -126.64906949]  cost avg time 0.028103467189904415
+episode: 325   episode steps: 168   episode weight: [0.13767476 0.8623252 ]  rl reward: [739.49920938 178.26953729]  cost avg time 0.027734113591057912
+episode: 326   episode steps: 389   episode weight: [0.42759246 0.5724076 ]  rl reward: [1603.9958471   939.01606128]  cost avg time 0.02783431614579149
+episode: 327   episode steps: 197   episode weight: [0.5028667  0.49713326]  rl reward: [933.18250722 212.65403347]  cost avg time 0.027340131362682672
+episode: 328   episode steps: 213   episode weight: [0.49899542 0.5010045 ]  rl reward: [801.31221782 187.66887469]  cost avg time 0.027571666968260574
+episode: 329   episode steps: 139   episode weight: [0.5840773  0.41592264]  rl reward: [ 633.49448502 -205.50677977]  cost avg time 0.030692100524902344
+episode: 330   episode steps: 145   episode weight: [0.97953224 0.02046775]  rl reward: [ 623.91004687 -119.21988274]  cost avg time 0.028135225690644364
+episode: 331   episode steps: 202   episode weight: [0.5384775  0.46152258]  rl reward: [890.64858414 579.59564827]  cost avg time 0.027289048279866134
+episode: 332   episode steps: 177   episode weight: [0.79416794 0.2058321 ]  rl reward: [605.60235013 505.87459949]  cost avg time 0.027618136109605347
+episode: 333   episode steps: 147   episode weight: [0.8728051  0.12719485]  rl reward: [549.24438782 271.40269107]  cost avg time 0.02794385118549373
+episode: 334   episode steps: 134   episode weight: [0.53245825 0.46754178]  rl reward: [507.92598176 106.01192647]  cost avg time 0.027538970335205987
+episode: 335   episode steps: 385   episode weight: [0.6353338  0.36466622]  rl reward: [1571.81187213 1358.34946583]  cost avg time 0.027388077277641792
+episode: 336   episode steps: 77    episode weight: [0.32687435 0.6731256 ]  rl reward: [195.76536906 -50.79011054]  cost avg time 0.02728832232487666
+episode: 337   episode steps: 433   episode weight: [0.3477653 0.6522347]  rl reward: [1586.1560609  1435.75930663]  cost avg time 0.027649323329088593
+episode: 338   episode steps: 107   episode weight: [0.8152099  0.18479007]  rl reward: [ 452.10548009 -148.24750167]  cost avg time 0.033325110640481256
+episode: 339   episode steps: 188   episode weight: [0.51086766 0.48913237]  rl reward: [951.32198065 -89.27981692]  cost avg time 0.027616963741627146
+episode: 340   episode steps: 226   episode weight: [0.9422122  0.05778778]  rl reward: [1012.67883616  350.13367312]  cost avg time 0.028462521797787826
+episode: 341   episode steps: 124   episode weight: [0.87036455 0.1296355 ]  rl reward: [ 576.40707644 -105.34651149]  cost avg time 0.027798973744915377
+episode: 342   episode steps: 124   episode weight: [0.93689483 0.06310522]  rl reward: [497.87782059 -28.2845617 ]  cost avg time 0.02758106493180798
+episode: 343   episode steps: 278   episode weight: [0.20280899 0.79719096]  rl reward: [1239.81495682 1035.0959337 ]  cost avg time 0.0275109028644699
+episode: 344   episode steps: 243   episode weight: [0.18793635 0.81206363]  rl reward: [804.03770293 925.64253324]  cost avg time 0.02733635411831577
+episode: 345   episode steps: 143   episode weight: [0.41821375 0.5817863 ]  rl reward: [735.45303632  56.38882484]  cost avg time 0.027799441264225885
+episode: 346   episode steps: 124   episode weight: [0.5151632  0.48483682]  rl reward: [483.13443714 217.42844133]  cost avg time 0.027693975356317336
+episode: 347   episode steps: 93    episode weight: [0.4653884  0.53461164]  rl reward: [357.01215593 -24.89059292]  cost avg time 0.028129418690999348
+episode: 348   episode steps: 158   episode weight: [0.39356336 0.6064366 ]  rl reward: [904.17999409   5.89616783]  cost avg time 0.027060834667350674
+episode: 349   episode steps: 119   episode weight: [0.17937969 0.8206203 ]  rl reward: [459.75283579 124.55983601]  cost avg time 0.027354765339057986
+episode: 350   episode steps: 81    episode weight: [0.5161613  0.48383868]  rl reward: [239.13608253 -92.94275994]  cost avg time 0.027037838358937957
+episode: 351   episode steps: 117   episode weight: [0.7137418 0.2862582]  rl reward: [545.04143448  -1.22210866]  cost avg time 0.02740870785509419
+episode: 352   episode steps: 103   episode weight: [0.33382952 0.6661705 ]  rl reward: [430.84496943 -11.69423719]  cost avg time 0.028247388821203732
+episode: 353   episode steps: 205   episode weight: [0.40864754 0.59135246]  rl reward: [1101.84947985  344.59002372]  cost avg time 0.0272846140512606
+episode: 354   episode steps: 162   episode weight: [0.04706546 0.9529345 ]  rl reward: [760.77770848 214.40643199]  cost avg time 0.02966278276325744
+episode: 355   episode steps: 100   episode weight: [0.32694983 0.67305017]  rl reward: [410.5078021  -14.69970964]  cost avg time 0.027639632225036622
+episode: 356   episode steps: 204   episode weight: [0.48998332 0.5100167 ]  rl reward: [1001.76007641  346.88676119]  cost avg time 0.030318537179161522
+episode: 357   episode steps: 206   episode weight: [0.5586809  0.44131908]  rl reward: [1112.85170692  303.92238956]  cost avg time 0.028162389125638794
+episode: 358   episode steps: 133   episode weight: [0.04154713 0.9584529 ]  rl reward: [642.81462752  21.09508955]  cost avg time 0.028164908401948168
+episode: 359   episode steps: 169   episode weight: [0.12388215 0.8761178 ]  rl reward: [691.69622268 336.311776  ]  cost avg time 0.026748709424712955
+episode: 360   episode steps: 60    episode weight: [0.7347157  0.26528433]  rl reward: [168.86503253   3.27950582]  cost avg time 0.02588630517323812
+episode: 361   episode steps: 285   episode weight: [0.36075306 0.63924694]  rl reward: [942.70028485 987.79808631]  cost avg time 0.025859386042544716
+episode: 362   episode steps: 202   episode weight: [0.49902838 0.5009716 ]  rl reward: [949.23562687 446.96231545]  cost avg time 0.02608381757641783
+episode: 363   episode steps: 147   episode weight: [0.30093378 0.6990662 ]  rl reward: [706.30019395 127.29484382]  cost avg time 0.026045080755843598
+episode: 364   episode steps: 147   episode weight: [0.23889808 0.76110196]  rl reward: [739.49378652  57.01904958]  cost avg time 0.026137699075296623
+episode: 365   episode steps: 201   episode weight: [0.59256995 0.40743005]  rl reward: [1215.37235886  233.33418858]  cost avg time 0.030176646673857277
+episode: 366   episode steps: 319   episode weight: [0.4601548 0.5398452]  rl reward: [1418.17000118 1063.02031733]  cost avg time 0.026977210209287446
+episode: 367   episode steps: 147   episode weight: [0.7584843  0.24151577]  rl reward: [ 920.09258174 -199.17448137]  cost avg time 0.027573326007038556
+obj_batch [[ 659.68603638 1440.85029177]
+ [1586.1560609  1435.75930663]
+ [1603.9958471   939.01606128]] [0. 0.]
+obj_batch [[ 659.68603638 1440.85029177]
+ [1586.1560609  1435.75930663]
+ [1603.9958471   939.01606128]] [0. 0.]
+obj_batch [[ 8.71576178e+02  2.95653222e+02]
+ [ 7.90955515e+02  2.48106527e+02]
+ [ 1.25670453e+03  2.34341967e+02]
+ [ 8.80092048e+02  2.74982644e+02]
+ [ 8.48963526e+02  2.08440670e+02]
+ [ 1.12396199e+03  1.68071949e+02]
+ [ 7.26134170e+02  2.74390322e+02]
+ [ 8.27879830e+02  2.33501606e+02]
+ [ 6.60283168e+02  1.90417140e+02]
+ [ 7.37642323e+02  1.95074574e+02]
+ [ 7.48600794e+02  2.42349139e+02]
+ [ 6.73345761e+02  2.18277399e+02]
+ [ 7.57805719e+02  2.38709990e+02]
+ [ 7.80868976e+02  2.58613386e+02]
+ [ 7.38020373e+02  2.40410035e+02]
+ [ 7.51076422e+02  2.23609885e+02]
+ [ 8.12739945e+02  1.53430010e+02]
+ [ 8.45005076e+02  8.74978068e+01]
+ [ 8.01245663e+02  1.52397638e+02]
+ [ 7.85702944e+02  2.23034222e+02]
+ [ 6.61048566e+02  2.49210813e+02]
+ [ 7.86273278e+02  2.21288795e+02]
+ [ 6.89405235e+02  2.02600594e+02]
+ [ 8.40437390e+02  1.74758171e+02]
+ [ 7.85269607e+02  2.13397212e+02]
+ [ 7.75368361e+02  2.48536691e+02]
+ [ 7.83818098e+02  2.14624375e+02]
+ [ 7.43590799e+02  2.17380757e+02]
+ [ 7.10703324e+02  2.22426017e+02]
+ [ 1.07623334e+03  3.33638412e+02]
+ [ 8.14232479e+02  2.66576396e+02]
+ [ 8.04695935e+02  1.52842386e+02]
+ [ 8.27536708e+02  1.76787509e+02]
+ [ 7.81444932e+02  1.81883664e+02]
+ [ 7.46566091e+02  1.71401752e+02]
+ [ 8.96921984e+02  1.61496059e+02]
+ [ 1.30478650e+03  5.44565873e+02]
+ [ 1.14090788e+03  3.66789013e+02]
+ [ 1.12861674e+03  1.75568269e+02]
+ [ 8.27642331e+02  2.25365146e+02]
+ [ 6.98093292e+02  2.10623247e+02]
+ [ 7.68242427e+02  2.31828187e+02]
+ [ 6.97670528e+02  2.03983125e+02]
+ [ 1.74417941e+03  2.96184904e+02]
+ [ 9.89313702e+02  2.07435679e+02]
+ [ 9.39069984e+02  1.66604011e+02]
+ [ 8.47723312e+02  1.40300705e+02]
+ [ 9.52792725e+02  2.25312747e+02]
+ [ 8.31275636e+02  1.05836104e+02]
+ [ 9.77920230e+02  2.28104332e+02]
+ [ 9.45378758e+02  2.75878044e+02]
+ [ 9.46405833e+02  2.66994506e+02]
+ [ 9.25861823e+02  1.51705796e+02]
+ [ 1.28878168e+03  6.18725185e+01]
+ [ 7.17906884e+02  1.49091825e+02]
+ [ 7.99988830e+02  2.02597387e+02]
+ [ 1.29962313e+03  5.24047040e+02]
+ [ 8.66112244e+02  2.11777929e+02]
+ [ 9.54775615e+02  3.29663565e+02]
+ [ 1.40504196e+03  2.19734023e+02]
+ [ 1.29819926e+03  3.16239009e+02]
+ [ 1.03245340e+03  3.14972934e+02]
+ [ 9.01853541e+02  2.36964004e+02]
+ [ 8.87511938e+02  2.36934715e+02]
+ [ 7.69194137e+02  1.89994495e+02]
+ [ 7.48110672e+02  2.08246414e+02]
+ [ 1.08782013e+03  2.28893807e+02]
+ [ 8.84316573e+02  1.21374878e+02]
+ [ 8.43583751e+02  1.60922346e+02]
+ [ 9.76860397e+02  2.27944739e+02]
+ [ 8.01625644e+02  1.26937727e+02]
+ [ 1.07371785e+03  2.17855335e+02]
+ [ 1.04789159e+03  2.21120130e+02]
+ [ 1.13340572e+03  2.46354731e+02]
+ [ 9.92622235e+02  1.81716348e+02]
+ [ 1.12570433e+03  2.39653505e+02]
+ [ 9.21267430e+02  1.12366819e+02]
+ [ 9.24326659e+02  9.82300186e+01]
+ [ 9.20219637e+02  8.32024574e+01]
+ [ 7.43647601e+02  2.05050293e+01]
+ [ 5.76396816e+02  2.10096555e+01]
+ [ 7.32850317e+02  1.62517942e+01]
+ [ 7.46352955e+02  1.07816533e+01]
+ [ 6.31801954e+02  1.53428459e+01]
+ [ 5.73039215e+02  5.76358935e+01]
+ [ 5.73820011e+02  4.83332978e+01]
+ [ 5.21490762e+02  8.05063275e+00]
+ [ 5.14349905e+02  1.47101753e+01]
+ [ 5.83979128e+02  4.64546453e+01]
+ [ 6.52778402e+02 -1.25668610e+01]
+ [ 5.75262485e+02  4.78518414e+01]
+ [ 5.26338082e+02  8.46510748e+00]
+ [ 4.95215447e+02 -9.33546143e+00]
+ [ 5.70270799e+02  3.24095286e+01]
+ [ 5.19209313e+02  1.10323050e+01]
+ [ 7.18250475e+02  4.58471743e+01]
+ [ 7.36528579e+02  5.43967751e+01]
+ [ 9.04900649e+02  2.38219212e+02]
+ [ 6.20902779e+02  3.14022079e+01]
+ [ 6.23768144e+02  4.18795168e+01]
+ [ 8.08337419e+02  1.80571869e+02]
+ [ 7.46801718e+02  1.37709447e+02]
+ [ 7.46040121e+02  1.00995249e+02]
+ [ 6.50398868e+02  5.35373759e+01]
+ [ 6.53505920e+02  5.96104672e+01]
+ [ 6.49848740e+02  6.03201634e+01]
+ [ 6.31987680e+02  4.67776498e+01]
+ [ 6.25991986e+02  4.23527764e+01]
+ [ 5.95230514e+02  2.00056534e+01]
+ [ 6.93660994e+02  5.25098194e+01]
+ [ 5.66521047e+02 -9.33818400e+00]
+ [ 5.47844415e+02  2.86662434e+00]
+ [ 5.76548902e+02  9.56384016e+00]
+ [ 5.73521472e+02  3.79853009e+01]
+ [ 5.74381103e+02  3.42532117e+01]
+ [ 5.65508356e+02 -1.79661733e+00]
+ [ 4.99926556e+02 -1.38658576e+01]
+ [ 5.10979533e+02 -1.09060640e+01]
+ [ 5.89773134e+02  4.01193416e+00]
+ [ 5.91503557e+02  9.81311126e+00]
+ [ 5.46671048e+02 -2.99802611e+01]
+ [ 9.22430828e+02  7.26212972e+01]
+ [ 9.41434990e+02  5.08029113e+01]
+ [ 1.26794881e+03 -1.72619067e+01]
+ [ 6.34581530e+02 -6.78318976e+00]
+ [ 1.07019906e+03 -7.73101441e+01]
+ [ 9.92972849e+02  9.76734455e+01]
+ [ 7.84411829e+02 -4.63738389e+01]
+ [ 7.55913533e+02 -6.51276636e+00]
+ [ 9.08253334e+02 -3.73384484e+01]
+ [ 7.42404740e+02  1.85494658e+01]
+ [ 9.03029608e+02 -4.63183845e+01]
+ [ 8.80457154e+02 -3.46751179e+01]
+ [ 8.28093427e+02 -2.04841191e+01]
+ [ 1.24893289e+03  2.33653027e+02]
+ [ 6.61196962e+02 -7.53185373e+01]
+ [ 7.59684785e+02  5.72662463e+00]
+ [ 1.24999593e+03 -2.10107110e+01]
+ [ 9.45807197e+02 -3.88844498e+00]
+ [ 6.68903822e+02 -6.72453102e+01]
+ [ 7.06044616e+02 -7.64200794e+01]
+ [ 7.55113565e+02 -2.02722249e+01]
+ [ 7.90097778e+02  6.69917292e+01]
+ [ 9.81974419e+02  1.11344316e+01]
+ [ 9.73839639e+02  1.69941445e+01]
+ [ 8.71780486e+02  7.61906154e+01]
+ [ 9.20751096e+02  2.14061946e+01]
+ [ 1.15024943e+03  1.68768739e+01]
+ [ 8.10398194e+02  5.00685948e+01]
+ [ 5.96440135e+02 -1.07713424e+01]
+ [ 6.06086453e+02 -4.85806678e+00]
+ [ 5.59215116e+02 -1.41024575e+01]
+ [ 5.87150309e+02 -2.07297322e+01]
+ [ 5.57002892e+02 -1.18931380e+01]
+ [ 6.00563396e+02  5.17529854e+00]
+ [ 6.10853812e+02  9.30248134e+00]
+ [ 5.44558815e+02 -1.71889143e+01]
+ [ 5.86933626e+02 -2.34511871e+01]
+ [ 6.33773713e+02  6.18820906e+00]
+ [ 6.14087315e+02  4.86851959e+00]
+ [ 6.01191161e+02 -1.53226005e+01]
+ [ 6.53877734e+02  1.09339159e+01]
+ [ 6.18329400e+02 -3.33707628e+00]
+ [ 6.04629278e+02 -1.64398482e+01]
+ [ 5.94722991e+02 -2.66945311e+01]
+ [ 6.05067539e+02 -1.86673946e+01]
+ [ 5.93617045e+02 -8.71949776e+00]
+ [ 5.72464043e+02 -7.73347515e+00]
+ [ 6.91067769e+02  3.39628840e+01]
+ [ 6.48304713e+02  4.30934462e-01]
+ [ 6.79330958e+02  9.28114474e+00]
+ [ 7.03111140e+02  2.81175821e+01]
+ [ 8.34416875e+02  9.97704683e+01]
+ [ 7.99003120e+02  7.01103653e+01]
+ [ 8.30424981e+02 -1.76170942e+01]
+ [ 8.16618010e+02  8.92573800e+01]
+ [ 1.06411853e+03  9.53402824e+01]
+ [ 8.64641462e+02  6.05393170e+01]
+ [ 6.78026388e+02 -1.74103087e+01]
+ [ 8.10620026e+02  4.91073623e+01]
+ [ 8.09194891e+02  5.70409226e+01]
+ [ 7.28116599e+02  2.11611954e+01]
+ [ 7.65044986e+02 -6.69015994e+01]
+ [ 6.61658241e+02  2.87348907e+01]
+ [ 8.65118066e+02  6.47541613e+00]
+ [ 7.37149236e+02 -3.79456001e+01]
+ [ 9.00620437e+02  3.80184846e+01]
+ [ 1.14700814e+03  1.20788552e+02]
+ [ 1.04864347e+03  2.29102630e+02]
+ [ 1.50647474e+03  1.61520164e+02]
+ [ 6.28481309e+02 -3.93375454e+00]
+ [ 8.79849975e+02  1.79352338e+01]
+ [ 1.04829895e+03  1.93479810e+02]
+ [ 6.09664919e+02 -1.31074042e+01]
+ [ 1.17376191e+03  1.65429720e+02]
+ [ 1.28039925e+03  1.32666013e+02]
+ [ 1.17312040e+03  1.55852114e+02]
+ [ 1.15829491e+03  1.95966969e+02]
+ [ 1.11349011e+03  1.02590796e+02]
+ [ 1.31378037e+03  1.42064200e+02]
+ [ 1.47462057e+03  5.52721899e+01]] [0. 0.]
+episode: 368   episode steps: 187   episode weight: [0.90103495 0.09896506]  rl reward: [1100.55871369    7.97874476]  cost avg time 0.20420817257886265
+episode: 369   episode steps: 368   episode weight: [0.36245632 0.63754374]  rl reward: [1222.15014686 1400.33469087]  cost avg time 0.028056777041891346
+episode: 370   episode steps: 130   episode weight: [0.4747532  0.52524674]  rl reward: [ 677.28548901 -104.86407115]  cost avg time 0.0275085082420936
+episode: 371   episode steps: 63    episode weight: [0.16009125 0.8399088 ]  rl reward: [167.53092919  83.16279328]  cost avg time 0.029259923904661148
+episode: 372   episode steps: 62    episode weight: [0.5501573  0.44984266]  rl reward: [169.41326673  41.07575522]  cost avg time 0.029997979440996723
+episode: 373   episode steps: 120   episode weight: [0.0926837 0.9073163]  rl reward: [539.66084303 -74.04102502]  cost avg time 0.02841983437538147
+episode: 374   episode steps: 94    episode weight: [0.6501122 0.3498878]  rl reward: [362.54478228 -76.4200591 ]  cost avg time 0.028076671539468967
+episode: 375   episode steps: 171   episode weight: [0.06523629 0.9347637 ]  rl reward: [827.91764141 139.67110746]  cost avg time 0.026333966450384487
+episode: 376   episode steps: 118   episode weight: [0.43852475 0.5614753 ]  rl reward: [481.36086253  20.78520998]  cost avg time 0.02627550949484615
+episode: 377   episode steps: 173   episode weight: [0.42407453 0.5759255 ]  rl reward: [802.54694566 186.88861615]  cost avg time 0.026425241734940194
+episode: 378   episode steps: 245   episode weight: [0.27155972 0.7284403 ]  rl reward: [1312.4570258   511.27755431]  cost avg time 0.03619485777251574
+episode: 379   episode steps: 352   episode weight: [0.41559255 0.5844075 ]  rl reward: [1171.83220524 1829.48511508]  cost avg time 0.03042417832396247
+episode: 380   episode steps: 205   episode weight: [0.9230542  0.07694574]  rl reward: [772.48019798 487.71154742]  cost avg time 0.029405628762594085
+episode: 381   episode steps: 391   episode weight: [0.01570872 0.98429126]  rl reward: [ 828.26887441 1127.6216566 ]  cost avg time 0.030264611134443748
+episode: 382   episode steps: 146   episode weight: [0.7574381  0.24256185]  rl reward: [631.37150381 343.0314257 ]  cost avg time 0.029814849161121943
+episode: 383   episode steps: 137   episode weight: [0.53829104 0.46170893]  rl reward: [591.46543356   9.42859994]  cost avg time 0.028497735949328345
+episode: 384   episode steps: 75    episode weight: [0.2581355 0.7418645]  rl reward: [217.9316572   43.84438579]  cost avg time 0.030192400614420575
+episode: 385   episode steps: 500   episode weight: [0.5692266  0.43077344]  rl reward: [1378.59183953 1721.64502999]  cost avg time 0.02867985200881958
+episode: 386   episode steps: 257   episode weight: [0.62753373 0.37246624]  rl reward: [587.12771289 710.47808016]  cost avg time 0.02551487911536072
+episode: 387   episode steps: 194   episode weight: [0.98692125 0.01307878]  rl reward: [986.00660392 247.17800693]  cost avg time 0.025549753425047568
+episode: 388   episode steps: 108   episode weight: [0.611328   0.38867202]  rl reward: [431.52684165 -15.58280124]  cost avg time 0.02533850184193364
+episode: 389   episode steps: 127   episode weight: [0.3082982 0.6917018]  rl reward: [ 666.54856152 -257.25082216]  cost avg time 0.024978423681784802
+episode: 390   episode steps: 191   episode weight: [0.71677524 0.28322473]  rl reward: [932.07409232 119.64002558]  cost avg time 0.025409894463903616
+episode: 391   episode steps: 114   episode weight: [0.59409153 0.40590844]  rl reward: [ 547.11344275 -221.04597336]  cost avg time 0.025707113115411056
+episode: 392   episode steps: 84    episode weight: [0.89438766 0.10561236]  rl reward: [ 173.53936602 -181.25189703]  cost avg time 0.024904915264674594
+episode: 393   episode steps: 423   episode weight: [0.5565176  0.44348237]  rl reward: [2770.51962168 1127.35659551]  cost avg time 0.025654151366393898
+episode: 394   episode steps: 234   episode weight: [0.22584502 0.77415496]  rl reward: [629.75509745 396.38199084]  cost avg time 0.024857756419059556
+episode: 395   episode steps: 237   episode weight: [0.4722684 0.5277316]  rl reward: [1264.22837816  230.63794672]  cost avg time 0.024315624800412463
+episode: 396   episode steps: 215   episode weight: [0.4106495 0.5893505]  rl reward: [396.4990948  821.99970606]  cost avg time 0.024374539353126702
+episode: 397   episode steps: 390   episode weight: [0.7289852  0.27101475]  rl reward: [1228.7741846  1525.05296862]  cost avg time 0.024068523675967485
+episode: 398   episode steps: 182   episode weight: [0.84249103 0.157509  ]  rl reward: [957.86305285  -1.03827472]  cost avg time 0.024330478448134202
+episode: 399   episode steps: 143   episode weight: [0.14817025 0.85182977]  rl reward: [642.65112603  13.42071276]  cost avg time 0.024340007688615706
+episode: 400   episode steps: 400   episode weight: [0.9952467 0.0047533]  rl reward: [1726.55834972 1526.75299175]  cost avg time 0.024792765378952027
+episode: 401   episode steps: 91    episode weight: [0.52217    0.47783002]  rl reward: [236.66060279 -55.67428258]  cost avg time 0.02407428720495203
+episode: 402   episode steps: 192   episode weight: [0.483717   0.51628304]  rl reward: [859.92965221  90.16542439]  cost avg time 0.025945574045181274
+episode: 403   episode steps: 104   episode weight: [0.55228215 0.44771782]  rl reward: [306.08545349  22.66240138]  cost avg time 0.02666186598631052
+episode: 404   episode steps: 500   episode weight: [0.22190838 0.7780916 ]  rl reward: [1106.67321815 1821.75245108]  cost avg time 0.024264349937438964
+episode: 405   episode steps: 111   episode weight: [0.4347572 0.5652428]  rl reward: [337.46099754  10.34980834]  cost avg time 0.024175884487392666
+episode: 406   episode steps: 133   episode weight: [0.7982474  0.20175254]  rl reward: [508.64004805 177.88456242]  cost avg time 0.023812263531792433
+episode: 407   episode steps: 208   episode weight: [0.41693473 0.5830653 ]  rl reward: [1104.28491642   13.45246072]  cost avg time 0.02338276459620549
+episode: 408   episode steps: 85    episode weight: [0.15166998 0.84833   ]  rl reward: [238.40652127  11.15196417]  cost avg time 0.0233915553373449
+episode: 409   episode steps: 194   episode weight: [0.865907   0.13409294]  rl reward: [792.24450725 191.89976839]  cost avg time 0.023842555960429085
+episode: 410   episode steps: 61    episode weight: [0.36840925 0.6315908 ]  rl reward: [126.13665817 133.08283334]  cost avg time 0.023419806214629628
+episode: 411   episode steps: 74    episode weight: [0.00108942 0.99891055]  rl reward: [186.45667734 -13.22422235]  cost avg time 0.023437741640451794
+episode: 412   episode steps: 397   episode weight: [0.60303324 0.39696673]  rl reward: [1093.9581337  1850.74922739]  cost avg time 0.023656302195051757
+episode: 413   episode steps: 500   episode weight: [0.07945667 0.9205434 ]  rl reward: [1326.47731776 2087.37228841]  cost avg time 0.02856843948364258
+episode: 414   episode steps: 83    episode weight: [0.11605649 0.88394356]  rl reward: [238.09282911 107.71379238]  cost avg time 0.025352153433374613
+episode: 415   episode steps: 90    episode weight: [0.40359467 0.5964053 ]  rl reward: [238.01029769 117.04856155]  cost avg time 0.025280178917778864
+episode: 416   episode steps: 49    episode weight: [0.32392484 0.67607516]  rl reward: [ 92.88326358 122.59646177]  cost avg time 0.02581461595029247
+episode: 417   episode steps: 306   episode weight: [0.6970816  0.30291831]  rl reward: [1295.47155711  723.19694613]  cost avg time 0.02716702261781381
+episode: 418   episode steps: 156   episode weight: [0.48939207 0.5106079 ]  rl reward: [310.01565575 582.53140842]  cost avg time 0.027530819941789676
+episode: 419   episode steps: 79    episode weight: [0.79531026 0.20468973]  rl reward: [226.95620461 -25.47059615]  cost avg time 0.02916409999509401
+episode: 420   episode steps: 238   episode weight: [0.4563674 0.5436326]  rl reward: [670.0689135  847.29971713]  cost avg time 0.028731251965049935
+episode: 421   episode steps: 44    episode weight: [0.48498115 0.5150188 ]  rl reward: [ 84.68305907 118.88881196]  cost avg time 0.02853560989553278
+episode: 422   episode steps: 184   episode weight: [0.18952416 0.8104758 ]  rl reward: [346.32917269 382.67653933]  cost avg time 0.028429876203122345
+episode: 423   episode steps: 42    episode weight: [0.13064702 0.869353  ]  rl reward: [79.09815564 98.53494386]  cost avg time 0.02826547622680664
+episode: 424   episode steps: 135   episode weight: [0.79536724 0.20463268]  rl reward: [532.24319709  63.80715126]  cost avg time 0.02813341705887406
+episode: 425   episode steps: 47    episode weight: [0.47185314 0.5281468 ]  rl reward: [ 93.04972092 123.64487342]  cost avg time 0.028982872658587518
+episode: 426   episode steps: 41    episode weight: [0.1566459 0.8433541]  rl reward: [ 74.09124134 110.62544676]  cost avg time 0.029193122212479754
+episode: 427   episode steps: 500   episode weight: [0.7040021  0.29599795]  rl reward: [1814.07226819 2740.04643991]  cost avg time 0.028321425914764404
+episode: 428   episode steps: 152   episode weight: [0.4020384  0.59796166]  rl reward: [398.62479299 902.92061274]  cost avg time 0.029566270740408646
+episode: 429   episode steps: 199   episode weight: [0.6021382  0.39786175]  rl reward: [842.26138525 304.5233973 ]  cost avg time 0.03187966825974047
+episode: 430   episode steps: 500   episode weight: [0.28598142 0.71401864]  rl reward: [1614.01468493 2825.3167455 ]  cost avg time 0.028560909748077394
+episode: 431   episode steps: 212   episode weight: [0.80983645 0.19016357]  rl reward: [881.77168049 398.84580459]  cost avg time 0.028036905909484287
+episode: 432   episode steps: 293   episode weight: [0.39417985 0.6058201 ]  rl reward: [1260.68962439  887.68206934]  cost avg time 0.028399935354551764
+episode: 433   episode steps: 256   episode weight: [0.5199904  0.48000965]  rl reward: [1122.39984918  567.9790008 ]  cost avg time 0.028280961327254772
+episode: 434   episode steps: 500   episode weight: [0.01839861 0.9816014 ]  rl reward: [1669.06695092 2650.47166044]  cost avg time 0.02886271572113037
+episode: 435   episode steps: 500   episode weight: [0.74167097 0.2583291 ]  rl reward: [1497.73987264 2101.56824301]  cost avg time 0.029108615875244142
+episode: 436   episode steps: 219   episode weight: [0.10708609 0.8929139 ]  rl reward: [605.48062252 494.29952628]  cost avg time 0.02767152982215359
+episode: 437   episode steps: 216   episode weight: [0.60080904 0.39919096]  rl reward: [487.08361274 537.72760988]  cost avg time 0.027860716537193016
+episode: 438   episode steps: 203   episode weight: [0.5282272 0.4717727]  rl reward: [1278.20341051   17.40744754]  cost avg time 0.02705472913281671
+episode: 439   episode steps: 123   episode weight: [0.6693711 0.3306289]  rl reward: [425.25274178 385.01803718]  cost avg time 0.028068763453785967
+episode: 440   episode steps: 500   episode weight: [0.6823892  0.31761077]  rl reward: [1687.58225055 2738.25977054]  cost avg time 0.027438608169555664
+episode: 441   episode steps: 197   episode weight: [0.4379927 0.5620073]  rl reward: [1000.15935669  247.79902541]  cost avg time 0.027511832677773414
+episode: 442   episode steps: 158   episode weight: [0.6169264 0.3830736]  rl reward: [774.34871956  20.6070418 ]  cost avg time 0.028226689447330523
+episode: 443   episode steps: 500   episode weight: [0.5931672  0.40683278]  rl reward: [2118.90616098 2988.32323519]  cost avg time 0.029164578437805174
+episode: 444   episode steps: 298   episode weight: [0.45287648 0.54712355]  rl reward: [1153.72712156  759.74762451]  cost avg time 0.027900852613001063
+episode: 445   episode steps: 227   episode weight: [0.1569471  0.84305286]  rl reward: [1005.2157249   363.19258051]  cost avg time 0.027401783392817965
+episode: 446   episode steps: 103   episode weight: [0.28110096 0.718899  ]  rl reward: [353.38929313  -4.24264359]  cost avg time 0.028355836868286133
+episode: 447   episode steps: 182   episode weight: [0.41434592 0.5856541 ]  rl reward: [886.38456624 111.61704178]  cost avg time 0.027583202162941734
+episode: 448   episode steps: 91    episode weight: [0.15029715 0.8497029 ]  rl reward: [226.08693839  25.48682748]  cost avg time 0.027696787656008543
+episode: 449   episode steps: 467   episode weight: [0.42277148 0.5772285 ]  rl reward: [1135.78988054 2510.47221148]  cost avg time 0.02739586973088201
+episode: 450   episode steps: 224   episode weight: [0.95077235 0.04922763]  rl reward: [990.81992317 549.56767012]  cost avg time 0.027369079845292226
+episode: 451   episode steps: 227   episode weight: [0.66349334 0.3365067 ]  rl reward: [767.3289089  706.38534858]  cost avg time 0.02768326960996384
+episode: 452   episode steps: 500   episode weight: [0.17011763 0.82988244]  rl reward: [1353.80538846 2109.54824576]  cost avg time 0.027876368045806885
+episode: 453   episode steps: 146   episode weight: [0.22083627 0.7791638 ]  rl reward: [279.05650839 460.97905504]  cost avg time 0.02680214137247164
+episode: 454   episode steps: 265   episode weight: [0.64397055 0.35602945]  rl reward: [1044.34265345 1074.71966368]  cost avg time 0.02607364924448841
+episode: 455   episode steps: 159   episode weight: [0.44622162 0.55377835]  rl reward: [506.43379178 775.1881248 ]  cost avg time 0.02531546616704209
+episode: 456   episode steps: 86    episode weight: [0.1825452 0.8174548]  rl reward: [202.07015555  72.80586264]  cost avg time 0.025776652402656024
+episode: 457   episode steps: 474   episode weight: [0.53455544 0.4654446 ]  rl reward: [1527.70132561 2410.31223721]  cost avg time 0.02506891986991786
+episode: 458   episode steps: 253   episode weight: [0.63028675 0.36971325]  rl reward: [955.22927654 742.47149592]  cost avg time 0.025030694931392143
+episode: 459   episode steps: 78    episode weight: [0.7303342  0.26966575]  rl reward: [204.81977969  20.57123199]  cost avg time 0.025289098421732586
+episode: 460   episode steps: 63    episode weight: [0.3284787  0.67152125]  rl reward: [157.23726608  66.91603   ]  cost avg time 0.025125363516429113
+episode: 461   episode steps: 146   episode weight: [0.5425984 0.4574016]  rl reward: [ 797.10874073 -134.51342693]  cost avg time 0.025372191651226724
+episode: 462   episode steps: 206   episode weight: [0.9557402  0.04425976]  rl reward: [765.60077757 139.70615762]  cost avg time 0.030178649911602722
+episode: 463   episode steps: 500   episode weight: [0.14529184 0.85470814]  rl reward: [1337.72357304 2558.09884813]  cost avg time 0.02775776243209839
+episode: 464   episode steps: 233   episode weight: [0.5076302 0.4923698]  rl reward: [779.65139748 298.68468754]  cost avg time 0.02740272124949443
+episode: 465   episode steps: 244   episode weight: [0.0691113 0.9308887]  rl reward: [495.60464342 694.44386117]  cost avg time 0.027276384048774593
+episode: 466   episode steps: 174   episode weight: [0.45740762 0.54259235]  rl reward: [272.6895435  333.67682352]  cost avg time 0.027739082259693366
+episode: 467   episode steps: 152   episode weight: [0.52358794 0.4764121 ]  rl reward: [587.18315396 260.09365445]  cost avg time 0.027279383257815714
+episode: 468   episode steps: 85    episode weight: [0.6813141  0.31868595]  rl reward: [209.62441889 -81.74313401]  cost avg time 0.027406765432918773
+episode: 469   episode steps: 183   episode weight: [0.48797885 0.5120211 ]  rl reward: [382.24539314  81.48033511]  cost avg time 0.02764348775311246
+episode: 470   episode steps: 500   episode weight: [0.15146448 0.84853554]  rl reward: [1337.42512845 2421.68656546]  cost avg time 0.027991350173950196
+episode: 471   episode steps: 500   episode weight: [0.5003647 0.4996353]  rl reward: [1675.80393712 3019.35031904]  cost avg time 0.028572147369384765
+episode: 472   episode steps: 270   episode weight: [0.50383466 0.4961654 ]  rl reward: [937.17043183 696.06181637]  cost avg time 0.028065703533313894
+episode: 473   episode steps: 152   episode weight: [0.5782916  0.42170843]  rl reward: [476.18581012 170.02158708]  cost avg time 0.03781199298406902
+episode: 474   episode steps: 500   episode weight: [0.39397874 0.6060212 ]  rl reward: [1387.08573934 2937.27862636]  cost avg time 0.030140908241271972
+episode: 475   episode steps: 500   episode weight: [0.37921906 0.62078094]  rl reward: [1421.24676602 2969.06723742]  cost avg time 0.02874028205871582
+episode: 476   episode steps: 332   episode weight: [0.09411953 0.90588045]  rl reward: [ 784.53463024 1066.02294853]  cost avg time 0.03322534101555146
+episode: 477   episode steps: 500   episode weight: [0.36086273 0.63913727]  rl reward: [1480.93795182 3335.78309785]  cost avg time 0.029376465797424315
+episode: 478   episode steps: 239   episode weight: [0.29237753 0.70762247]  rl reward: [ 700.4755125  1094.76854399]  cost avg time 0.028268886909325254
+episode: 479   episode steps: 210   episode weight: [0.52765656 0.47234342]  rl reward: [ 698.91105962 1015.47127321]  cost avg time 0.02912703241620745
+episode: 480   episode steps: 223   episode weight: [0.4995194 0.5004806]  rl reward: [1058.02523004  109.72982087]  cost avg time 0.0284740711006883
+episode: 481   episode steps: 248   episode weight: [0.01610756 0.98389244]  rl reward: [1082.36205066  350.74274719]  cost avg time 0.028735794367328767
+episode: 482   episode steps: 500   episode weight: [0.12528571 0.87471426]  rl reward: [1321.20456137 3495.99329857]  cost avg time 0.028755163669586182
+episode: 483   episode steps: 159   episode weight: [0.7291901  0.27080995]  rl reward: [515.65847257 380.14161533]  cost avg time 0.028566158042763762
+episode: 484   episode steps: 102   episode weight: [0.2809862 0.7190138]  rl reward: [ 226.75571887 -113.66666218]  cost avg time 0.03005693005580528
+episode: 485   episode steps: 218   episode weight: [0.4942011  0.50579894]  rl reward: [1237.76899701  182.41417539]  cost avg time 0.028879518902629887
+episode: 486   episode steps: 264   episode weight: [0.6492347  0.35076535]  rl reward: [1244.87384291 1050.22188521]  cost avg time 0.028593109412626785
+episode: 487   episode steps: 149   episode weight: [0.01439043 0.98560953]  rl reward: [ 7.22370720e+02 -2.67858578e-01]  cost avg time 0.028626720377262806
+episode: 488   episode steps: 244   episode weight: [0.8005147  0.19948536]  rl reward: [1082.75694003  626.83225374]  cost avg time 0.028482942307581666
+episode: 489   episode steps: 500   episode weight: [0.02879871 0.97120136]  rl reward: [1330.00011683 2815.05359234]  cost avg time 0.028944580078125
+episode: 490   episode steps: 500   episode weight: [0.84636354 0.15363644]  rl reward: [1493.97130256 2526.02089633]  cost avg time 0.03036866617202759
+episode: 491   episode steps: 295   episode weight: [0.5704754  0.42952466]  rl reward: [1192.19490604 1582.45991129]  cost avg time 0.0292995283159159
+episode: 492   episode steps: 209   episode weight: [0.50660926 0.49339068]  rl reward: [326.34676315 340.8823679 ]  cost avg time 0.029823249606994923
+episode: 493   episode steps: 283   episode weight: [0.46090245 0.53909755]  rl reward: [1183.36755741  765.31968611]  cost avg time 0.02770588339006943
+episode: 494   episode steps: 262   episode weight: [0.14046529 0.8595347 ]  rl reward: [1156.56874865 1478.14781385]  cost avg time 0.03331730474952523
+episode: 495   episode steps: 404   episode weight: [0.63907593 0.36092404]  rl reward: [1404.14214178 1450.06125156]  cost avg time 0.03062819549352816
+episode: 496   episode steps: 500   episode weight: [0.62910044 0.37089962]  rl reward: [1657.61396228 3088.41097359]  cost avg time 0.02912284755706787
+episode: 497   episode steps: 328   episode weight: [0.925041   0.07495899]  rl reward: [1333.18644056 1760.12366979]  cost avg time 0.032134995954792675
+episode: 498   episode steps: 169   episode weight: [0.30468675 0.6953133 ]  rl reward: [696.33021727 517.49656153]  cost avg time 0.028454941405347114
+episode: 499   episode steps: 331   episode weight: [0.6655582  0.33444175]  rl reward: [1485.88472893  897.33380047]  cost avg time 0.028910000158580768
+episode: 500   episode steps: 325   episode weight: [0.43279138 0.5672086 ]  rl reward: [ 489.49219766 1105.5500979 ]  cost avg time 0.028745048963106597
+episode: 501   episode steps: 500   episode weight: [0.46764728 0.53235275]  rl reward: [1524.22829303 2735.2732912 ]  cost avg time 0.02850910186767578
+episode: 502   episode steps: 500   episode weight: [0.67411584 0.3258842 ]  rl reward: [1547.87715276 2991.64527825]  cost avg time 0.030328944206237794
+episode: 503   episode steps: 123   episode weight: [0.31384906 0.6861509 ]  rl reward: [226.26379255 522.73739194]  cost avg time 0.03115602431258535
+episode: 504   episode steps: 290   episode weight: [0.42240942 0.5775906 ]  rl reward: [1168.75120894  490.20487711]  cost avg time 0.029078213921908673
+episode: 505   episode steps: 353   episode weight: [0.34285447 0.65714556]  rl reward: [ 686.35870456 1190.53673962]  cost avg time 0.028720331597260645
+episode: 506   episode steps: 500   episode weight: [0.4985909 0.5014091]  rl reward: [1293.23926689 2761.71025489]  cost avg time 0.029046354293823243
+episode: 507   episode steps: 231   episode weight: [0.40160653 0.59839344]  rl reward: [ 987.71605187 1069.89902059]  cost avg time 0.02857455959567776
+episode: 508   episode steps: 96    episode weight: [0.61774915 0.38225085]  rl reward: [206.89938482 250.35071086]  cost avg time 0.02917416642109553
+episode: 509   episode steps: 417   episode weight: [0.5307426  0.46925744]  rl reward: [1910.9326298  1784.46919057]  cost avg time 0.029913793079001154
+episode: 510   episode steps: 360   episode weight: [0.46618026 0.53381974]  rl reward: [1565.35788434  936.464074  ]  cost avg time 0.029632485575146146
+episode: 511   episode steps: 500   episode weight: [0.57429594 0.42570412]  rl reward: [1072.36984829  621.59416559]  cost avg time 0.028861937522888185
+episode: 512   episode steps: 500   episode weight: [0.37421146 0.62578857]  rl reward: [1111.93248718 2414.76482644]  cost avg time 0.028896689414978027
+episode: 513   episode steps: 361   episode weight: [0.00959129 0.9904087 ]  rl reward: [ 598.63826403 1178.85323219]  cost avg time 0.0290363937864013
+episode: 514   episode steps: 500   episode weight: [0.00625134 0.99374866]  rl reward: [ 671.0316271 1281.8349258]  cost avg time 0.030584849834442138
+episode: 515   episode steps: 328   episode weight: [0.3868528 0.6131472]  rl reward: [1591.31832522 1342.72609135]  cost avg time 0.02883605768040913
+episode: 516   episode steps: 361   episode weight: [0.58800423 0.4119958 ]  rl reward: [1919.45424049 1129.78555972]  cost avg time 0.02955214402682233
+episode: 517   episode steps: 500   episode weight: [0.19662145 0.8033785 ]  rl reward: [1390.62259886 3174.57435145]  cost avg time 0.02890677213668823
+episode: 518   episode steps: 500   episode weight: [0.6292207  0.37077928]  rl reward: [1287.9601587  2568.67044793]  cost avg time 0.02874280595779419
+episode: 519   episode steps: 500   episode weight: [0.5476849  0.45231506]  rl reward: [1521.83579608 2883.01602283]  cost avg time 0.030279823780059813
+episode: 520   episode steps: 255   episode weight: [0.38804474 0.6119552 ]  rl reward: [496.36970594 850.16492969]  cost avg time 0.02826081911722819
+episode: 521   episode steps: 129   episode weight: [0.18663126 0.8133687 ]  rl reward: [294.9919649  778.65619114]  cost avg time 0.029147488202235495
+episode: 522   episode steps: 500   episode weight: [0.5023206  0.49767944]  rl reward: [2696.54616136 2578.08354849]  cost avg time 0.02878565216064453
+episode: 523   episode steps: 447   episode weight: [0.5947807  0.40521935]  rl reward: [2237.40917762 1423.6499983 ]  cost avg time 0.02836021054244415
+episode: 524   episode steps: 500   episode weight: [0.729125   0.27087498]  rl reward: [2347.53305843 2587.44087991]  cost avg time 0.028507853984832764
+episode: 525   episode steps: 477   episode weight: [0.11058893 0.88941103]  rl reward: [1224.38858534 2552.144713  ]  cost avg time 0.02702443154852845
+episode: 526   episode steps: 500   episode weight: [0.06963662 0.9303634 ]  rl reward: [1583.07745151 2362.52554629]  cost avg time 0.026557236194610596
+episode: 527   episode steps: 500   episode weight: [0.71367174 0.2863283 ]  rl reward: [2101.19372    3113.55038091]  cost avg time 0.029106291770935058
+episode: 528   episode steps: 416   episode weight: [0.9253045  0.07469548]  rl reward: [2482.70370021 1487.50188389]  cost avg time 0.029181204163111173
+episode: 529   episode steps: 500   episode weight: [0.21936327 0.7806367 ]  rl reward: [1544.41799774 1570.27422915]  cost avg time 0.03150120401382446
+episode: 530   episode steps: 500   episode weight: [0.53619325 0.46380672]  rl reward: [1549.06602154 2277.4437159 ]  cost avg time 0.033487982273101805
+episode: 531   episode steps: 474   episode weight: [0.5796554 0.4203446]  rl reward: [1039.96899578 1572.24944149]  cost avg time 0.028153529147055583
+episode: 532   episode steps: 500   episode weight: [0.6712598 0.3287402]  rl reward: [2040.25571654 2822.5175145 ]  cost avg time 0.030650355815887452
+episode: 533   episode steps: 500   episode weight: [0.1437891  0.85621095]  rl reward: [1465.45316214 2355.9711124 ]  cost avg time 0.0282680459022522
+episode: 534   episode steps: 491   episode weight: [0.29347524 0.7065248 ]  rl reward: [1624.81137362 3430.00023564]  cost avg time 0.027645515570087004
+episode: 535   episode steps: 241   episode weight: [0.93348 0.06652]  rl reward: [929.83535096 579.38242267]  cost avg time 0.027770800214585428
+episode: 536   episode steps: 500   episode weight: [0.312953 0.687047]  rl reward: [1697.83139403 2792.35414049]  cost avg time 0.027790425777435304
+episode: 537   episode steps: 500   episode weight: [0.46263373 0.5373663 ]  rl reward: [1956.22703732 3465.53019829]  cost avg time 0.028952645778656007
+episode: 538   episode steps: 500   episode weight: [0.66402996 0.33597   ]  rl reward: [2055.41462853 2775.42484587]  cost avg time 0.03061808967590332
+episode: 539   episode steps: 415   episode weight: [0.5246643  0.47533572]  rl reward: [1965.47886725 1355.70174101]  cost avg time 0.02881315127912774
+episode: 540   episode steps: 328   episode weight: [0.24755186 0.75244814]  rl reward: [ 686.06779268 1288.32161612]  cost avg time 0.029003997401493353
+episode: 541   episode steps: 500   episode weight: [0.6740858  0.32591417]  rl reward: [1617.49888516 2181.36659155]  cost avg time 0.02821980619430542
+episode: 542   episode steps: 500   episode weight: [0.47899157 0.52100843]  rl reward: [1840.45365075 3300.23409415]  cost avg time 0.030215673446655274
+episode: 543   episode steps: 500   episode weight: [0.9460681  0.05393189]  rl reward: [2396.31725079 2644.07500777]  cost avg time 0.028268959522247315
+episode: 544   episode steps: 175   episode weight: [0.5618     0.43819997]  rl reward: [478.14063889 395.89474836]  cost avg time 0.02869325774056571
+obj_batch [[1321.20456137 3495.99329857]
+ [1956.22703732 3465.53019829]
+ [2101.19372    3113.55038091]
+ [2118.90616098 2988.32323519]
+ [2396.31725079 2644.07500777]
+ [2696.54616136 2578.08354849]
+ [2770.51962168 1127.35659551]] [0. 0.]
+obj_batch [[1321.20456137 3495.99329857]
+ [1956.22703732 3465.53019829]
+ [2101.19372    3113.55038091]
+ [2118.90616098 2988.32323519]
+ [2396.31725079 2644.07500777]
+ [2696.54616136 2578.08354849]
+ [2770.51962168 1127.35659551]] [0. 0.]
+obj_batch [[ 3.71637890e+02  7.47132942e+02]
+ [ 3.77017924e+02  7.50553746e+02]
+ [ 3.80316685e+02  7.59975190e+02]
+ [ 3.79518359e+02  7.51167106e+02]
+ [ 3.84204287e+02  7.52545059e+02]
+ [ 3.88924824e+02  7.49090659e+02]
+ [ 3.77740950e+02  7.04368504e+02]
+ [ 3.54195057e+02  5.77123486e+02]
+ [ 3.47255923e+02  5.18235359e+02]
+ [ 3.83955736e+02  6.94465745e+02]
+ [ 3.90352592e+02  7.18442543e+02]
+ [ 3.45583943e+02  4.85738653e+02]
+ [ 3.87455127e+02  7.06831809e+02]
+ [ 3.33281842e+02  5.36457284e+02]
+ [ 3.62871223e+02  6.00814741e+02]
+ [ 3.93398349e+02  6.64648026e+02]
+ [ 4.02203065e+02  7.12257417e+02]
+ [ 3.93506657e+02  7.10999904e+02]
+ [ 4.20970278e+02  8.14190942e+02]
+ [ 4.08208367e+02  7.65651064e+02]
+ [ 3.89850292e+02  6.88723139e+02]
+ [ 3.74838561e+02  5.80584889e+02]
+ [ 4.07608242e+02  7.06627203e+02]
+ [ 4.03925233e+02  7.29999618e+02]
+ [ 4.10787622e+02  7.68306891e+02]
+ [ 4.09750375e+02  7.17316781e+02]
+ [ 3.99535190e+02  6.47289460e+02]
+ [ 3.97062370e+02  6.26366320e+02]
+ [ 3.62681348e+02  6.34567307e+02]
+ [ 4.25105383e+02  7.92306561e+02]
+ [ 3.75065944e+02  6.74324700e+02]
+ [ 3.66333874e+02  6.84564343e+02]
+ [ 4.26385000e+02  7.23320829e+02]
+ [ 4.38568882e+02  7.89915833e+02]
+ [ 4.35300956e+02  7.84123087e+02]
+ [ 4.33918458e+02  9.75608009e+02]
+ [ 4.36727003e+02  9.71832596e+02]
+ [ 4.31848060e+02  8.00664932e+02]
+ [ 4.31598208e+02  7.33311270e+02]
+ [ 3.77307463e+02  6.97041687e+02]
+ [ 4.36640226e+02  7.05585912e+02]
+ [ 4.50306199e+02  7.38873452e+02]
+ [ 3.84142368e+02  6.42611740e+02]
+ [ 4.43436710e+02  9.08757380e+02]
+ [ 4.12822194e+02  6.08936532e+02]
+ [ 1.02380393e+03  1.96601887e+03]
+ [ 9.16025918e+02  1.68160725e+03]
+ [ 4.21615522e+02  6.43096178e+02]
+ [ 4.64700960e+02  7.05091419e+02]
+ [ 4.74760177e+02  7.55124859e+02]
+ [ 1.07864755e+03  1.86897299e+03]
+ [ 4.77733911e+02  7.07184494e+02]
+ [ 4.69763796e+02  9.02599001e+02]
+ [ 4.67275898e+02  6.28296549e+02]
+ [ 4.74355998e+02  6.70539547e+02]
+ [ 3.84353772e+02  6.47198220e+02]
+ [ 4.80645130e+02  7.50335556e+02]
+ [ 3.88942308e+02  5.60950946e+02]
+ [ 4.79996591e+02  8.06700324e+02]
+ [ 4.72207362e+02  9.84025105e+02]
+ [ 5.61959889e+02  1.08826606e+03]
+ [ 3.94194841e+02  6.14661959e+02]
+ [ 4.79204094e+02  6.55193203e+02]
+ [ 3.96772134e+02  5.50131747e+02]
+ [ 4.90598841e+02  8.66286437e+02]
+ [ 4.62889488e+02  5.85140410e+02]
+ [ 4.13348221e+02  6.59303559e+02]
+ [ 5.18185379e+02  6.66236005e+02]
+ [ 4.95676140e+02  6.65584552e+02]
+ [ 5.04059200e+02  8.87604302e+02]
+ [ 4.85153582e+02  6.79653421e+02]
+ [ 4.92860012e+02  7.02510932e+02]
+ [ 4.92164986e+02  7.17582613e+02]
+ [ 4.97609646e+02  6.64279546e+02]
+ [ 4.86986689e+02  6.27122316e+02]
+ [ 5.45513148e+02  9.28464021e+02]
+ [ 4.11198981e+02  5.91565535e+02]
+ [ 4.08537861e+02  5.70866041e+02]
+ [ 1.36361862e+03  2.35583104e+03]
+ [ 5.22479047e+02  7.10436075e+02]
+ [ 4.59070468e+02  5.62563192e+02]
+ [ 5.30787476e+02  7.31761027e+02]
+ [ 1.23295183e+03  1.79760334e+03]
+ [ 4.31322324e+02  5.69411944e+02]
+ [ 1.00683092e+03  1.43958094e+03]
+ [ 4.22000181e+02  5.75176839e+02]
+ [ 5.89167582e+02  2.92726866e+02]
+ [ 5.41678863e+02  3.15698481e+02]
+ [ 2.13429320e+03  2.30692783e+03]
+ [ 1.35062762e+03  1.84117946e+03]
+ [ 9.57715497e+02  1.58477421e+03]
+ [ 7.77345572e+02  1.40178160e+03]
+ [ 2.04286289e+03  1.08719932e+03]
+ [ 4.26480788e+02  5.93814013e+02]
+ [ 4.71730645e+02  5.41304612e+02]
+ [ 4.94691560e+02  5.24133536e+02]
+ [ 4.57809217e+02  4.82587823e+02]
+ [ 4.60791333e+02  4.50588990e+02]
+ [ 4.57394385e+02  4.58790018e+02]
+ [ 1.66058825e+03  2.23439519e+03]
+ [ 6.44420200e+02  5.50479328e+02]
+ [ 6.74139362e+02  6.00403139e+02]
+ [ 4.68177386e+02  4.62942300e+02]
+ [ 5.54191490e+02  4.64691210e+02]
+ [ 5.80441026e+02  3.51453661e+02]
+ [ 5.72023487e+02  2.79860954e+02]
+ [ 5.53473546e+02  3.82799912e+02]
+ [ 5.53744860e+02  4.62814801e+02]
+ [ 5.96378222e+02  4.83139253e+02]
+ [ 5.71503356e+02  3.94788324e+02]
+ [ 4.99233164e+02  4.16319110e+02]
+ [ 5.34755788e+02  3.27395576e+02]
+ [ 9.18703831e+02  1.50855700e+03]
+ [ 6.19956635e+02  5.42046709e+02]
+ [ 4.88876389e+02  4.20426395e+02]
+ [ 5.25271653e+02  2.24922092e+02]
+ [ 5.97127544e+02  2.42270061e+02]
+ [ 5.91493555e+02  2.37305548e+02]
+ [ 5.39613235e+02  3.82504745e+02]
+ [ 1.33389719e+03  1.89058689e+03]
+ [ 1.74259272e+03  1.90254193e+03]
+ [ 5.01799251e+02  4.01230170e+02]
+ [ 5.06109157e+02  1.62302172e+02]
+ [ 5.36908408e+02  3.13852256e+02]
+ [ 5.05447342e+02  1.81687282e+02]
+ [ 5.08598026e+02  1.91082328e+02]
+ [ 5.51412271e+02  2.53668752e+02]
+ [ 5.08080352e+02  1.36973711e+02]
+ [ 5.07218243e+02  1.08492532e+02]
+ [ 5.16771654e+02  2.23117710e+02]
+ [ 5.52250506e+02  2.44376553e+02]
+ [ 5.17780618e+02  1.19557335e+02]
+ [ 5.55940251e+02  1.15207639e+02]
+ [ 5.06850128e+02  1.37876120e+02]
+ [ 5.37478763e+02  1.13418476e+02]
+ [ 5.18656638e+02  7.65547693e+01]
+ [ 5.24813496e+02  7.28603540e+01]
+ [ 5.26961333e+02  6.73372229e+01]
+ [ 5.18562611e+02  7.02337548e+01]
+ [ 5.17424429e+02  7.45102065e+01]
+ [ 5.28320421e+02  7.19583936e+01]
+ [ 5.31118904e+02  7.81994800e+01]
+ [ 5.31623028e+02  7.71836306e+01]
+ [ 5.16957297e+02  8.86851364e+01]
+ [ 5.81953522e+02  8.09184391e+01]
+ [ 5.73266407e+02  8.41652478e+01]
+ [ 5.35116859e+02  7.01776848e+01]
+ [ 5.43742997e+02  6.09033949e+01]
+ [ 5.82362691e+02  6.14841089e+01]
+ [ 5.88071430e+02  5.79700961e+01]
+ [ 5.93352473e+02  5.43713221e+01]
+ [ 5.27027614e+02  6.71784389e+01]
+ [ 5.79834800e+02  5.64489188e+01]
+ [ 5.97405897e+02  4.46304598e+01]
+ [ 5.50827439e+02  5.33902500e+01]
+ [ 5.45886335e+02  5.13073683e+01]
+ [ 5.43391709e+02  5.72028317e+01]
+ [ 5.61241158e+02  6.90450283e+01]
+ [ 5.44912849e+02  6.38883166e+01]
+ [ 5.58923117e+02  4.22100974e+01]
+ [ 5.81615354e+02  6.22657538e+01]
+ [ 5.63934157e+02  6.51190932e+01]
+ [ 5.71345342e+02  6.13129961e+01]
+ [ 5.48787706e+02  5.64481694e+01]
+ [ 5.55929310e+02  5.18148911e+01]
+ [ 5.73143183e+02  3.26436101e+01]
+ [ 5.65332370e+02  4.37761319e+01]
+ [ 5.56997193e+02  5.09151522e+01]
+ [ 5.58249207e+02  4.78439228e+01]
+ [ 5.58564946e+02  4.47913772e+01]
+ [ 5.59306142e+02  4.61302735e+01]
+ [ 5.66230753e+02  4.37096316e+01]
+ [ 5.66878578e+02  4.39139486e+01]
+ [ 5.67594746e+02  3.94071417e+01]
+ [ 5.68268266e+02  3.87120100e+01]
+ [ 5.74799001e+02  3.63899850e+01]
+ [ 5.75424680e+02  3.44962082e+01]
+ [ 5.76753351e+02  3.30930136e+01]
+ [ 5.70230707e+02  3.33582750e+01]
+ [ 6.10625490e+02  1.20465293e+01]
+ [ 5.78469076e+02  3.03265351e+01]
+ [ 5.79433887e+02  2.82254766e+01]
+ [ 6.01074285e+02  7.36920847e+00]
+ [ 5.87195892e+02  2.01576509e+01]
+ [ 6.10267604e+02  9.81442177e-01]
+ [ 6.03578531e+02 -1.74901883e+00]
+ [ 5.91510610e+02  7.69000845e+00]
+ [ 6.05505463e+02 -5.83167651e+00]
+ [ 6.06321575e+02 -9.48516525e+00]
+ [ 5.96528542e+02  4.95725624e-01]
+ [ 5.97643654e+02 -3.13199143e-01]
+ [ 6.04458293e+02 -6.01704912e+00]
+ [ 6.59086012e+02 -6.15495143e+01]
+ [ 6.66252567e+02 -5.26516619e+01]
+ [ 6.57707054e+02 -7.25815696e+01]
+ [ 6.83698301e+02 -4.46678484e+01]
+ [ 6.43186957e+02 -3.63734090e+01]
+ [ 6.20004737e+02 -2.89862693e+01]
+ [ 6.59635403e+02 -7.44846599e+01]
+ [ 6.19104212e+02 -2.99367081e+01]
+ [ 6.75411952e+02 -5.04019235e+01]] [0. 0.]
+episode: 545   episode steps: 149   episode weight: [0.9913887  0.00861133]  rl reward: [587.31201458 -30.82480511]  cost avg time 0.2938095291188899
+episode: 546   episode steps: 148   episode weight: [0.80619687 0.19380312]  rl reward: [531.98478733 233.28327379]  cost avg time 0.028383011753494676
+episode: 547   episode steps: 293   episode weight: [0.49457255 0.50542754]  rl reward: [ 878.3227019  1234.82084203]  cost avg time 0.02764741064338554
+episode: 548   episode steps: 171   episode weight: [0.27396715 0.72603285]  rl reward: [322.40489073 528.3146541 ]  cost avg time 0.028470703035767316
+episode: 549   episode steps: 183   episode weight: [0.5507008  0.44929922]  rl reward: [449.89851923 506.36155754]  cost avg time 0.027336490610258175
+episode: 550   episode steps: 431   episode weight: [0.94597435 0.05402569]  rl reward: [1452.30816099 1615.01936579]  cost avg time 0.027377277958420754
+episode: 551   episode steps: 198   episode weight: [0.4051039  0.59489614]  rl reward: [432.79533012 679.14421388]  cost avg time 0.02946522259953046
+episode: 552   episode steps: 189   episode weight: [0.54084396 0.45915598]  rl reward: [458.04553139 358.5900162 ]  cost avg time 0.03304606770712232
+episode: 553   episode steps: 178   episode weight: [0.18779159 0.8122084 ]  rl reward: [361.26080313 602.60216518]  cost avg time 0.030568803294321125
+episode: 554   episode steps: 174   episode weight: [0.35197785 0.6480221 ]  rl reward: [456.78816684 359.14210098]  cost avg time 0.03097306996926494
+episode: 555   episode steps: 164   episode weight: [0.883601   0.11639905]  rl reward: [666.07456639   7.92651599]  cost avg time 0.028662591445736768
+episode: 556   episode steps: 500   episode weight: [0.28194273 0.71805733]  rl reward: [1779.20113385 3180.22695971]  cost avg time 0.02966456413269043
+episode: 557   episode steps: 179   episode weight: [0.5490979  0.45090207]  rl reward: [549.14166081 587.59556019]  cost avg time 0.02869129580492414
+episode: 558   episode steps: 214   episode weight: [0.78439164 0.21560839]  rl reward: [696.4559985  438.25607298]  cost avg time 0.02978106971098998
+episode: 559   episode steps: 500   episode weight: [0.5001189  0.49988106]  rl reward: [1630.11719287 3353.97931431]  cost avg time 0.02963073205947876
+episode: 560   episode steps: 500   episode weight: [0.7946923  0.20530774]  rl reward: [1806.70768815 1832.67099166]  cost avg time 0.02945174789428711
+episode: 561   episode steps: 411   episode weight: [0.43251413 0.56748587]  rl reward: [1066.41827862 1884.77916178]  cost avg time 0.028497656476468645
+episode: 562   episode steps: 500   episode weight: [0.6509678  0.34903216]  rl reward: [1927.61630208 2717.89139696]  cost avg time 0.0286981258392334
+episode: 563   episode steps: 179   episode weight: [0.33061695 0.66938305]  rl reward: [475.44457515 612.16782819]  cost avg time 0.028547268340041516
+episode: 564   episode steps: 174   episode weight: [0.55725145 0.4427485 ]  rl reward: [586.72632162 344.02441404]  cost avg time 0.029327828308631634
+episode: 565   episode steps: 185   episode weight: [0.44627935 0.55372065]  rl reward: [584.49556457 533.04145871]  cost avg time 0.028640439059283283
+episode: 566   episode steps: 500   episode weight: [0.6377812  0.36221874]  rl reward: [1891.54799519 2698.94611784]  cost avg time 0.030982165813446046
+episode: 567   episode steps: 500   episode weight: [0.21599811 0.7840019 ]  rl reward: [1518.95573494 3250.78710432]  cost avg time 0.03092319393157959
+episode: 568   episode steps: 214   episode weight: [0.9874644  0.01253558]  rl reward: [839.21639559 401.16746447]  cost avg time 0.030499613173654145
+episode: 569   episode steps: 310   episode weight: [0.5750522  0.42494783]  rl reward: [1032.16087401  775.25840553]  cost avg time 0.02996868702673143
+episode: 570   episode steps: 500   episode weight: [0.57351273 0.42648733]  rl reward: [1337.19256309 1071.60586158]  cost avg time 0.02866081190109253
+episode: 571   episode steps: 58    episode weight: [0.7188532  0.28114682]  rl reward: [133.84015148  48.79817452]  cost avg time 0.028392738309399836
+episode: 572   episode steps: 500   episode weight: [0.38072565 0.6192743 ]  rl reward: [1930.98214207 3401.42074114]  cost avg time 0.029733270168304442
+episode: 573   episode steps: 379   episode weight: [0.20992725 0.7900728 ]  rl reward: [ 790.93758093 1722.84810598]  cost avg time 0.028176008239585052
+episode: 574   episode steps: 500   episode weight: [0.63945746 0.3605425 ]  rl reward: [2073.96117926 2942.28852865]  cost avg time 0.02838755989074707
+episode: 575   episode steps: 181   episode weight: [0.7340147  0.26598528]  rl reward: [533.91406736 394.99146921]  cost avg time 0.028445807609768864
+episode: 576   episode steps: 500   episode weight: [0.54923433 0.4507657 ]  rl reward: [1834.76136439 2078.23836033]  cost avg time 0.02847379207611084
+episode: 577   episode steps: 500   episode weight: [0.46636802 0.5336319 ]  rl reward: [2307.43873236 3227.39571859]  cost avg time 0.029876362323760987
+episode: 578   episode steps: 500   episode weight: [0.406601 0.593399]  rl reward: [1842.9075794  3495.50939769]  cost avg time 0.028416319847106932
+episode: 579   episode steps: 500   episode weight: [0.2324049 0.7675951]  rl reward: [1708.98896858 3722.80078288]  cost avg time 0.02715974807739258
+episode: 580   episode steps: 500   episode weight: [0.69581926 0.30418068]  rl reward: [2168.72547784 3599.1424006 ]  cost avg time 0.027011303901672362
+episode: 581   episode steps: 500   episode weight: [0.49495992 0.50504017]  rl reward: [1908.84512148 3781.39809794]  cost avg time 0.025763507843017577
+episode: 582   episode steps: 500   episode weight: [0.36285853 0.6371414 ]  rl reward: [1797.36144968 3392.04818912]  cost avg time 0.027316874504089355
+episode: 583   episode steps: 500   episode weight: [0.34026375 0.6597362 ]  rl reward: [1645.3885119  2596.08905848]  cost avg time 0.02772863006591797
+episode: 584   episode steps: 71    episode weight: [0.80438465 0.19561537]  rl reward: [224.762893   -59.08827952]  cost avg time 0.02814321114983357
+episode: 585   episode steps: 150   episode weight: [0.18951654 0.81048346]  rl reward: [ 384.64302228 1024.62342286]  cost avg time 0.027205926577250163
+episode: 586   episode steps: 500   episode weight: [0.53313017 0.46686977]  rl reward: [1785.04681568 3598.89220187]  cost avg time 0.027469697952270507
+episode: 587   episode steps: 341   episode weight: [0.0432653  0.95673466]  rl reward: [482.27481388 809.93762159]  cost avg time 0.02947924004272282
+episode: 588   episode steps: 187   episode weight: [0.70676464 0.29323533]  rl reward: [720.63028365 580.241581  ]  cost avg time 0.027449930415433997
+episode: 589   episode steps: 197   episode weight: [0.04722739 0.9527726 ]  rl reward: [132.01626521 292.93728388]  cost avg time 0.027025551965393996
+episode: 590   episode steps: 500   episode weight: [0.81593406 0.18406594]  rl reward: [2999.57627158 3047.22661713]  cost avg time 0.024795924186706543
+episode: 591   episode steps: 189   episode weight: [0.43559682 0.5644032 ]  rl reward: [510.27145646 826.24728553]  cost avg time 0.02383869287198183
+episode: 592   episode steps: 82    episode weight: [0.7509744  0.24902558]  rl reward: [226.61874479  41.5241888 ]  cost avg time 0.02468171643047798
+episode: 593   episode steps: 48    episode weight: [0.94902855 0.05097138]  rl reward: [122.26635965 -13.00991337]  cost avg time 0.02416589359442393
+episode: 594   episode steps: 500   episode weight: [0.22796264 0.7720373 ]  rl reward: [2419.23642665 3740.06507463]  cost avg time 0.024333759784698487
+episode: 595   episode steps: 500   episode weight: [0.51900417 0.4809958 ]  rl reward: [2500.49946511 3409.69042906]  cost avg time 0.024370054244995117
+episode: 596   episode steps: 500   episode weight: [0.27174062 0.7282594 ]  rl reward: [1427.53183614 3174.6429402 ]  cost avg time 0.024336746215820312
+episode: 597   episode steps: 147   episode weight: [0.08906572 0.9109343 ]  rl reward: [314.29463551 824.09251223]  cost avg time 0.024586938676379975
+episode: 598   episode steps: 500   episode weight: [0.4156743 0.5843257]  rl reward: [2037.67737447 3795.27515486]  cost avg time 0.02429545593261719
+episode: 599   episode steps: 172   episode weight: [0.69732976 0.30267024]  rl reward: [681.02122248 560.90546548]  cost avg time 0.024402278800343357
+episode: 600   episode steps: 500   episode weight: [0.5508697  0.44913036]  rl reward: [2143.19726306 3286.48444928]  cost avg time 0.02419838619232178
+episode: 601   episode steps: 500   episode weight: [0.4744695 0.5255305]  rl reward: [1830.14961435 3334.6317765 ]  cost avg time 0.024039802551269532
+episode: 602   episode steps: 500   episode weight: [0.47425976 0.52574027]  rl reward: [2050.59963296 3427.28330589]  cost avg time 0.025423433780670166
+episode: 603   episode steps: 114   episode weight: [0.5340847  0.46591538]  rl reward: [337.54369422 555.02377231]  cost avg time 0.024467317681563527
+episode: 604   episode steps: 500   episode weight: [0.5764207 0.4235793]  rl reward: [2078.93600053 3167.24139732]  cost avg time 0.024594601631164552
+episode: 605   episode steps: 247   episode weight: [0.736617   0.26338297]  rl reward: [1181.74112608  867.67014673]  cost avg time 0.024068822744886885
+episode: 606   episode steps: 190   episode weight: [0.22761786 0.77238214]  rl reward: [503.98606574 879.12343631]  cost avg time 0.02433583234485827
+episode: 607   episode steps: 346   episode weight: [0.5810367  0.41896325]  rl reward: [1825.6168642  1677.15590219]  cost avg time 0.0242747371596408
+episode: 608   episode steps: 500   episode weight: [0.5329102  0.46708977]  rl reward: [2436.89695766 3051.13136287]  cost avg time 0.02589435148239136
+episode: 609   episode steps: 276   episode weight: [0.5172062 0.4827938]  rl reward: [1114.8841863  1594.39668097]  cost avg time 0.026231764883234882
+episode: 610   episode steps: 500   episode weight: [0.2047449 0.7952551]  rl reward: [1518.52261649 2766.55693326]  cost avg time 0.027875282287597655
+episode: 611   episode steps: 268   episode weight: [0.96183985 0.03816014]  rl reward: [1170.6379674  1175.14815108]  cost avg time 0.02761381330774791
+episode: 612   episode steps: 500   episode weight: [0.16680129 0.83319867]  rl reward: [1522.77156316 3340.49466847]  cost avg time 0.027367988109588622
+episode: 613   episode steps: 500   episode weight: [0.41298014 0.58701986]  rl reward: [2452.11243114 3089.54832454]  cost avg time 0.02732871437072754
+episode: 614   episode steps: 500   episode weight: [0.47039172 0.5296083 ]  rl reward: [2224.01028029 2444.59716726]  cost avg time 0.02892403221130371
+episode: 615   episode steps: 500   episode weight: [0.41714388 0.5828561 ]  rl reward: [2104.69587894 3631.67752899]  cost avg time 0.027780590057373048
+episode: 616   episode steps: 355   episode weight: [0.6332642 0.3667358]  rl reward: [1808.17915539 1597.82851271]  cost avg time 0.027335420124967334
+episode: 617   episode steps: 484   episode weight: [0.6937355  0.30626452]  rl reward: [2369.3422314  2651.46591289]  cost avg time 0.027375238000853987
+episode: 618   episode steps: 423   episode weight: [0.63109964 0.36890036]  rl reward: [2294.43381972 1792.97250703]  cost avg time 0.027266647798795226
+episode: 619   episode steps: 500   episode weight: [0.4684442  0.53155583]  rl reward: [1827.30399977 3543.00459994]  cost avg time 0.02708665609359741
+episode: 620   episode steps: 500   episode weight: [0.63071007 0.36928996]  rl reward: [2084.39592712 3380.79070571]  cost avg time 0.028223715782165527
+episode: 621   episode steps: 500   episode weight: [0.8183281 0.1816719]  rl reward: [2807.56918854 2739.92616879]  cost avg time 0.027268234252929686
+episode: 622   episode steps: 500   episode weight: [0.5638129  0.43618703]  rl reward: [2772.89782435 2855.62267062]  cost avg time 0.027309362411499023
+episode: 623   episode steps: 500   episode weight: [0.14861646 0.85138357]  rl reward: [1560.84139549 3940.94159004]  cost avg time 0.02838765001296997
+episode: 624   episode steps: 500   episode weight: [0.04697225 0.9530278 ]  rl reward: [1475.0448489  3604.38137971]  cost avg time 0.028044877529144287
+episode: 625   episode steps: 162   episode weight: [0.44986865 0.5501313 ]  rl reward: [ 521.53764223 1009.56891984]  cost avg time 0.027862353089414996
+episode: 626   episode steps: 477   episode weight: [0.7257414 0.2742586]  rl reward: [2290.30693827 2542.05686332]  cost avg time 0.027162050051259296
+episode: 627   episode steps: 477   episode weight: [0.9336406  0.06635936]  rl reward: [2466.28815579 3126.96416095]  cost avg time 0.027335870190986298
+episode: 628   episode steps: 500   episode weight: [0.5934147 0.4065853]  rl reward: [2295.3501585  3279.95874961]  cost avg time 0.027348026752471923
+episode: 629   episode steps: 500   episode weight: [0.33397382 0.6660262 ]  rl reward: [2441.9550514  3451.56558845]  cost avg time 0.027850667953491212
+episode: 630   episode steps: 500   episode weight: [0.38468656 0.6153135 ]  rl reward: [2044.19745034 3877.03243575]  cost avg time 0.02776926803588867
+episode: 631   episode steps: 500   episode weight: [0.618137   0.38186297]  rl reward: [2496.53434321 3093.19083198]  cost avg time 0.027441213607788086
+episode: 632   episode steps: 500   episode weight: [0.02292929 0.9770707 ]  rl reward: [1812.57050722 3475.36096761]  cost avg time 0.027362266540527345
+episode: 633   episode steps: 467   episode weight: [0.7441934  0.25580662]  rl reward: [2994.67167858 2568.0827901 ]  cost avg time 0.027921792526571856
+episode: 634   episode steps: 366   episode weight: [0.93784297 0.06215703]  rl reward: [1948.30200497 1959.14034838]  cost avg time 0.026459691303023874
+episode: 635   episode steps: 159   episode weight: [0.5203225  0.47967756]  rl reward: [548.76254062 795.35408769]  cost avg time 0.025218855659916717
+episode: 636   episode steps: 138   episode weight: [0.9034502  0.09654979]  rl reward: [534.61936397 556.68958199]  cost avg time 0.025167492852694748
+episode: 637   episode steps: 500   episode weight: [0.44732627 0.5526737 ]  rl reward: [1850.52186516 3987.04440947]  cost avg time 0.025267150402069092
+episode: 638   episode steps: 399   episode weight: [0.896756   0.10324402]  rl reward: [2438.87360894 2367.64500159]  cost avg time 0.02602499230463702
+episode: 639   episode steps: 500   episode weight: [0.3088366  0.69116336]  rl reward: [2448.70355963 3194.08913698]  cost avg time 0.02817744588851929
+episode: 640   episode steps: 500   episode weight: [0.2415469 0.7584531]  rl reward: [1673.67655434 3704.78174715]  cost avg time 0.028955232620239257
+episode: 641   episode steps: 500   episode weight: [0.24282248 0.75717753]  rl reward: [1704.74306018 3826.75264056]  cost avg time 0.02802544355392456
+episode: 642   episode steps: 500   episode weight: [0.5781751  0.42182484]  rl reward: [2535.54854888 3163.27192033]  cost avg time 0.02724100160598755
+episode: 643   episode steps: 500   episode weight: [0.38334146 0.61665857]  rl reward: [1860.31853691 3884.38561077]  cost avg time 0.02767442464828491
+episode: 644   episode steps: 362   episode weight: [0.8557717  0.14422828]  rl reward: [2239.97292578 1412.95912327]  cost avg time 0.02908620913384369
+episode: 645   episode steps: 500   episode weight: [0.41614413 0.58385587]  rl reward: [1943.92907305 4035.19183795]  cost avg time 0.027695273876190186
+episode: 646   episode steps: 500   episode weight: [0.33502686 0.66497314]  rl reward: [1636.5273555  3861.53748965]  cost avg time 0.027565258026123047
+episode: 647   episode steps: 487   episode weight: [0.8131617  0.18683836]  rl reward: [2422.70723423 3108.24517463]  cost avg time 0.027378626672639003
+episode: 648   episode steps: 310   episode weight: [0.5362229  0.46377712]  rl reward: [1562.4383946  1896.38317666]  cost avg time 0.027278850924584173
+episode: 649   episode steps: 500   episode weight: [0.5436649  0.45633507]  rl reward: [2698.34031514 3205.6241581 ]  cost avg time 0.028250914096832277
+episode: 650   episode steps: 108   episode weight: [9.9929905e-01 7.0091640e-04]  rl reward: [404.72032944 513.56048024]  cost avg time 0.02767983189335576
+episode: 651   episode steps: 500   episode weight: [0.34955585 0.65044415]  rl reward: [1709.99588355 3984.11506988]  cost avg time 0.027344133853912354
+episode: 652   episode steps: 258   episode weight: [0.9466662  0.05333382]  rl reward: [1238.46347474 1070.29409777]  cost avg time 0.02761468961257343
+episode: 653   episode steps: 500   episode weight: [0.34728146 0.65271854]  rl reward: [1695.5114535  3061.71382417]  cost avg time 0.027694084167480468
+episode: 654   episode steps: 342   episode weight: [0.5508612  0.44913882]  rl reward: [1883.59663445 1410.8399826 ]  cost avg time 0.027455108207568787
+episode: 655   episode steps: 500   episode weight: [0.563711   0.43628898]  rl reward: [2635.51327048 2940.4018754 ]  cost avg time 0.028278746128082274
+episode: 656   episode steps: 500   episode weight: [0.3584251 0.6415749]  rl reward: [1635.71549613 3925.34718684]  cost avg time 0.02619679594039917
+episode: 657   episode steps: 402   episode weight: [0.71815753 0.2818425 ]  rl reward: [1957.65844158 2373.88149634]  cost avg time 0.02643587992559025
+episode: 658   episode steps: 500   episode weight: [0.07453219 0.92546785]  rl reward: [1943.02148492 3330.26941826]  cost avg time 0.0262980899810791
+episode: 659   episode steps: 500   episode weight: [0.31758052 0.68241954]  rl reward: [1886.0575746  3771.74854166]  cost avg time 0.026446011543273924
+episode: 660   episode steps: 500   episode weight: [0.34063888 0.6593611 ]  rl reward: [1890.5916802  2962.54037387]  cost avg time 0.026492752075195313
+episode: 661   episode steps: 500   episode weight: [0.48419404 0.51580596]  rl reward: [1928.79813498 3852.95805276]  cost avg time 0.026242658138275147
+episode: 662   episode steps: 215   episode weight: [0.4037127 0.5962873]  rl reward: [542.3859004  998.64293843]  cost avg time 0.026187200324479923
+episode: 663   episode steps: 500   episode weight: [0.3400908  0.65990925]  rl reward: [1685.03783772 4162.52745075]  cost avg time 0.026084511756896973
+episode: 664   episode steps: 500   episode weight: [0.23737867 0.76262134]  rl reward: [1647.61560489 3444.90431709]  cost avg time 0.027020664215087892
+episode: 665   episode steps: 500   episode weight: [0.4775866  0.52241343]  rl reward: [2145.93695005 3006.11081502]  cost avg time 0.027387067794799803
+episode: 666   episode steps: 179   episode weight: [0.51775455 0.48224545]  rl reward: [567.81402204 838.69855915]  cost avg time 0.026235905439494042
+episode: 667   episode steps: 151   episode weight: [0.0897086 0.9102914]  rl reward: [479.64120036 806.91292398]  cost avg time 0.026459344964943184
+episode: 668   episode steps: 500   episode weight: [0.0176283 0.9823717]  rl reward: [1461.26058307 2756.25543484]  cost avg time 0.02638368558883667
+episode: 669   episode steps: 500   episode weight: [0.31013888 0.68986106]  rl reward: [1823.28755216 3941.90527824]  cost avg time 0.026207437992095947
+episode: 670   episode steps: 500   episode weight: [0.4248577  0.57514226]  rl reward: [2440.90651593 2847.34671589]  cost avg time 0.026466832637786864
+episode: 671   episode steps: 500   episode weight: [0.48110265 0.51889735]  rl reward: [1692.75639783 4130.21085028]  cost avg time 0.026756589889526367
+episode: 672   episode steps: 500   episode weight: [0.348011   0.65198904]  rl reward: [1745.56331894 3497.8387815 ]  cost avg time 0.02601669645309448
+episode: 673   episode steps: 500   episode weight: [0.5184511 0.4815489]  rl reward: [1684.79522769 3483.05420972]  cost avg time 0.026456258296966552
+episode: 674   episode steps: 159   episode weight: [0.3903219 0.6096781]  rl reward: [464.33609167 558.75783033]  cost avg time 0.02639423076461696
+obj_batch [[1685.03783772 4162.52745075]
+ [1692.75639783 4130.21085028]
+ [1943.92907305 4035.19183795]
+ [2044.19745034 3877.03243575]
+ [2419.23642665 3740.06507463]
+ [2441.9550514  3451.56558845]
+ [2500.49946511 3409.69042906]
+ [2698.34031514 3205.6241581 ]
+ [2999.57627158 3047.22661713]] [0. 0.]
+obj_batch [[1685.03783772 4162.52745075]
+ [1692.75639783 4130.21085028]
+ [1943.92907305 4035.19183795]
+ [2044.19745034 3877.03243575]
+ [2419.23642665 3740.06507463]
+ [2441.9550514  3451.56558845]
+ [2500.49946511 3409.69042906]
+ [2698.34031514 3205.6241581 ]
+ [2999.57627158 3047.22661713]] [0. 0.]
+obj_batch [[ 409.95487393 1116.77239169]
+ [ 428.45293169 1225.73585645]
+ [ 811.74697518 2440.97221948]
+ [ 430.92150254 1141.98695006]
+ [ 474.40438231 1109.13454161]
+ [ 422.91600638 1164.32611912]
+ [ 426.50347256 1133.80720935]
+ [1209.72577171 3176.25658569]
+ [1268.83510941 3891.69476967]
+ [ 460.81714074 1151.29120401]
+ [ 418.30038086 1141.38522156]
+ [ 422.53358691 1151.54362993]
+ [ 424.49710791 1168.5816989 ]
+ [ 465.98779486 1192.67458447]
+ [1227.56542151 3255.85403575]
+ [ 416.69074737 1136.66609584]
+ [ 444.39799477 1196.67430884]
+ [ 458.68662086 1251.25302805]
+ [1195.43010259 3361.7629176 ]
+ [ 859.45532639 2252.26155479]
+ [ 457.36843885 1027.16217988]
+ [ 440.63325159 1119.38886872]
+ [ 462.52440223 1144.46530516]
+ [ 469.5813956  1135.22051079]
+ [ 478.5176298  1139.70514728]
+ [1409.62237861 3768.2296297 ]
+ [1316.52734754 3949.41226157]
+ [ 911.16920643 2163.44690098]
+ [1309.827273   3239.7350686 ]
+ [ 488.9535864  1191.85107364]
+ [ 475.98986899 1036.6708931 ]
+ [ 862.30134815 2250.22346092]
+ [1380.2893769  3922.96906056]
+ [1353.27982458 4196.82297429]
+ [1396.11928372 3541.34781973]
+ [1378.24576274 3782.32214473]
+ [ 445.86509823 1116.79804655]
+ [1365.60181625 4112.36022432]
+ [1507.35925222 3731.61343774]
+ [1357.56703656 3932.65749115]
+ [1390.13535836 4250.81761255]
+ [1398.39985653 3425.63099208]
+ [1451.11326331 4035.28860796]
+ [1369.13964512 3636.39058089]
+ [ 539.03966407 1145.24513517]
+ [1434.31034663 4086.38056545]
+ [1303.13058923 3274.98628132]
+ [ 464.81227653 1162.88388719]
+ [1403.82064281 4082.58126398]
+ [1488.20316651 3976.47447598]
+ [ 876.58963094 2145.26506781]
+ [ 439.29214453 1064.74971359]
+ [1109.55622285 3261.56065191]
+ [1468.47727173 4075.78500541]
+ [1446.36070514 4033.70583228]
+ [1601.68173003 3908.41440231]
+ [ 425.24638269  948.47857543]
+ [1584.01301234 3740.06418672]
+ [1455.0335288  4095.42816688]
+ [1493.49593104 4121.47752506]
+ [1483.27843317 4110.11505182]
+ [1499.51244932 4198.11569328]
+ [1615.5302193  3724.20474784]
+ [1640.7625838  3964.14086128]
+ [1542.82195508 3984.16071487]
+ [1401.03863367 3186.39782706]
+ [1684.96391309 3994.19675549]
+ [1668.41407104 3927.17217602]
+ [1266.69347385 3050.8344832 ]
+ [1622.8316784  3988.71146783]
+ [1627.65523443 4011.79265111]
+ [1651.91619175 3838.5358139 ]
+ [1700.1166769  3872.7083507 ]
+ [1844.72284997 3584.82796437]
+ [1771.56485001 4183.89226223]
+ [1828.84469964 3903.50879288]
+ [1691.50596297 4002.76844939]
+ [1639.02504243 4106.03767942]
+ [1675.94096531 4030.59420014]
+ [1924.84201358 3475.81283271]
+ [1730.67257686 4157.23868168]
+ [1653.923199   3763.08141615]
+ [1725.55088037 4254.86512149]
+ [1674.82218648 4308.43313421]
+ [1621.74754116 4250.89605433]
+ [1702.68074013 4036.56468744]
+ [1576.01750251 3668.93419432]
+ [ 532.06920721 1198.00373621]
+ [ 473.22582747 1338.1469108 ]
+ [1611.77080373 3487.6466199 ]
+ [1568.16825144 3466.81545863]
+ [1661.47789526 3849.07941907]
+ [1960.75491094 3858.50112375]
+ [1775.64644154 4142.35762045]
+ [1840.52355574 4018.96041328]
+ [1718.19245214 4314.09140803]
+ [1575.56732353 3419.3561536 ]
+ [1836.90965539 4084.85702522]
+ [1616.75173574 3912.31974606]
+ [1803.46151318 4127.98015218]
+ [1017.3250475  2237.26423919]
+ [1031.98682696 2343.75651012]
+ [1809.93765805 4239.50088252]
+ [1853.40318701 4134.24052337]
+ [1729.32412029 4117.99550725]
+ [1916.42111261 3434.40997999]
+ [1721.06127562 3864.28576976]
+ [1873.94470454 4048.7787743 ]
+ [1843.46886059 4061.5252675 ]
+ [1878.66119574 4271.6802355 ]
+ [1925.00636155 4142.74909425]
+ [1869.77721706 4384.61381938]
+ [1813.96884521 4152.41326884]
+ [1894.48467175 4084.82986182]
+ [1889.04539815 4095.71245705]
+ [1922.9414584  4200.45194503]
+ [2389.33017663 2876.32104809]
+ [1770.90070044 4220.03531582]
+ [2108.74814992 3858.95733536]
+ [1748.82950714 4370.23274294]
+ [1767.79055048 3653.4145162 ]
+ [1875.2470952  4078.77208634]
+ [2207.97820862 3572.65625914]
+ [1889.27316648 4183.56456388]
+ [1961.30753078 4191.15590255]
+ [2016.07000934 4250.28281148]
+ [1562.90425917 3024.34390512]
+ [1934.75822015 3784.53481013]
+ [1863.77886091 4187.821083  ]
+ [1859.88984276 4421.09504215]
+ [1894.94109025 4423.45026198]
+ [1982.33125755 4176.15633628]
+ [2288.85987212 3897.65935147]
+ [1471.12042906 1935.71205823]
+ [2167.47669842 3861.85865559]
+ [2006.42152505 4083.43840167]
+ [2646.74805809 3618.21191516]
+ [2164.24268172 3868.88391499]
+ [1718.57509761 2210.90904357]
+ [2088.61985829 4060.55734951]
+ [2073.97637066 3940.22095991]
+ [2031.75141652 4112.02735238]
+ [2089.5018533  4073.23457433]
+ [2061.24358494 4108.54720066]
+ [2101.62312487 4024.31624181]
+ [2018.18451986 4324.63829582]
+ [2059.05644362 4225.81392171]
+ [2018.22453972 4146.95302716]
+ [2065.38055129 3973.38469756]
+ [2129.44264091 4095.4299219 ]
+ [2056.09016503 4244.85523703]
+ [2200.58162277 4115.79800006]
+ [2135.24603161 4092.06823343]
+ [2148.7538601  4054.56443234]
+ [2188.06412076 4163.11201359]
+ [2079.0525746  4306.0335489 ]
+ [2173.53743795 3959.17538135]
+ [2242.52072105 4086.98208314]
+ [2188.79001117 4023.44451754]
+ [2277.30878894 4054.67481848]
+ [2333.20827669 3933.40339094]
+ [2225.11045853 4077.17000811]
+ [2688.95059731 3668.06335608]
+ [2320.02825409 3896.20109651]
+ [2456.92851597 3900.14407739]
+ [2331.31532496 3882.02521601]
+ [1669.15975862 2113.96741793]
+ [2329.62949415 3993.44841487]
+ [1758.12838391 2329.71292963]
+ [1646.26419153 2059.0694896 ]
+ [1669.4203353  1977.0210894 ]
+ [2259.60569359 4208.34041992]
+ [2431.73471945 2542.76992472]
+ [2271.36218043 4126.97158226]
+ [2399.09243349 4083.92215999]
+ [2274.78716937 4087.44875779]
+ [2333.66939284 2259.21734429]
+ [2449.44692108 4031.46331586]
+ [2337.0748132  3959.54078113]
+ [1659.46936663 1781.21913539]
+ [2643.89090466 3647.16103125]
+ [2659.83936646 3649.26554924]
+ [2579.81237623 3594.64151711]
+ [2654.79762101 3607.9174739 ]
+ [2609.16164002 3694.58013879]
+ [2617.45727725 3729.52209692]
+ [2582.1007695  3756.02196288]
+ [2662.58399953 3602.73561719]
+ [2337.69073455 2215.03149007]
+ [2440.50824469 2293.9727575 ]
+ [2669.83144973 3604.95490283]
+ [2527.31060523 3715.23626625]
+ [2150.94713905 2091.874137  ]
+ [2495.6949567  2432.26359916]
+ [2776.03846157 2859.76740515]
+ [2492.0980021  3800.60826652]
+ [2035.92970466 1922.51237425]
+ [1838.39523248 1902.87951355]
+ [2539.95612863 3518.12937478]
+ [2692.10938853 3634.21318743]
+ [2789.79455085 3693.52521071]] [0. 0.]
+episode: 675   episode steps: 500   episode weight: [0.5671563  0.43284371]  rl reward: [1746.04970898 3469.81543759]  cost avg time 0.1874825620651245
+episode: 676   episode steps: 500   episode weight: [0.70994073 0.2900593 ]  rl reward: [1926.22289534 3831.48577175]  cost avg time 0.024654706001281737
+episode: 677   episode steps: 500   episode weight: [0.53278327 0.46721673]  rl reward: [2466.36652732 3197.73775917]  cost avg time 0.025131991863250734
+episode: 678   episode steps: 500   episode weight: [0.14626217 0.85373783]  rl reward: [1639.3896848  3330.25273725]  cost avg time 0.024151016712188722
+episode: 679   episode steps: 500   episode weight: [0.40493518 0.5950648 ]  rl reward: [1717.10874402 3786.25957496]  cost avg time 0.026161523818969728
+episode: 680   episode steps: 500   episode weight: [0.4873103  0.51268977]  rl reward: [1777.77616378 3860.14642482]  cost avg time 0.025188427925109863
+episode: 681   episode steps: 500   episode weight: [0.36164707 0.63835293]  rl reward: [2303.04670171 3250.55283029]  cost avg time 0.02634045362472534
+episode: 682   episode steps: 481   episode weight: [0.7325973 0.2674027]  rl reward: [3135.19590509 3393.47152114]  cost avg time 0.026408746187999193
+episode: 683   episode steps: 271   episode weight: [0.72604233 0.2739577 ]  rl reward: [542.6104297  997.15860932]  cost avg time 0.0263793793991483
+episode: 684   episode steps: 344   episode weight: [0.98149514 0.01850486]  rl reward: [1959.24845749 1539.36548168]  cost avg time 0.02617628768432972
+episode: 685   episode steps: 293   episode weight: [0.44030556 0.55969447]  rl reward: [1250.82355713 1774.3992513 ]  cost avg time 0.026718902099661452
+episode: 686   episode steps: 236   episode weight: [0.81735814 0.18264186]  rl reward: [ 974.31932599 1725.08943358]  cost avg time 0.026708343271481787
+episode: 687   episode steps: 351   episode weight: [0.8389828  0.16101712]  rl reward: [1443.68844545 2027.78098088]  cost avg time 0.026381025287160846
+episode: 688   episode steps: 274   episode weight: [0.81506145 0.18493854]  rl reward: [1320.52484485 1457.99368301]  cost avg time 0.026430532880073045
+episode: 689   episode steps: 396   episode weight: [0.78416544 0.21583454]  rl reward: [2073.82116802 2529.95377542]  cost avg time 0.026358216699927745
+episode: 690   episode steps: 481   episode weight: [0.85215324 0.14784668]  rl reward: [2488.70229064 2680.70412968]  cost avg time 0.026252082876256994
+episode: 691   episode steps: 280   episode weight: [0.9434475  0.05655256]  rl reward: [1697.38529106 1059.01455289]  cost avg time 0.02877639617238726
+episode: 692   episode steps: 500   episode weight: [0.71126384 0.2887361 ]  rl reward: [2719.61073169 3303.14445629]  cost avg time 0.026715280055999754
+episode: 693   episode steps: 500   episode weight: [0.18179387 0.8182061 ]  rl reward: [1995.8023953  3829.73193258]  cost avg time 0.026359161853790284
+episode: 694   episode steps: 500   episode weight: [0.34905332 0.6509467 ]  rl reward: [2371.53379254 3566.30829267]  cost avg time 0.026338134288787843
+episode: 695   episode steps: 287   episode weight: [0.7096309 0.2903691]  rl reward: [1818.77913951  864.76732375]  cost avg time 0.026301230287718025
+episode: 696   episode steps: 500   episode weight: [0.31314695 0.68685305]  rl reward: [2603.18386322 3224.36324361]  cost avg time 0.02646733045578003
+episode: 697   episode steps: 367   episode weight: [0.4034517 0.5965483]  rl reward: [1869.56230523 2081.11687028]  cost avg time 0.026742872165399285
+episode: 698   episode steps: 500   episode weight: [0.6953718  0.30462825]  rl reward: [1803.92186383 3649.98391081]  cost avg time 0.026143385887145997
+episode: 699   episode steps: 371   episode weight: [0.48130777 0.51869226]  rl reward: [1739.7348513  2801.41115475]  cost avg time 0.026408642128792733
+episode: 700   episode steps: 375   episode weight: [0.892996   0.10700397]  rl reward: [2310.34944095 2101.3960816 ]  cost avg time 0.02646885045369466
+episode: 701   episode steps: 68    episode weight: [0.8678711  0.13212886]  rl reward: [220.46933122  32.50564691]  cost avg time 0.02622207473306095
+episode: 702   episode steps: 349   episode weight: [0.76667535 0.23332462]  rl reward: [2232.90011959 2209.40480408]  cost avg time 0.02809500625960123
+episode: 703   episode steps: 420   episode weight: [0.87566847 0.12433156]  rl reward: [2481.14489735 1893.5520225 ]  cost avg time 0.027078773294176375
+episode: 704   episode steps: 280   episode weight: [0.65394974 0.34605026]  rl reward: [1249.53499164 1314.85321221]  cost avg time 0.026225227969033378
+episode: 705   episode steps: 110   episode weight: [0.6752351 0.3247649]  rl reward: [459.21141638 121.10817799]  cost avg time 0.02584610852328214
+episode: 706   episode steps: 500   episode weight: [0.58486694 0.41513306]  rl reward: [2273.87079417 2833.30130012]  cost avg time 0.02617517614364624
+episode: 707   episode steps: 500   episode weight: [0.72805023 0.27194974]  rl reward: [2268.47316815 3642.2847121 ]  cost avg time 0.0263574481010437
+episode: 708   episode steps: 334   episode weight: [0.7339199  0.26608005]  rl reward: [2071.63752058 1001.35524455]  cost avg time 0.026351811643132193
+episode: 709   episode steps: 465   episode weight: [0.741673   0.25832707]  rl reward: [2437.86690049 2987.90714836]  cost avg time 0.026547985179449923
+episode: 710   episode steps: 369   episode weight: [0.3634993  0.63650066]  rl reward: [1965.67006912 1890.40142112]  cost avg time 0.026029777397631307
+episode: 711   episode steps: 500   episode weight: [0.6379298 0.3620702]  rl reward: [2441.2183947  3249.07807341]  cost avg time 0.026243897914886474
+episode: 712   episode steps: 500   episode weight: [0.5127471 0.4872529]  rl reward: [1922.52742738 4278.55222823]  cost avg time 0.026169853687286377
+episode: 713   episode steps: 500   episode weight: [0.69773364 0.30226633]  rl reward: [2386.37955285 3378.17743512]  cost avg time 0.027519237995147706
+episode: 714   episode steps: 500   episode weight: [0.21898893 0.7810111 ]  rl reward: [2814.29259731 3397.34736302]  cost avg time 0.027970831871032716
+episode: 715   episode steps: 276   episode weight: [0.7457931  0.25420696]  rl reward: [1671.15562418 1003.48156998]  cost avg time 0.026273985703786213
+episode: 716   episode steps: 221   episode weight: [0.54041654 0.45958343]  rl reward: [1184.01732766 1242.42604695]  cost avg time 0.026316186421597165
+episode: 717   episode steps: 500   episode weight: [0.4358812 0.5641188]  rl reward: [1990.27520737 3783.21729929]  cost avg time 0.026422175407409668
+episode: 718   episode steps: 275   episode weight: [0.6766018 0.3233982]  rl reward: [1453.5864862 1070.3813965]  cost avg time 0.026376822211525656
+episode: 719   episode steps: 500   episode weight: [0.34397718 0.65602285]  rl reward: [1586.48394071 4129.40405608]  cost avg time 0.026112240314483642
+episode: 720   episode steps: 270   episode weight: [0.12010663 0.87989336]  rl reward: [456.99369463 657.58900182]  cost avg time 0.026506444259926126
+episode: 721   episode steps: 474   episode weight: [0.08872606 0.91127396]  rl reward: [2479.2597821  2491.82533855]  cost avg time 0.027283523153152144
+episode: 722   episode steps: 386   episode weight: [0.26600972 0.7339903 ]  rl reward: [2327.45099334 1844.18759722]  cost avg time 0.026294516158227477
+episode: 723   episode steps: 500   episode weight: [0.02922771 0.97077227]  rl reward: [ 534.92719548 1486.33505032]  cost avg time 0.026227356433868407
+episode: 724   episode steps: 319   episode weight: [0.6120502  0.38794976]  rl reward: [1949.40191532 1069.86285624]  cost avg time 0.01849682054549549
+episode: 725   episode steps: 228   episode weight: [0.4826145 0.5173855]  rl reward: [ 44.59575691 843.65642723]  cost avg time 0.01605698204877084
+episode: 726   episode steps: 500   episode weight: [0.74351335 0.25648665]  rl reward: [1656.76146082 3124.70244681]  cost avg time 0.017265148162841797
+episode: 727   episode steps: 500   episode weight: [0.45135343 0.54864657]  rl reward: [2786.46909746 3394.46866757]  cost avg time 0.01656413412094116
+episode: 728   episode steps: 500   episode weight: [0.6569649  0.34303516]  rl reward: [2966.95487116 2979.65972847]  cost avg time 0.01696873188018799
+episode: 729   episode steps: 423   episode weight: [0.49555472 0.5044453 ]  rl reward: [2532.33067778 2260.15930956]  cost avg time 0.016510863112501502
+episode: 730   episode steps: 354   episode weight: [0.651878 0.348122]  rl reward: [2370.15942831 1496.43312579]  cost avg time 0.016296119339722026
+episode: 731   episode steps: 43    episode weight: [0.15149097 0.848509  ]  rl reward: [-1.94370617 59.53816688]  cost avg time 0.01634191357812216
+episode: 732   episode steps: 298   episode weight: [0.5652911  0.43470892]  rl reward: [1824.56723267 1433.00116659]  cost avg time 0.016391601338482543
+episode: 733   episode steps: 416   episode weight: [0.63275194 0.367248  ]  rl reward: [1733.1093172  3218.62251237]  cost avg time 0.015343836293770717
+episode: 734   episode steps: 101   episode weight: [0.65137464 0.3486254 ]  rl reward: [271.75904433   9.54401375]  cost avg time 0.015453704512945496
+episode: 735   episode steps: 500   episode weight: [0.72590685 0.2740931 ]  rl reward: [2381.628877   4126.97877451]  cost avg time 0.014989981651306153
+episode: 736   episode steps: 364   episode weight: [0.44835085 0.55164915]  rl reward: [2003.74909008 2305.5477175 ]  cost avg time 0.01590754632111434
+episode: 737   episode steps: 333   episode weight: [0.73344004 0.26656002]  rl reward: [1997.24315254 1622.00711425]  cost avg time 0.01501981703726737
+episode: 738   episode steps: 500   episode weight: [0.31474075 0.6852592 ]  rl reward: [1229.81424752 3328.32287501]  cost avg time 0.015275951862335204
+episode: 739   episode steps: 132   episode weight: [0.33152026 0.66847974]  rl reward: [261.056303   731.85917231]  cost avg time 0.014398036581097227
+episode: 740   episode steps: 269   episode weight: [0.5460695  0.45393047]  rl reward: [ 619.5382574  1007.66312627]  cost avg time 0.014353260231727118
+episode: 741   episode steps: 500   episode weight: [0.33853534 0.66146463]  rl reward: [1551.60989366 4099.40785468]  cost avg time 0.013877421379089356
+episode: 742   episode steps: 500   episode weight: [0.54963034 0.45036966]  rl reward: [2208.44315252 2186.08266839]  cost avg time 0.014021983623504639
+episode: 743   episode steps: 500   episode weight: [0.38411924 0.6158807 ]  rl reward: [1964.02147518 3474.75464908]  cost avg time 0.014223837852478027
+episode: 744   episode steps: 426   episode weight: [0.96924233 0.03075763]  rl reward: [2764.83320927 2590.02844479]  cost avg time 0.017575619925915355
+episode: 745   episode steps: 166   episode weight: [0.5483311  0.45166892]  rl reward: [659.95305456 617.76577015]  cost avg time 0.014884200440831932
+episode: 746   episode steps: 25    episode weight: [0.5444292 0.4555708]  rl reward: [44.05566783 52.89457886]  cost avg time 0.015479841232299806
+episode: 747   episode steps: 416   episode weight: [0.2312036 0.7687964]  rl reward: [1281.3883441  2714.92312813]  cost avg time 0.014558605276621304
+episode: 748   episode steps: 500   episode weight: [0.22860788 0.7713921 ]  rl reward: [1441.25092285 3721.63971212]  cost avg time 0.015946548461914064
+episode: 749   episode steps: 500   episode weight: [0.41821668 0.58178335]  rl reward: [1768.71779384 3679.41152397]  cost avg time 0.01396819829940796
+episode: 750   episode steps: 500   episode weight: [0.35988855 0.64011145]  rl reward: [1675.85134657 3984.39318775]  cost avg time 0.014367788314819337
+episode: 751   episode steps: 500   episode weight: [0.44182226 0.55817777]  rl reward: [1883.67842211 4311.92850953]  cost avg time 0.014384399890899659
+episode: 752   episode steps: 156   episode weight: [0.26412988 0.73587006]  rl reward: [384.54839115 912.58765335]  cost avg time 0.014554911699050512
+episode: 753   episode steps: 228   episode weight: [0.6900773 0.3099227]  rl reward: [708.60258949 662.73238724]  cost avg time 0.014833039359042519
+episode: 754   episode steps: 102   episode weight: [0.25101784 0.7489822 ]  rl reward: [ 91.87740501 164.08169338]  cost avg time 0.015111645062764486
+episode: 755   episode steps: 297   episode weight: [0.71308804 0.286912  ]  rl reward: [1773.5505535  1417.41520468]  cost avg time 0.015037127215452868
+episode: 756   episode steps: 267   episode weight: [0.79617596 0.20382406]  rl reward: [1289.22319846  920.0164428 ]  cost avg time 0.015017239788498326
+episode: 757   episode steps: 80    episode weight: [0.337319   0.66268104]  rl reward: [ 93.49629137 118.4476157 ]  cost avg time 0.014965549111366272
+episode: 758   episode steps: 416   episode weight: [0.8443642  0.15563577]  rl reward: [2344.08676022 1822.473898  ]  cost avg time 0.015539454152950874
+episode: 759   episode steps: 161   episode weight: [0.39317396 0.60682607]  rl reward: [502.4380433  877.44838637]  cost avg time 0.015638318861493413
+episode: 760   episode steps: 335   episode weight: [0.49078417 0.50921583]  rl reward: [ 930.51038491 1950.16411528]  cost avg time 0.01608322627508818
+episode: 761   episode steps: 220   episode weight: [0.64136356 0.35863647]  rl reward: [ 886.06440406 1002.94365099]  cost avg time 0.015922327475114302
+episode: 762   episode steps: 500   episode weight: [0.33358628 0.6664137 ]  rl reward: [1875.67253333 3513.52326392]  cost avg time 0.016773370265960694
+episode: 763   episode steps: 500   episode weight: [0.5303107 0.4696893]  rl reward: [2165.80729629 3717.9580999 ]  cost avg time 0.01854768180847168
+episode: 764   episode steps: 121   episode weight: [0.15715422 0.84284574]  rl reward: [192.91445426 669.79786414]  cost avg time 0.0167937337859603
+episode: 765   episode steps: 500   episode weight: [0.52360207 0.4763979 ]  rl reward: [1950.1113733  4010.85096379]  cost avg time 0.017253703594207765
+episode: 766   episode steps: 500   episode weight: [0.19614157 0.8038584 ]  rl reward: [1662.4996714  3526.15652883]  cost avg time 0.016380062580108642
+episode: 767   episode steps: 358   episode weight: [0.85328203 0.14671804]  rl reward: [1198.90058367 1209.4502184 ]  cost avg time 0.015850043829592913
+episode: 768   episode steps: 129   episode weight: [0.3330705  0.66692954]  rl reward: [385.92909416 649.59359614]  cost avg time 0.01729832323946694
+episode: 769   episode steps: 244   episode weight: [0.8338415  0.16615853]  rl reward: [1149.84755964 1530.38346544]  cost avg time 0.01687207378324915
+episode: 770   episode steps: 329   episode weight: [0.52774733 0.47225264]  rl reward: [1555.16004649 2270.32801725]  cost avg time 0.01686596435616444
+episode: 771   episode steps: 500   episode weight: [0.31593284 0.6840672 ]  rl reward: [2525.84209191 3216.32144458]  cost avg time 0.018764262676239013
+episode: 772   episode steps: 246   episode weight: [0.9333847  0.06661528]  rl reward: [1314.00997121 1303.88061922]  cost avg time 0.017362316449483235
+episode: 773   episode steps: 500   episode weight: [0.2487702 0.7512298]  rl reward: [2176.30406067 3778.5712935 ]  cost avg time 0.01751269578933716
+episode: 774   episode steps: 323   episode weight: [0.8003013  0.19969864]  rl reward: [2101.60420327  830.38624048]  cost avg time 0.016854383628065742
+episode: 775   episode steps: 500   episode weight: [0.17930904 0.820691  ]  rl reward: [1387.57760575 2663.0675039 ]  cost avg time 0.01652953004837036
+episode: 776   episode steps: 163   episode weight: [0.46987835 0.5301216 ]  rl reward: [687.14885813 493.41969084]  cost avg time 0.01709379886556988
+episode: 777   episode steps: 500   episode weight: [0.3246242  0.67537576]  rl reward: [1057.70985287 3047.56823336]  cost avg time 0.017612987995147704
+episode: 778   episode steps: 286   episode weight: [0.83809114 0.16190885]  rl reward: [1691.61799734  867.02449163]  cost avg time 0.016915681478860495
+episode: 779   episode steps: 432   episode weight: [0.5212554  0.47874463]  rl reward: [1921.03947254 2144.94739809]  cost avg time 0.016688006343664945
+episode: 780   episode steps: 182   episode weight: [0.35171783 0.6482822 ]  rl reward: [430.47053761 948.27446776]  cost avg time 0.01663169232043591
+episode: 781   episode steps: 156   episode weight: [0.8083426  0.19165744]  rl reward: [630.08651785 593.54984854]  cost avg time 0.016755692469768036
+episode: 782   episode steps: 500   episode weight: [0.5691394  0.43086058]  rl reward: [2474.19629057 3275.02647561]  cost avg time 0.016711142539978026
+episode: 783   episode steps: 500   episode weight: [0.4967701 0.5032299]  rl reward: [2490.57465553 3372.27403201]  cost avg time 0.01741480588912964
+episode: 784   episode steps: 429   episode weight: [0.49548268 0.50451726]  rl reward: [2224.59185906 2261.26421547]  cost avg time 0.016983489612321476
+episode: 785   episode steps: 180   episode weight: [0.6217097  0.37829027]  rl reward: [592.30016665 647.65371382]  cost avg time 0.01676197714275784
+episode: 786   episode steps: 353   episode weight: [0.39511004 0.6048899 ]  rl reward: [1414.68940054 2711.08731662]  cost avg time 0.017065932325195658
+episode: 787   episode steps: 398   episode weight: [0.6337463  0.36625367]  rl reward: [2128.49150258 2086.72221764]  cost avg time 0.016555241603947165
+episode: 788   episode steps: 299   episode weight: [0.8157081  0.18429185]  rl reward: [1886.34588551  745.65760638]  cost avg time 0.016761471196560556
+episode: 789   episode steps: 500   episode weight: [0.19610655 0.8038934 ]  rl reward: [2099.38172764 3015.52718817]  cost avg time 0.01659301233291626
+episode: 790   episode steps: 500   episode weight: [0.37287197 0.627128  ]  rl reward: [1550.59600455 4461.46991943]  cost avg time 0.0173703875541687
+episode: 791   episode steps: 500   episode weight: [0.34694734 0.6530527 ]  rl reward: [2830.68008659 2546.94323471]  cost avg time 0.016854601860046385
+episode: 792   episode steps: 370   episode weight: [0.4613049  0.53869516]  rl reward: [2035.46650236 1376.62086835]  cost avg time 0.016676024488500647
+episode: 793   episode steps: 498   episode weight: [0.64512575 0.35487425]  rl reward: [3039.64624065 1845.42674491]  cost avg time 0.016623801016903306
+episode: 794   episode steps: 500   episode weight: [0.58326185 0.41673815]  rl reward: [2930.93702358 3190.84032771]  cost avg time 0.015853765964508056
+episode: 795   episode steps: 410   episode weight: [0.47675356 0.5232464 ]  rl reward: [1477.9911177  2799.91540137]  cost avg time 0.015424887726946574
+episode: 796   episode steps: 500   episode weight: [0.45651168 0.5434883 ]  rl reward: [1912.84116393 3514.7494296 ]  cost avg time 0.015739912033081054
+episode: 797   episode steps: 500   episode weight: [0.50669014 0.49330983]  rl reward: [2028.65114676 3553.98708566]  cost avg time 0.015409189701080322
+episode: 798   episode steps: 283   episode weight: [0.72248745 0.27751252]  rl reward: [1540.99300084 1369.76437969]  cost avg time 0.015684021656589036
+episode: 799   episode steps: 324   episode weight: [0.9736165  0.02638348]  rl reward: [1991.04517636 1183.92235528]  cost avg time 0.015584231158833445
+episode: 800   episode steps: 39    episode weight: [0.7587887  0.24121132]  rl reward: [100.08803839  95.75057516]  cost avg time 0.01599737925407214
+episode: 801   episode steps: 288   episode weight: [0.54526114 0.45473883]  rl reward: [1159.73001632 1907.9750846 ]  cost avg time 0.015742183559470706
+episode: 802   episode steps: 500   episode weight: [0.56826246 0.43173757]  rl reward: [2612.13096006 2917.76432973]  cost avg time 0.015816837787628175
+episode: 803   episode steps: 443   episode weight: [0.7298893 0.2701107]  rl reward: [1944.86752726 2385.36464417]  cost avg time 0.015591563812496968
+episode: 804   episode steps: 500   episode weight: [0.7640995  0.23590057]  rl reward: [1561.16321539 1064.38573461]  cost avg time 0.01589776611328125
+episode: 805   episode steps: 335   episode weight: [0.8419818  0.15801813]  rl reward: [2318.94091194 1032.95308316]  cost avg time 0.01553454612618062
+episode: 806   episode steps: 446   episode weight: [0.37450218 0.6254978 ]  rl reward: [2085.83882562 2704.46088162]  cost avg time 0.015736708726583577
+episode: 807   episode steps: 500   episode weight: [0.5910858  0.40891427]  rl reward: [2505.52806246 3559.10939785]  cost avg time 0.015472370147705078
+episode: 808   episode steps: 249   episode weight: [0.5177795  0.48222047]  rl reward: [1046.32560285 1796.48950167]  cost avg time 0.015759955448319155
+episode: 809   episode steps: 464   episode weight: [0.56826913 0.43173096]  rl reward: [2545.66652042 2610.01961533]  cost avg time 0.016648879852788203
+obj_batch [[1550.59600455 4461.46991943]
+ [1883.67842211 4311.92850953]
+ [1922.52742738 4278.55222823]
+ [2381.628877   4126.97877451]
+ [2419.23642665 3740.06507463]
+ [2505.52806246 3559.10939785]
+ [2814.29259731 3397.34736302]
+ [3135.19590509 3393.47152114]] [0. 0.]
+obj_batch [[1550.59600455 4461.46991943]
+ [1883.67842211 4311.92850953]
+ [1922.52742738 4278.55222823]
+ [2381.628877   4126.97877451]
+ [2419.23642665 3740.06507463]
+ [2505.52806246 3559.10939785]
+ [2814.29259731 3397.34736302]
+ [3135.19590509 3393.47152114]] [0. 0.]
+obj_batch [[1099.74203103 2744.87480705]
+ [1106.22816152 2522.50554494]
+ [1784.30593767 3314.67289511]
+ [1100.9735947  2796.72631186]
+ [1390.82208191 3881.33139115]
+ [2042.63669422 3298.72324648]
+ [1306.61954956 3908.10077737]
+ [1257.76592425 3633.68644825]
+ [1253.75030439 3926.31427499]
+ [1331.97033895 3826.92575081]
+ [1034.09198691 2612.44011675]
+ [1671.77742763 3351.79796256]
+ [1461.36408507 4012.24743939]
+ [1876.88481179 3374.67721193]
+ [1934.67254688 3488.82978086]
+ [1688.04399412 3139.46195436]
+ [1083.5088665  2979.28271807]
+ [1274.07000402 3662.71899771]
+ [1417.85422751 3511.79372769]
+ [1028.20193765 2529.59883633]
+ [1658.7582759  2935.76024982]
+ [1302.27618257 3727.3264557 ]
+ [1051.8533495  2539.53073521]
+ [1113.11800456 2552.32607408]
+ [1702.16941917 3026.47933712]
+ [1824.92683152 3509.21176691]
+ [1898.07184924 3311.41581618]
+ [1472.15378542 3391.20699179]
+ [1829.71908714 3111.1066904 ]
+ [ 963.86828783 2019.0882356 ]
+ [ 940.0593981  2020.2703641 ]
+ [ 969.46176292 1979.24664795]
+ [ 999.78822232 1979.54534144]
+ [ 970.35446473 2046.73498812]
+ [ 993.39804268 2054.84694377]
+ [1270.45082893 2154.82547263]
+ [ 927.40997765 2002.41030613]
+ [1719.08764607 2842.80706557]
+ [1300.73082648 2070.8526909 ]
+ [2403.80913308 3452.84742923]
+ [1051.86975374 2020.37109251]
+ [1756.90497396 2812.94984298]
+ [1003.17944691 2004.93361373]
+ [ 998.95178848 1981.49673281]
+ [ 986.77960079 1961.10646708]
+ [1000.52782832 1946.51734225]
+ [1044.20042947 2012.02169624]
+ [1965.65665304 3027.98174612]
+ [1427.71151632 3743.10423495]
+ [1699.15135806 2955.93685783]
+ [2133.01052861 3432.9104241 ]
+ [1009.15316037 1821.93496589]
+ [1027.05456534 1796.17595324]
+ [1014.90685391 1818.30473782]
+ [1009.45803574 1895.09628532]
+ [1047.33047629 1971.70112196]
+ [1055.23786756 1989.71225175]
+ [1809.74174487 2926.60137458]
+ [1049.12572131 1883.25203923]
+ [1667.18641906 3961.01864255]
+ [1929.84665431 2866.7319036 ]
+ [2060.12895429 3485.41373632]
+ [1792.30851157 2885.90328741]
+ [1870.44727652 3316.47078356]
+ [1705.33862389 3807.97853457]
+ [1600.28679366 4058.25859863]
+ [1616.25337846 3329.25668855]
+ [1596.65892536 3910.68812809]
+ [1041.41732219 1780.57198897]
+ [1794.10482596 2959.42115494]
+ [2107.80525782 3487.66697425]
+ [1115.32959705 1888.99577329]
+ [2284.04231561 3398.64107334]
+ [1658.31216374 2679.44434079]
+ [1795.96322294 2651.4752666 ]
+ [1495.61175045 2795.49896575]
+ [2066.23129916 2733.25028644]
+ [2105.47400797 3532.89074396]
+ [2244.6177434  3428.71076363]
+ [2025.82020718 3500.41108868]
+ [1804.93243698 2571.7693395 ]
+ [1971.39179919 3618.09056557]
+ [1886.83938748 3189.63181043]
+ [1833.3628156  2820.25230324]
+ [1972.34189431 3465.86599932]
+ [1803.18446685 2734.43180463]
+ [2164.56482336 3475.61171609]
+ [2016.77796647 3154.77165129]
+ [2105.51053814 3367.77141675]
+ [1975.89696898 2942.95010482]
+ [1824.33961513 2974.71043952]
+ [2098.0791141  3278.41135223]
+ [1868.84002676 2757.10166074]
+ [1993.71147751 2751.09193213]
+ [1897.4629563  2782.05886465]
+ [1121.79485717 1736.90096284]
+ [1177.14328146 1796.47270026]
+ [1271.7790564  1807.74207105]
+ [ 879.96989463 1456.91693292]
+ [ 862.24097667 1407.09808843]
+ [1169.95359486 1792.10134359]
+ [1050.20533784 1752.65231235]
+ [1043.61692882 1736.23897222]
+ [1076.45492313 1763.24883142]
+ [1073.3594655  1756.49687925]
+ [1085.08973245 1758.55930688]
+ [1260.6735265  1689.68294174]
+ [1058.77733605 1730.47516207]
+ [1296.5340076  1720.14317428]
+ [2118.75268099 2829.72143928]
+ [1231.74482313 1682.45054109]
+ [ 918.46405683 1323.59584725]
+ [1813.87662443 2483.32409675]
+ [1053.35875982 1539.1661995 ]
+ [1060.87578035 1525.42118782]
+ [ 894.26826427 1182.8003711 ]
+ [2263.00119889 2709.78995647]
+ [1839.17528367 2153.11457559]
+ [2696.00365212 2685.16112319]
+ [2277.60431019 2468.7549451 ]
+ [1631.31823969 1837.48056714]
+ [2017.39659324 2471.8324822 ]
+ [1046.38073362 1043.84115632]
+ [ 843.41949118 1021.63059276]
+ [ 600.87093915  813.44416083]
+ [ 603.55670039  810.98436059]
+ [ 601.15474955  813.657121  ]
+ [ 603.09850111  811.55178149]
+ [ 611.39938355  811.47661588]
+ [ 606.95806911  808.5938939 ]
+ [ 617.34077169  806.63060583]
+ [ 618.77902787  794.78798423]
+ [ 627.19698153  783.06351954]
+ [2069.66912049 1998.70340894]
+ [ 630.47262712  770.06750128]
+ [ 625.03869549  767.26340967]
+ [ 619.9415274   763.25016108]
+ [ 628.2264196   757.92526438]
+ [1227.73916674 1545.29966158]
+ [2156.72674136 1919.3294113 ]
+ [2154.46248546 1584.91426594]
+ [ 637.83493239  741.45471648]
+ [ 639.66357344  729.38050757]
+ [1525.22611807 1235.86340359]
+ [1502.68239999 1173.86695511]
+ [2525.10996782 2042.396251  ]
+ [1192.88114635  888.36579219]
+ [2591.30991092 2178.346224  ]
+ [2717.42234499 2145.82817371]
+ [1295.56191719 1359.08365992]
+ [1994.81594508 1667.64757491]
+ [1925.61914752 2051.8968605 ]
+ [1915.99287525 1930.57371412]
+ [1979.16962682 2064.79430763]
+ [1740.29447443 1670.00713765]
+ [1307.72662491 1412.93506644]
+ [1351.00133466 1143.68185772]
+ [1097.30093287 1009.99999652]
+ [1140.55800035 1056.61986749]
+ [2222.97594368 1922.59682747]
+ [ 874.68371755  727.95533175]
+ [ 868.21374045  755.41009339]
+ [ 915.18031294  737.34198338]
+ [2565.81894742 1822.7361011 ]
+ [ 908.04790865  756.56278473]
+ [2448.74435744 2173.79773238]
+ [2624.16771963 1902.46732067]
+ [2356.11944959 1620.40675535]
+ [2666.68345287 2350.48934408]
+ [2822.38857661 2351.54354992]
+ [1768.59343896 1320.17431436]
+ [2821.25441552 2180.63166776]
+ [2534.27063929 1943.1886897 ]
+ [1755.20806821 1297.54320006]
+ [3015.11349531 2610.78088857]
+ [2331.34384977 1721.11074715]
+ [2379.57266456 1713.26334563]
+ [3272.13254611 2383.44470389]
+ [3170.83048204 2470.94532696]
+ [2925.75752554 2614.15541961]
+ [3047.54661769 2550.34154006]
+ [1582.68640013  977.95399565]
+ [2995.29720241 1541.74656784]
+ [2949.96657815 2153.40480292]
+ [1615.31062335  863.06771705]
+ [3297.10353979 2146.8317691 ]
+ [1618.90343951  991.03101333]
+ [1612.84822676  968.79145405]
+ [1606.84191221  975.39673531]
+ [1843.36754366 1036.19425752]
+ [2196.57989417 1173.20960323]
+ [2206.52768774 1193.99016119]
+ [ 998.77416407  494.41071651]
+ [1577.69900446  876.56622879]
+ [1631.30998084  953.98098977]
+ [ 986.71334547  477.77717567]
+ [ 984.9789696   463.17265409]
+ [1857.04490062 1108.48479624]
+ [1616.01644374  935.25007991]
+ [1629.38139286  778.31352182]
+ [2350.35133934 1144.62196873]] [0. 0.]
+episode: 810   episode steps: 289   episode weight: [0.38038316 0.61961687]  rl reward: [1134.07134399 1715.08612898]  cost avg time 0.14639862928423503
+episode: 811   episode steps: 312   episode weight: [0.79391205 0.20608798]  rl reward: [1748.41872116 1476.42354277]  cost avg time 0.01403186565790421
+episode: 812   episode steps: 411   episode weight: [0.59086466 0.40913537]  rl reward: [2100.33350964 2867.3375634 ]  cost avg time 0.014414951459044667
+episode: 813   episode steps: 500   episode weight: [0.47830194 0.52169806]  rl reward: [2274.54335045 3648.102665  ]  cost avg time 0.015171443939208985
+episode: 814   episode steps: 328   episode weight: [0.5122887  0.48771134]  rl reward: [1923.23386674 1641.84107572]  cost avg time 0.015828939472756733
+episode: 815   episode steps: 368   episode weight: [0.56606525 0.43393475]  rl reward: [2296.07232187 1969.09797959]  cost avg time 0.01600889408070108
+episode: 816   episode steps: 198   episode weight: [0.01993435 0.98006564]  rl reward: [258.65841102 786.87864605]  cost avg time 0.01596219732303812
+episode: 817   episode steps: 500   episode weight: [0.7789045  0.22109555]  rl reward: [2427.68429831 3076.69725609]  cost avg time 0.01631676197052002
+episode: 818   episode steps: 500   episode weight: [0.06673991 0.9332601 ]  rl reward: [1588.96174377 4203.16180397]  cost avg time 0.015631701946258545
+episode: 819   episode steps: 296   episode weight: [0.5481458 0.4518543]  rl reward: [1453.86556949 1681.53672186]  cost avg time 0.015587905774245391
+episode: 820   episode steps: 500   episode weight: [0.7006127  0.29938725]  rl reward: [2647.3666398  3275.64949122]  cost avg time 0.01603468179702759
+episode: 821   episode steps: 320   episode weight: [0.53186566 0.46813434]  rl reward: [1644.01462984 2112.54615721]  cost avg time 0.017391378432512282
+episode: 822   episode steps: 172   episode weight: [0.4896592  0.51034087]  rl reward: [ 619.2465502  1039.42649223]  cost avg time 0.015493535718252493
+episode: 823   episode steps: 429   episode weight: [0.57566005 0.42433995]  rl reward: [2504.65071071 2681.89879033]  cost avg time 0.016179445462349135
+episode: 824   episode steps: 268   episode weight: [0.4270296 0.5729704]  rl reward: [1318.65960972 1649.41136328]  cost avg time 0.016512944627164017
+episode: 825   episode steps: 348   episode weight: [0.52331793 0.47668204]  rl reward: [2007.19102738 2040.44878455]  cost avg time 0.01539567626755813
+episode: 826   episode steps: 360   episode weight: [0.03265963 0.9673404 ]  rl reward: [ 726.63713661 2192.5847219 ]  cost avg time 0.016162233220206365
+episode: 827   episode steps: 500   episode weight: [0.35978454 0.64021546]  rl reward: [2024.4526077  3680.17358043]  cost avg time 0.015708573818206787
+episode: 828   episode steps: 500   episode weight: [0.23987561 0.7601243 ]  rl reward: [1840.72793758 3485.20564653]  cost avg time 0.016180378437042238
+episode: 829   episode steps: 500   episode weight: [0.51354045 0.4864596 ]  rl reward: [2308.88429086 3815.73261153]  cost avg time 0.01785414409637451
+episode: 830   episode steps: 500   episode weight: [0.58420014 0.4157998 ]  rl reward: [2655.5206846  3812.06820182]  cost avg time 0.0184180703163147
+episode: 831   episode steps: 155   episode weight: [0.7385432 0.2614568]  rl reward: [635.22122542 584.97872995]  cost avg time 0.017979354243124687
+episode: 832   episode steps: 500   episode weight: [0.17743899 0.822561  ]  rl reward: [1770.8497921  3902.91549738]  cost avg time 0.01609227180480957
+episode: 833   episode steps: 274   episode weight: [0.60253 0.39747]  rl reward: [1165.5041914  1599.65366149]  cost avg time 0.0167648026542942
+episode: 834   episode steps: 500   episode weight: [0.19204065 0.8079593 ]  rl reward: [2474.24917847 2735.12653349]  cost avg time 0.016077441692352295
+episode: 835   episode steps: 500   episode weight: [0.72002864 0.27997136]  rl reward: [2669.40176793 3477.39407831]  cost avg time 0.015946067810058594
+episode: 836   episode steps: 500   episode weight: [0.47761577 0.5223842 ]  rl reward: [2170.98798217 2860.24349898]  cost avg time 0.01604463815689087
+episode: 837   episode steps: 260   episode weight: [0.5770449  0.42295513]  rl reward: [1094.72867059  809.46443382]  cost avg time 0.016087834651653584
+episode: 838   episode steps: 500   episode weight: [0.61014545 0.38985458]  rl reward: [1720.23041985 3715.89620701]  cost avg time 0.016915118217468262
+episode: 839   episode steps: 467   episode weight: [0.2963798  0.70362025]  rl reward: [2471.23254557 1944.29296145]  cost avg time 0.016087764335648663
+episode: 840   episode steps: 500   episode weight: [0.51982653 0.48017344]  rl reward: [2123.96825142 3731.27985305]  cost avg time 0.017388344287872313
+episode: 841   episode steps: 329   episode weight: [0.81327754 0.18672246]  rl reward: [2257.00008911 1136.71073521]  cost avg time 0.017313037599836077
+episode: 842   episode steps: 500   episode weight: [0.17230682 0.82769316]  rl reward: [1700.26775015 3839.69274056]  cost avg time 0.016886956214904787
+episode: 843   episode steps: 224   episode weight: [0.2168425  0.78315747]  rl reward: [ 251.08009977 1214.39034012]  cost avg time 0.015809235828263418
+episode: 844   episode steps: 330   episode weight: [0.4773039  0.52269614]  rl reward: [1178.74516101 1787.98001514]  cost avg time 0.018001778920491537
+episode: 845   episode steps: 201   episode weight: [0.14936022 0.85063976]  rl reward: [278.7482117  859.26726977]  cost avg time 0.017277487474887526
+episode: 846   episode steps: 335   episode weight: [0.75595134 0.24404867]  rl reward: [1783.85626628 1857.75229902]  cost avg time 0.016920277609753964
+episode: 847   episode steps: 500   episode weight: [0.45301476 0.54698515]  rl reward: [2520.11540333 3518.84318275]  cost avg time 0.016671455860137938
+episode: 848   episode steps: 500   episode weight: [0.60913545 0.39086452]  rl reward: [2366.38213668 2507.70302133]  cost avg time 0.017636407852172853

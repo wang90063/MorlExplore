@@ -1,0 +1,10 @@
+{
+ "arm": "perobj",
+ "env": "MO-Ant-v2",
+ "seed": 1,
+ "out": "runs/p2/smoke_ant_perobj",
+ "steps": 11000,
+ "eval_interval": 100000,
+ "start_steps": 10000,
+ "n_env_w": 4
+}

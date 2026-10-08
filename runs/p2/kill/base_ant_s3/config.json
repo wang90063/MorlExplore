@@ -1,0 +1,10 @@
+{
+ "arm": "base",
+ "env": "MO-Ant-v2",
+ "seed": 3,
+ "out": "runs/p2/kill/base_ant_s3",
+ "steps": 1000000,
+ "eval_interval": 50000,
+ "start_steps": 10000,
+ "n_env_w": 1
+}

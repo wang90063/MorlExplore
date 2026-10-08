@@ -1,0 +1,10 @@
+{
+ "arm": "perobj",
+ "env": "MO-Hopper-v2",
+ "seed": 1,
+ "out": "runs/p2/smoke_perobj",
+ "steps": 15000,
+ "eval_interval": 100000,
+ "start_steps": 10000,
+ "n_env_w": 4
+}
